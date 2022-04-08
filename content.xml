@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This context.xml file has been created by the X4 Editor -->
+<content id="RKI-ShipSpec" name="RKI-ShipSpecialization" description="
+# RKI-ShipSpecialization
+
+ShipSpecialization is designed to make interceptors and scouts feel more useful by making them perform their roles more effectively. It starts by increasing the speed of both scouts and interceptors by a solid 5-10%. Scouts then get a decent radar distance boost, and interceptors get a boost in manueverability. It has been balanced with VRO ships, I do not currently have a Vanilla-only version. All changes are made with the ship's minimum and maximum values in mind (in fact I spent more time building a spreadsheet to check balancing than I did writing the XML Diff-patches). I have also tried to balance the changes based on the cost of the scout. I found that scouts that cost $80k with 3 engines were about the same speed as ships the cost $213k with 1 engine - this didn't make sense to me. I generally went with the idea that 'more money faster ship, more engines faster ship' for base scouts and interceptors. That said, if I discover some sort of lore behind the ships that would indicate its suitability or lack thereof for its task, I would happily make use of that.
+
+Some ships that are classed as fighters and even a heavy-fighter or 2 have been classes as scouts, interceptors, or advanced scouts.
+
+I have also included several other QoL changes. This mod was created at least in part by the use of the X4 Editor. Many thanks to the author for this tool!
+
+#### CHANGELOG
+
+- Version 001: First Work
+- Version 002: 
+
+##### TODO: AKA Future Plans
+
+1. Check the weapons list to find the repair laser weapon, and edit the beam length from there
+2. Confirm that all DIFF-PATCHES are tagged optional so they won't break if mod not installed
+3. 
+4. 
+5. 
+
+
+
+##### Below is a list of the changes made:
+
+- Scouts
+    * Organized so that their radar could be edited without affecting all small ships
+    * Radar increased by 25% 
+    * Speeds increased by 5-10%
+- Interceptors 
+    * Speed increased between 2-10% (usually around 4%)
+    * Manueverability increased by a flat 5% across the board.
+- Advanced Scouts AKA Scanners (think of them as ships outfitted with additional sensor packages):
+    * Organized so that their radar could be edited without affecting all small ships
+    * Radar increased by 50%
+    * Speeds increased by 5-15%
+    * Nimcha
+        + Hull increased by 10%
+- Laser Tower Mk.2
+    * Tracking increased slightly
+    * Damage increased by 5%
+
+- Many Drones have had their speed increased slightly
+    * Building Drones
+    * Repair Drones
+    * Mining Drones (solid and liquid)
+
+- All Spacesuit Engines have had their speed and manueverability increased greatly
+
+- The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious
+    * 3x Repair Rate
+    * 150m Range (needs testing)
+
+##### Here are the groups:
+
+- Scouts
+    * Pegasus Vanguard
+    * Pegasus Sentinel
+    * Discoverer Vanguard
+    * Discoverer Sentinel
+    * Kestrel Vanguard
+    * Kestrel Sentinel
+    * Rapier
+    * Kojin (Ship Variation Extension)
+    * Jaguar (Ship Variation Extension)
+
+- Interceptors
+    * Perseus Vanguard
+    * Perseus Sentinel
+    * Nova Vanguard
+    * Nova Sentinel
+    * Guillemot Vanguard
+    * Guilletmot Sentinel
+    * Elite Vanguard
+    * Elite Sentinel
+    * Asp
+    * Asp Raider
+    * Nodan Vanguard
+    * Pulsar Vanguard
+    * Lux
+    * Kyd
+    * Skua (Ship Variation Extension)
+
+- Advanced Scouts/Scanners
+    * Nimcha
+    * Moreya
+    * Takoba
+    * Paramerion (Ship Variation Extension)
+    * Akuma (Ship Variation Extension)
+
+
+
+" author="Tax" version="001" date="2022-04-01" save="0" enabled="1" sync="false">
+</content>

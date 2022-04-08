@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE schema [
+  <!ENTITY ncname "\i\c*">
+  <!ENTITY qname  "(&ncname;:)?&ncname;">
+  <!ENTITY aname  "@&qname;">
+  <!ENTITY pos    "\[\d+\]">
+  <!ENTITY attr   "\[&aname;='(.)*'\]|\[&aname;=&quot;(.)*&quot;\]">
+  <!ENTITY valueq "\[(&qname;|\.)=&quot;(.)*&quot;\]">
+  <!ENTITY value  "\[(&qname;|\.)='(.)*'\]|&valueq;">
+  <!ENTITY cond   "&attr;|&value;|&pos;">
+  <!ENTITY step   "(&qname;|\*)(&cond;)*">
+  <!ENTITY arg    "&qname;">
+  <!ENTITY fn     "(not\(&arg;\)|true\(\)|false\(\)|name\(\)|root\((&arg;)?\)|position\(\)|last\(\))">
+  <!ENTITY func   "\[&fn;\]">
+  <!ENTITY piq    "processing-instruction\((&quot;&ncname;&quot;)\)">
+  <!ENTITY pi     "processing-instruction\(('&ncname;')?\)|&piq;">
+  <!ENTITY id     "id\(('&ncname;')?\)|id\((&quot;&ncname;&quot;)?\)">
+  <!ENTITY com    "comment\(\)">
+  <!ENTITY text   "text\(\)">
+  <!ENTITY nspa   "namespace::&ncname;">
+  <!ENTITY cnodes "(&text;(&pos;)?)|(&com;(&pos;)?)|((&pi;)(&pos;)?)">
+  <!ENTITY child  "(&cnodes;|(&step;(&func;)?))">
+  <!ENTITY last   "(&child;|&aname;|&nspa;)">
+]>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xs:simpleType name="xpath">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(/|//)?((&id;)(((/|//)&step;)*((/|//)&last;))?|(&step;(/|//))*(&last;))"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="xpath-add">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(/|//)?((&id;)(((/|//)&step;)*((/|//)&child;))?|(&step;(/|//))*(&child;))"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="pos">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="before"/>
+      <xs:enumeration value="after"/>
+      <xs:enumeration value="prepend"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="type">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="&aname;|&nspa;"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="add">
+    <xs:complexContent mixed="true">
+      <xs:restriction base="xs:anyType">
+        <xs:sequence>
+          <xs:any processContents="lax" namespace="##any" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="sel" type="xpath-add" use="required"/>
+        <xs:attribute name="pos" type="pos"/>
+        <xs:attribute name="type" type="type"/>
+        <xs:attribute name="silent" type="xs:boolean"/>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="replace">
+    <xs:complexContent mixed="true">
+      <xs:restriction base="xs:anyType">
+        <xs:sequence>
+          <xs:any processContents="lax" namespace="##any" minOccurs="0" maxOccurs="1"/>
+        </xs:sequence>
+        <xs:attribute name="sel" type="xpath" use="required"/>
+        <xs:attribute name="silent" type="xs:boolean"/>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <xs:complexType name="remove">
+    <xs:attribute name="sel" type="xpath" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean"/>
+  </xs:complexType>
+
+  <!-- ===== Root element ==== -->
+
+  <xs:element name="diff">
+    <xs:annotation>
+      <xs:documentation>
+        XML Patch data
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+        <xs:choice>
+          <xs:element name="add" type="add">
+            <xs:annotation>
+              <xs:documentation>
+                Add content
+              </xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="replace" type="replace">
+            <xs:annotation>
+              <xs:documentation>
+                Replace content
+              </xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="remove" type="remove">
+            <xs:annotation>
+              <xs:documentation>
+                Remove content
+              </xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- ^ MOD = Tax's Ship Specialization. This diff changes values for the repair laser. -->
+
+<!-- ^ file="bullet_spacesuit_repairlaser_01_mk1_macro" -->
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+    <!-- ^ TSS_Edit: Increased repair (hull) amount from 2 to 6, increased range from 25 to 150 -->
+    <replace sel="//macros/macro/properties/damage/@hull">6</replace>
+    <replace sel="//macros/macro/properties/bullet/@range">150</replace>
+    
+</diff>

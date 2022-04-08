@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- ^ MOD = Tax's Ship Specialization. This diff handles increasing the overheat max and the cooling rate of the Lasertower Mk.2 so I can boost its damage without compromising on heat. The actual damage boost is done through the bullet file -->
+
+<!-- ^ file="\assets\props\WeaponSystems\standard\macros\weapon_gen_lasertower_01_mk2_macro.xml" -->
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- ^ TSS_Edit: Increased Lasertower Mk.2 cooling -->
+    <replace sel="//macros/macro/properties/heat/@coolrate">2300</replace>
+    <replace sel="//macros/macro/properties/heat/@overheat">11500</replace>
+
+</diff>
