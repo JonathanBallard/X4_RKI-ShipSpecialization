@@ -1,0 +1,2 @@
+# X4_RKI-ShipSpecialization
+A mod for the game X4: Foundations. Intended to be used with the fantastic Variety and Rebalance Overhaul (VRO) mod which was created by Shuul. ShipSpecialization makes scouts and interceptors more useful by increasing their performance in their roles. This is achieved by increasing the statistics most associated with their roles, while still maintaining ensuring they're balanced with the other ships in VRO.
