@@ -12,7 +12,15 @@ A mod for the game __X4: Foundations__ by __Egosoft__. Intended to be used toget
 
 #### Compatability:  
 This mod should not have any compatability problems. It is intended to be used with VRO based on the balancing. If will edit ships from ATFUSC Ship Pack, Ship Variation Extender (SVE), and Bayamon Miner, if you have them installed.
-*Make sure this mod is loaded after the following mods: <span style="color: red;">VRO, ATFUSC Shippack, Ship Variation Extender (SVE), Bayamon Miner*</span>
+_Make sure this mod is loaded __BEFORE__ whichever of the following mods you have installed: <span style="color: red;">VRO, ATFUSC Shippack, Ship Variation Extender (SVE), Bayamon Miner_</span>
+
+#### Must come BEFORE:  
+1. VRO  
+2. ATFUSC_Shippack  
+3. Bayamon Miner  
+4. Ship Variation Expansion (SVE)  
+5. Terran DLC  
+6. 
 
 #### Version History:  
 > - 
