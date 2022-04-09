@@ -3,7 +3,7 @@
 <!-- ^ MOD = Tax's Ship Specialization. This diff boosts the speed of the Bayamon Universal Miner by reducing drag. -->
 
 <!-- ^ file="..\extensions\bayamonVRO\assets\units\size_xl\macros\units_sco_xl_bayamon3_uni_macro.xml" -->
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/physics/drag/@forward">256.00</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse">330.00</replace>
 </diff> 

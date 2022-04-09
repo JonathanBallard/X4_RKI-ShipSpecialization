@@ -6,13 +6,14 @@
 ### Author: Tax/Jonathan Ballard
 ### Last Updated: 4/8/22
 ### Current Mod Version: 0.01
-### Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, Tides of Avarice DLC's
+### Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's
+
+---
 
 #### Short Description:
 A mod for the game X4: Foundations. Intended to be used with the fantastic Variety and Rebalance Overhaul (VRO) mod, which was created by Shuul. ShipSpecialization makes scouts and interceptors more useful by increasing their performance in their roles. This is achieved by increasing the statistics most associated with their roles, while still ensuring they're well balanced for VRO.
 
 #### Version History:
-
 	- 
 	- 4/8/22, v0.01: Initial Upload
 
@@ -29,7 +30,6 @@ This mod would not have been created without the fantastic X4 Editor. I spent ma
 
 
 ##### Future Plans
-
 1. Increase the speed/manuever of Boarding Pods.
 2. 
 
@@ -38,72 +38,73 @@ This mod would not have been created without the fantastic X4 Editor. I spent ma
 I'm considering working ship mass into the max speed equation, perhaps comparing it with the number of engines. This would be helpful in creating a more meaningful difference between vanguard and sentinel variants, as sentinels are much heavier. That was something I was struggling to find a reason to do. My thoughts here are that mass increases the faster you go, so you will require more fuel to continue to accelerate to a higher speed. There wouldn't be any hard math in my implementation, I might just include a 1%-10% decrease/increase depending on how many engines you have for how much mass. Since engines are more fuel efficient at lower speeds (IDK if that's true in space too, but I would think it is), the more engines you have working on smaller mass amounts, the more fuel efficient and therefore the faster your max speed can be.
 
 
-##### Below is a list of the changes made:
+#### Fairly exhaustive list of changes made:  
+- Scouts  
+  - Organized so that their radar could be edited without affecting all small ships
+  - Radar increased by 25% 
+  - Speeds increased by 5-10%
 
-- Scouts
-    * Organized so that their radar could be edited without affecting all small ships
-    * Radar increased by 25% 
-    * Speeds increased by 5-10%
-- Interceptors 
-    * Speed increased between 2-10% (usually around 4%)
-    * Manueverability increased by a flat 5% across the board.
-- Advanced Scouts AKA Scanners (think of them as ships outfitted with additional sensor packages):
-    * Organized so that their radar could be edited without affecting all small ships
-    * Radar increased by 50%
-    * Speeds increased by 5-15%
-    * Nimcha
-        + Hull increased by 10%
-- Laser Tower Mk.2
-    * Tracking increased slightly
-    * Damage increased by 5%
+- Interceptors  
+  - Speed increased between 2-10% (usually around 4%)
+  - Manueverability increased by a flat 5% across the board.
 
-- Many Drones have had their speed increased slightly
-    * Building Drones
-    * Repair Drones
-    * Mining Drones (solid and liquid)
+- Advanced Scouts AKA Scanners (think of them as solid ships that were outfitted with additional sensor packages):  
+  - Organized so that their radar could be edited without affecting all small ships
+  - Radar increased by 50%
+  - Speeds increased by 5-15%
+  - Nimcha
+    - Hull increased by 10%
 
-- All Spacesuit Engines have had their speed and manueverability increased greatly
+- Laser Tower Mk.2  
+  - Tracking increased slightly
+  - Damage increased by 5%
 
-- The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious
-    * 3x Repair Rate
-    * 150m Range (needs testing)
+- Many Drones have had their speed increased slightly  
+  - Building Drones
+  - Repair Drones
+  - Mining Drones (solid and liquid)
 
-##### Here are the groups:
+- All Spacesuit Engines have had their speed and manueverability increased greatly  
 
-- Scouts
-    * Pegasus Vanguard
-    * Pegasus Sentinel
-    * Discoverer Vanguard
-    * Discoverer Sentinel
-    * Kestrel Vanguard
-    * Kestrel Sentinel
-    * Rapier
-    * Kojin (Ship Variation Extension)
-    * Jaguar (Ship Variation Extension)
+- The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious  
+  - 3x Repair Rate
+  - 150m Range (needs testing)
 
-- Interceptors
-    * Perseus Vanguard
-    * Perseus Sentinel
-    * Nova Vanguard
-    * Nova Sentinel
-    * Guillemot Vanguard
-    * Guilletmot Sentinel
-    * Elite Vanguard
-    * Elite Sentinel
-    * Asp
-    * Asp Raider
-    * Nodan Vanguard
-    * Pulsar Vanguard
-    * Lux
-    * Kyd
-    * Skua (Ship Variation Extension)
+##### Ship Groups:  
+- Scouts  
+  - Pegasus Vanguard
+  - Pegasus Sentinel
+  - Discoverer Vanguard
+  - Discoverer Sentinel
+  - Kestrel Vanguard
+  - Kestrel Sentinel
+  - Rapier
+  - Kojin (Ship Variation Extension)
+  - Jaguar (Ship Variation Extension)
 
-- Advanced Scouts/Scanners
-    * Nimcha
-    * Moreya
-    * Takoba
-    * Paramerion (Ship Variation Extension)
-    * Akuma (Ship Variation Extension)
+- Interceptors  
+  - Perseus Vanguard
+  - Perseus Sentinel
+  - Nova Vanguard
+  - Nova Sentinel
+  - Guillemot Vanguard
+  - Guilletmot Sentinel
+  - Elite Vanguard
+  - Elite Sentinel
+  - Asp
+  - Asp Raider
+  - Nodan Vanguard
+  - Pulsar Vanguard
+  - Lux
+  - Kyd
+  - Skua (Ship Variation Extension)
+
+- Advanced Scouts/Scanners  
+  - Nimcha
+  - Moreya
+  - Takoba
+  - Paramerion (Ship Variation Extension)
+  - Akuma (Ship Variation Extension)
 
 
 
