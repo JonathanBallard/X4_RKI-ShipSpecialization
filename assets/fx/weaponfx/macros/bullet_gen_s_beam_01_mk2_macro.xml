@@ -3,7 +3,7 @@
 <!-- ^ MOD = Tax's Ship Specialization. This diff increases the damage done by the Lasertower Mk.2's weapon. In order to not imbalance this with the other ships using this weapon, the heat value has been increased as well. However, the Lasertower Mk.2 has also been given increased heat cooling and max overheat. The maximum range has been reduced from 5000 to 4800 though. -->
 
 <!-- ^ file="\assets\fx\weaponfx\macros\bullet_gen_s_beam_01_mk2_macro.xml" -->
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" > 
 
     <!-- ^ TSS_Edit: Increased Lasertower Mk.2 cooling -->
     <replace sel="//diff/replace/macros/macro/properties/bullet/@range">4800</replace>

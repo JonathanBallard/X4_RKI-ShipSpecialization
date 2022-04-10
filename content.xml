@@ -30,8 +30,9 @@ This mod would not have been created without the fantastic X4 Editor. I spent ma
 
 
 ##### Future Plans
-1. Increase the speed/manuever of Boarding Pods.
-2. 
+1. Increase the Hull and Capacity of Boarding Pods.
+2. May change out ATFUSC Ship Pack's Mobile Mining Ship engines from Large to Extra-Large
+3. 
 
 
 ##### Long Rant:
@@ -63,6 +64,8 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
   - Building Drones
   - Repair Drones
   - Mining Drones (solid and liquid)
+
+- Boarding Pods speed and manueverability increased a little over 50%
 
 - All Spacesuit Engines have had their speed and manueverability increased greatly  
 
@@ -109,4 +112,18 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 
 " author="Tax" version="001" date="2022-04-01" save="0" enabled="1" sync="false">
+<!-- Dependencies -->
+    <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
+    <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
+    <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
+
+    <dependency id="ws_1696862840" optional="true" name="Variety and Rebalance Overhaul" />
+
+    <dependency id="ws_2627959637" optional="true" name="X3 ATF/USC Ship Pack (VRO)" />
+    
+    <dependency id="ws_2647877221" optional="true" name="Bayamon Mining-Carrier" />
+    <dependency id="ws_2717276439" optional="true" name="Bayamon Bergbau-Träger VRO" />
+    
+    <dependency id="ws_2229061492" optional="true" name="Ship Variation Expansion" />
+    <dependency id="ws_2551053441" optional="true" name="Ship Variation Expansion VRO" />
 </content>

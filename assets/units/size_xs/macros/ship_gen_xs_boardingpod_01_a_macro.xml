@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- ^ MOD = Tax's Ship Specialization. This diff increases the speed and manueverability of boarding pods. -->
+
+<!-- ^ file="ship_gen_xs_boardingpod_01_a_macro.xml" -->
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" >
+    <replace sel="/macros/macro/properties/physics/drag/@forward">0.85</replace>
+    <replace sel="/macros/macro/properties/physics/drag/@reverse">1.70</replace>
+    <replace sel="/macros/macro/properties/physics/drag/@horizontal">3.40</replace>
+    <replace sel="/macros/macro/properties/physics/drag/@vertical">3.40</replace>
+    <replace sel="/macros/macro/properties/physics/drag/@pitch">.3</replace>
+    <replace sel="/macros/macro/properties/physics/drag/@yaw">.3</replace>
+    <replace sel="/macros/macro/properties/physics/drag/@roll">.7</replace>
+    
+    <!-- ^ Currently left at default values of 5 and 200 until I can determine secondary effects. -->
+    <!-- 
+    <replace sel="/macros/macro/properties/people/@capacity">5</replace>
+    <replace sel="/macros/macro/properties/hull/@max">200</replace> 
+    -->
+
+</diff>

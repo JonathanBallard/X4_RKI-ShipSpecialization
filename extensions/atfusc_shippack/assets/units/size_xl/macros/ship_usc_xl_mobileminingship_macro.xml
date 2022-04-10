@@ -7,4 +7,9 @@
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
     <replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0">235</replace>
     <replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0">565</replace>
+    <replace sel='//macros/macro/properties/physics/drag/@horizontal' minOccurs="0">689</replace>
+    <replace sel='//macros/macro/properties/physics/drag/@vertical' minOccurs="0">689</replace>
+    <replace sel='//macros/macro/properties/physics/drag/@pitch' minOccurs="0">1551</replace>
+    <replace sel='//macros/macro/properties/physics/drag/@yaw' minOccurs="0">1551</replace>
+    <replace sel='//macros/macro/properties/physics/drag/@roll' minOccurs="0">1551</replace>
 </diff> 
