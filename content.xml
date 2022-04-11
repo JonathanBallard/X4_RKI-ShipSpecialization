@@ -120,7 +120,7 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
     <dependency id="ws_1696862840" optional="true" name="Variety and Rebalance Overhaul" />
 
     <dependency id="ws_2627959637" optional="true" name="X3 ATF/USC Ship Pack (VRO)" />
-    
+
     <dependency id="ws_2647877221" optional="true" name="Bayamon Mining-Carrier" />
     <dependency id="ws_2717276439" optional="true" name="Bayamon Bergbau-Träger VRO" />
     

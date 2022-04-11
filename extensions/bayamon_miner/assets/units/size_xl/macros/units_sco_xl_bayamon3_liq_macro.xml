@@ -2,8 +2,8 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. This diff boosts the speed of the Bayamon Liquid (Gas) Miner by reducing drag. -->
 
-<!-- ^ file="..\extensions\bayamonVRO\assets\units\size_xl\macros\units_sco_xl_bayamon3_liq_macro.xml" -->
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
-	<replace sel="//macros/macro/properties/physics/drag/@forward">256.00</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@reverse">330.00</replace>
+<!-- ^ file="..\extensions\bayamon_miner\assets\units\size_xl\macros\units_sco_xl_bayamon3_liq_macro.xml" -->
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" > 
+	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >256.00</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >330.00</replace>
 </diff> 

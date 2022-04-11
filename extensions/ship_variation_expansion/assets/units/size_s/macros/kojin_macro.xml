@@ -5,6 +5,6 @@
 <!-- ^ file="..\extensions\ship_variation_expansion\assets\units\size_s\macros\kojin_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
-    <replace sel="//macros/macro/@class">ship_scout</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@forward">1.52</replace>
+    <replace sel="//macros/macro/@class" minOccurs="0" >ship_scout</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >1.52</replace>
 </diff> 

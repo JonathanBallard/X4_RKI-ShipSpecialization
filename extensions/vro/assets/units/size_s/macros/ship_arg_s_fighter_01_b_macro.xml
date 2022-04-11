@@ -5,11 +5,11 @@
 <!-- ^ file="..\extensions\vro\assets\units\size_s\macros\ship_arg_s_fighter_01_b_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
-	<replace sel="//macros/macro/properties/physics/drag/@forward">2.70</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@reverse">10.00</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@horizontal">4.86</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@vertical">4.86</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@pitch">3.14</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@yaw">3.14</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@roll">3.14</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >2.70</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >10.00</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@horizontal" minOccurs="0" >4.86</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@vertical" minOccurs="0" >4.86</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@pitch" minOccurs="0" >3.14</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@yaw" minOccurs="0" >3.14</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@roll" minOccurs="0" >3.14</replace>
 </diff> 

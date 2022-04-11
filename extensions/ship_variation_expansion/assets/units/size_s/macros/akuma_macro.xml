@@ -4,8 +4,8 @@
 
 <!-- ^ file="..\extensions\ship_variation_expansion\assets\units\size_s\macros\akuma_macro.xml" -->
 
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
-    <replace sel="//macros/macro/@class">ship_adv_scout</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@forward">4.25</replace>
-	<replace sel="//macros/macro/properties/physics/drag/@reverse">17.80</replace>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" > 
+    <replace sel="//macros/macro/@class" minOccurs="0" >ship_adv_scout</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >4.25</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >17.80</replace>
 </diff> 
