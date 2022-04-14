@@ -1,18 +1,29 @@
 
 
+# Mod 
 
-# Mod <div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="6">X4_RKI-ShipSpecialization  </font></div>
+---
+</br></br></br>
+<div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="6">X4_RKI-ShipSpecialization  </font></div>
 
 
-<div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Mod Information  </br>Author: Tax/Jonathan Ballard  </br>Last Updated: 4/8/22  </br>Current Mod Version: 0.01  </br>Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
+<div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Mod Information  
+Author: Tax/Jonathan Ballard  
+Last Updated: 4/8/22  
+Current Mod Version: 0.01  
+Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
+
+</br></br></br>
 
 ---
 
-#### Short Description:  
+</br></br></br>
+
+<div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Short Description:  </font></div>
 
 A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) makes scouts and interceptors more useful by increasing their performance in their roles. This is achieved by increasing the statistics most associated with their roles, while still ensuring they're well balanced for VRO. is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required for RKI-ShipSpecialization.
 
-#### Recommended Mods
+<div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Recommended Mods:  </font></div>
 
 > - [Variety and Rebalance Overhaul (AKA VRO)](https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840) <<< ___HIGHLY___ recommended (all changes are balanced against VRO)
 > - [Bayamon Miner - VRO Version](https://steamcommunity.com/sharedfiles/filedetails/?id=2647877221)
@@ -35,6 +46,7 @@ The mod should not cause any problems for any other mod. All changes are made th
 > - 04/10/22, v0.02: Beautified the README.md,  
 > - 04/08/22, v0.01: Initial Upload  
 
+
 <div style="width: 80%; color: white; background-color: #0e013d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Long Desciption:  </font></div>
 
 ShipSpecialization is designed to make interceptors and scouts feel more useful by making them perform their roles more effectively. It starts by increasing the speed of both scouts and interceptors by a solid 5-10%. Scouts then get a decent radar distance boost, and interceptors get a boost in manueverability. A new ship class has been implemented, Advanced Scouts AKA Scanners. There are only a handful of them at the moment, but they receive an even greater increase to radar range (50% flat increase instead of the 25% that scouts get). One thing that must be kept in mind is that possibility that increasing ship radar too much can negatively affect performance. It's because of this that I'm being moderate in the increases to radar, and also increase the ship's speed, so that it can put that radar to better use.
@@ -53,26 +65,22 @@ This mod would not have been created without the fantastic [__X4 Editor__](https
 2. Relocate macro.xml's into correct file structure  
 3. Increase the Hull / Marine Capacity of Boarding Pods? (Need to investigate secondary effects beforehand)  
 
-<div style="width: 80%; color: white; background-color: #0e013d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="4">Long Rant:  </font></div>
-
-I'm considering working ship mass into the max speed equation, perhaps comparing it with the number of engines. This would be helpful in creating a more meaningful difference between vanguard and sentinel variants, as sentinels are much heavier. That was something I was struggling to find a reason to do. My thoughts here are that mass increases the faster you go, so you will require more fuel to continue to accelerate to a higher speed. There wouldn't be any hard math in my implementation, I might just include a 1%-10% decrease/increase depending on how many engines you have for how much mass. Since engines are more fuel efficient at lower speeds (IDK if that's true in space too, but I would think it is), the more engines you have working on smaller mass amounts, the more fuel efficient and therefore the faster your max speed can be.
 
 <div style="width: 80%; color: white; background-color: #0e013d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Fairly exhaustive list of changes made:</font></div>  
 
-
-- Scouts  
+- Scouts
   - Organized so that their radar could be edited without affecting all small ships
   - Radar increased by 25% 
-  - Speeds increased by 5-10%  
+  - Speeds increased by 5%-10%  
 
 - Interceptors  
-  - Speed increased between 2-10% (usually around 4%)
+  - Speed increased between 2%-10% (usually around 4%)
   - Manueverability increased by a flat 5% across the board.
 
 - Advanced Scouts AKA Scanners (think of them as solid ships that were outfitted with additional sensor packages):  
   - Organized so that their radar could be edited without affecting all small ships
   - Radar increased by 50%
-  - Speeds increased by 5-15%
+  - Speeds increased by 5%-15%
   - Nimcha
     - Hull increased by 10%
 
@@ -90,8 +98,9 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 - The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious  
   - 3x Repair Rate
   - 150m Range (needs testing)  
-  
-<div style="width: 80%; color: white; background-color: #4c4d4c; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Long Rant:  </font></div>
+
+
+<div style="width: 80%; color: white; background-color: #4c4d4c; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Ship Groups:</font></div>  
 
 <div style="width: 20%; color: white; background-color: #1295c4; font-weight: bold; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3">Scouts:  </font></div>
 
@@ -145,12 +154,12 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 <div style="width: 80%; color: white; background-color: #4c4d4c; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Legal:  </font></div>
 
-If anyone wishes to modify any portion of this mod, they may do so, so long as they credit my work, the work of others, and the special thanks, where it's appropriate. I will include the people to credit directly below this heading.  
+If anyone wishes to modify any portion of this mod, they may do so, so long as they credit my work, and the work of others, where appropriate. I will include the people to credit directly below this heading.  
 
 <div style="width: 80%; color: white; background-color: #4c4d4c; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Credits:  </font></div>
 
 Tax/Jonathan Ballard - Ravenknight Industries (RKI) Mods  
-_Thank you for being me. It's a dead-end job, and there's not a lot of perks, but somebody has to do it..._  
+_Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._  
 
 <div style="width: 80%; color: white; background-color: #4c4d4c; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Special Thanks To:  </font></div>
 
@@ -165,3 +174,5 @@ _Without your guide on XML DIFF's, this would have been a much harder task. Than
 
 _Shuul_ - Egosoft Forum Member & Author of VRO  
 _Thanks for creating and continuing to maintain VRO, even in the face of adversity._
+
+
