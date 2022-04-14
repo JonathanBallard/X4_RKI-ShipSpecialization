@@ -14,8 +14,8 @@
 A mod for the game X4: Foundations. Intended to be used with the fantastic Variety and Rebalance Overhaul (VRO) mod, which was created by Shuul. ShipSpecialization makes scouts and interceptors more useful by increasing their performance in their roles. This is achieved by increasing the statistics most associated with their roles, while still ensuring they're well balanced for VRO.
 
 #### Version History:
-	- 
-	- 4/8/22, v0.01: Initial Upload
+	- 4/14/22 v0.02: Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
+	- 4/8/22, v0.01: Initial Commit
 
 #### Long Desciption:
 ShipSpecialization is designed to make interceptors and scouts feel more useful by making them perform their roles more effectively. It starts by increasing the speed of both scouts and interceptors by a solid 5-10%. Scouts then get a decent radar distance boost, and interceptors get a boost in manueverability. A new ship class has been implemented, Advanced Scouts AKA Scanners. There are only a handful of them at the moment, but they receive an even greater increase to radar range (50% flat increase instead of the 25% that scouts get). One thing that must be kept in mind is that possibility that increasing ship radar too much can negatively affect performance. It's because of this that I'm being moderate in the increases to radar, and also increase the ship's speed, so that it can put that radar to better use.
@@ -30,7 +30,7 @@ This mod would not have been created without the fantastic X4 Editor. I spent ma
 
 
 ##### Future Plans
-1. Increase the Hull and Capacity of Boarding Pods.
+1. *DONE* Increase the Hull and Capacity of Boarding Pods.
 2. May change out ATFUSC Ship Pack's Mobile Mining Ship engines from Large to Extra-Large
 3. 
 
@@ -51,7 +51,7 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 - Advanced Scouts AKA Scanners (think of them as solid ships that were outfitted with additional sensor packages):  
   - Organized so that their radar could be edited without affecting all small ships
-  - Radar increased by 50%
+  - Radar increased by 25% or more
   - Speeds increased by 5-15%
   - Nimcha
     - Hull increased by 10%
@@ -65,7 +65,7 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
   - Repair Drones
   - Mining Drones (solid and liquid)
 
-- Boarding Pods speed and manueverability increased a little over 50%
+- Boarding Pods speed and manueverability by ebtween 50% and 150%
 
 - All Spacesuit Engines have had their speed and manueverability increased greatly  
 
@@ -111,7 +111,7 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 
 
-" author="Tax" version="001" date="2022-04-01" save="0" enabled="1" sync="false">
+" author="Tax" version="002" date="2022-04-14" save="0" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>

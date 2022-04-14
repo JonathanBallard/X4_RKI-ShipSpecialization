@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!-- ^ MOD = Tax's Ship Specialization. This diff increases the speed and manueverability of boarding pods. -->
+<!-- ^ MOD = Tax's Ship Specialization. This diff increases manuever and speed of boarding pods.  -->
 
-<!-- ^ file="ship_gen_xs_boardingpod_01_a_macro.xml" -->
-<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0" >
-    <replace sel="/macros/macro/properties/physics/drag/@forward">0.85</replace>
-    <replace sel="/macros/macro/properties/physics/drag/@reverse">1.70</replace>
-    <replace sel="/macros/macro/properties/physics/drag/@horizontal">3.40</replace>
-    <replace sel="/macros/macro/properties/physics/drag/@vertical">3.40</replace>
-    <replace sel="/macros/macro/properties/physics/drag/@pitch">.3</replace>
-    <replace sel="/macros/macro/properties/physics/drag/@yaw">.3</replace>
-    <replace sel="/macros/macro/properties/physics/drag/@roll">.7</replace>
-    
-    <!-- ^ Currently left at default values of 5 and 200 until I can determine secondary effects. -->
-    <!-- 
-    <replace sel="/macros/macro/properties/people/@capacity">5</replace>
-    <replace sel="/macros/macro/properties/hull/@max">200</replace> 
-    -->
+<!-- ^ file="..\assets\units\size_xs\macros\ship_gen_xs_boardingpod_01_a_macro.xml" -->
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
+
+<!-- ^ TSS_Edit: Increases speed by reducing forward and reverse drag. Original values, forward = 2/reverse = 4 -->
+  <replace sel="//macros/macro/properties/physics/drag/@forward">0.80</replace>
+  <replace sel="//macros/macro/properties/physics/drag/@reverse">1.6</replace>
+
+<!-- ^ TSS_Edit: Increases strafe. Original values, horizontal = 8, vertical = 8 -->
+  <replace sel="//macros/macro/properties/thrust/@horizontal">2.86</replace>
+  <replace sel="//macros/macro/properties/thrust/@vertical">2.86</replace>
+
+<!-- ^ TSS_Edit: Increases manueverability. Original values, pitch = 0.5, yaw = 0.5, roll = 1.5 -->
+  <replace sel="//macros/macro/properties/thrust/@pitch">0.36</replace>
+  <replace sel="//macros/macro/properties/thrust/@yaw">0.36</replace>
+  <replace sel="//macros/macro/properties/thrust/@roll">0.83</replace>
+
+<!-- ^ TSS_Edit: Increases Hull and Marine capacity. Original values, hull = 200, capacity = 5 -->
+  <replace sel="//macros/macro/properties/hull/@max">500</replace>
+  <!-- <replace sel="//macros/macro/properties/people/@capacity">8</replace> -->
 
 </diff>

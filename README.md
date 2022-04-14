@@ -1,16 +1,16 @@
 
 
-# Mod 
+# Current Version: 0.02, Updated On: 04/14/22
 
 ---
 </br></br></br>
 <div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="6">X4_RKI-ShipSpecialization  </font></div>
 
 
-<div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Mod Information  
-Author: Tax/Jonathan Ballard  
-Last Updated: 4/8/22  
-Current Mod Version: 0.01  
+<div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Mod Information  <br/>
+Author: Tax/Jonathan Ballard  <br/>
+Last Updated: 4/14/22  <br/>
+Current Mod Version: 0.02  <br/>
 Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
 
 </br></br></br>
@@ -43,7 +43,7 @@ The mod should not cause any problems for any other mod. All changes are made th
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
-> - 04/10/22, v0.02: Beautified the README.md,  
+> - 04/14/22, v0.02: Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
 > - 04/08/22, v0.01: Initial Upload  
 
 
@@ -61,9 +61,9 @@ This mod would not have been created without the fantastic [__X4 Editor__](https
 
 <div style="width: 80%; color: white; background-color: #0e013d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="4">Future Plans:  </font></div>
 
-1. Increase the speed/manuever of Boarding Pods.  
-2. Relocate macro.xml's into correct file structure  
-3. Increase the Hull / Marine Capacity of Boarding Pods? (Need to investigate secondary effects beforehand)  
+1. *DONE* Increase the speed/manuever of Boarding Pods.  
+2. *DONE* Relocate macro.xml's into correct file structure  
+3. *DONE* Increase the Hull / Marine Capacity of Boarding Pods? (Need to investigate secondary effects beforehand)  
 
 
 <div style="width: 80%; color: white; background-color: #0e013d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Fairly exhaustive list of changes made:</font></div>  
@@ -79,7 +79,7 @@ This mod would not have been created without the fantastic [__X4 Editor__](https
 
 - Advanced Scouts AKA Scanners (think of them as solid ships that were outfitted with additional sensor packages):  
   - Organized so that their radar could be edited without affecting all small ships
-  - Radar increased by 50%
+  - Radar increased by 25% or more
   - Speeds increased by 5%-15%
   - Nimcha
     - Hull increased by 10%
