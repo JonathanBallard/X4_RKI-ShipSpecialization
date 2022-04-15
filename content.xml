@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This context.xml file has been created by the X4 Editor -->
 <content id="RKI-ShipSpec" name="RKI-ShipSpecialization" description="
-# RKI-ShipSpecialization
+
+# Ravenknight Industries Presents: Ship Specialization and QoL changes for VRO ( RKI-ShipSpecialization )
 
 ### Author: Tax/Jonathan Ballard
 ### Last Updated: 4/8/22
@@ -29,10 +30,12 @@ I have also included several other QoL changes. These include non-combat drone s
 This mod would not have been created without the fantastic X4 Editor. I spent many long evenings on the editor to learn the use of different attributes, and learned the ways of the diff-patch though it too. Many thanks to the author for this tool!
 
 
-##### Future Plans
-1. *DONE* Increase the Hull and Capacity of Boarding Pods.
-2. May change out ATFUSC Ship Pack's Mobile Mining Ship engines from Large to Extra-Large
-3. 
+##### Future Plans/Ideas
+1. May change out ATFUSC Ship Pack's Mobile Mining Ship engines from Large to Extra-Large  
+2. Specialize Medium-sized ships as well (???)  
+3. Specialize L-sized ships as well (???)  
+4. Specialize XL-sized ships as well (???)  
+5. 
 
 
 ##### Long Rant:
@@ -41,20 +44,27 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 #### Fairly exhaustive list of changes made:  
 - Scouts  
-  - Organized so that their radar could be edited without affecting all small ships
-  - Radar increased by 25% 
-  - Speeds increased by 5-10%
+  - Speeds increased by 5%-10%
+  - Radar increased by 5% 
 
 - Interceptors  
   - Speed increased between 2-10% (usually around 4%)
   - Manueverability increased by a flat 5% across the board.
 
+- Vedettes
+  - Class created so that their radar could be edited without affecting all small ships
+  - Speed increased by 5%-10%
+  - Radar increased by a substantial amount
+
 - Advanced Scouts AKA Scanners (think of them as solid ships that were outfitted with additional sensor packages):  
-  - Organized so that their radar could be edited without affecting all small ships
+  - Class created so that their radar could be edited without affecting all small ships
   - Radar increased by 25% or more
-  - Speeds increased by 5-15%
+  - Speeds increased by between 5%-15%
   - Nimcha
     - Hull increased by 10%
+
+- XL Ship Changes:  
+  - Radar Increased by 10%
 
 - Laser Tower Mk.2  
   - Tracking increased slightly
@@ -81,9 +91,6 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
   - Discoverer Sentinel
   - Kestrel Vanguard
   - Kestrel Sentinel
-  - Rapier
-  - Kojin (Ship Variation Extension)
-  - Jaguar (Ship Variation Extension)
 
 - Interceptors  
   - Perseus Vanguard
@@ -101,6 +108,11 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
   - Lux
   - Kyd
   - Skua (Ship Variation Extension)
+
+- Vedettes
+  - Kojin (Ship Variation Extension)
+  - Jaguar (Ship Variation Extension)
+  - Rapier
 
 - Advanced Scouts/Scanners  
   - Nimcha
