@@ -20,7 +20,7 @@ Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of
 
 <div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Short Description:  </font></div>
 
-A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) makes scouts and interceptors more useful by increasing their performance in their roles. This is achieved by increasing the statistics most associated with their roles, while still ensuring they're well balanced for VRO. is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS does REQUIRE all 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).
+A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS does REQUIRE all 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).
 
 <div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Recommended Mods:  </font></div>
 
@@ -42,8 +42,9 @@ The mod should not cause any problems for any other mod. All changes are made th
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
-> - 04/14/22, v0.02: Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
-> - 04/08/22, v0.01: Initial Upload  
+> - v0.03 
+> - v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
+> - v0.01 (04/08/22) - Initial Commit
 
 
 <div style="width: 80%; color: white; background-color: #010735; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Long Desciption:  </font></div>

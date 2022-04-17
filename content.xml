@@ -17,7 +17,7 @@
 ---
 
 #### Short Description:
-A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) makes scouts and interceptors more useful by increasing their performance in their roles. This is achieved by increasing the statistics most associated with their roles, while still ensuring they're well balanced for VRO. is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS does REQUIRE all 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).
+A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS does REQUIRE all 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).
 
 Recommended Mods:  
 
@@ -43,11 +43,12 @@ _ShipSpecialization will automatically load itself after the mods in the recomme
 The mod should not cause any problems for any other mod. All changes are made through DIFF Patches. The only changes made were modifying existing values, except in the case of ship class. Ship class was defined in libraries/defaults.xml, some examples of Vanilla ship classes are ship_s, ship_m, ship_l, pretty straightforward right? The default radar range was based on these ship classes, formerly only based on ship size. To make it easier to manage radar ranges in future (so I wouldn't have to edit each ship's macro.xml file separately), and to ensure that I would only increase the radar range of the ships I wanted to (and avoid the performance hit that comes with too many ships with high radar range), I created 3 new classes (ship_scout, ship_vedette, and ship_adv_scout). These are clones of the ship_s class, except for the radar range attributes ( of which there are 2 radar range attributes for each class - one for default, and one for max).
 
 #### Version History:
-	- 04/14/22 v0.02: Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
-	- 04/08/22 v0.01: Initial Commit
+    - v0.03 (
+	- v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
+	- v0.01 (04/08/22) - Initial Commit
 
-#### Long Desciption:
-ShipSpecialization is designed to make interceptors and scouts feel more useful by making them perform their roles more effectively. It starts by increasing the speed of both scouts and interceptors by a solid 5-10%. Scouts then get a minor radar distance boost, and interceptors get a boost in manueverability. I have created 3 new ship classes, all of which just re-classify existing vanilla/modified ships, and increases their radar ability. One of the new classes is just a way of differentiating scouts from other small ships so that I can slightly increase their default radar. The other 2 are only a little more involved. I have included some flavor text for the other 2 new classifications below. I don't currently have new identifying markers for them, but that's something I'd love to do, if, y'know, I was an artist. Since I'm not an artist, I'll probably leave them as they are (default ship_s icon).
+#### Long Description:
+ShipSpecialization is designed to make interceptors and scouts feel more useful by making them perform their roles more effectively. It starts by increasing the speed of both scouts and interceptors by a solid 5-10%. Scouts then get a minor radar distance boost, and interceptors get a boost in maneuverability. I have created 3 new ship classes, all of which just re-classify existing vanilla/modified ships, and increases their radar ability. One of the new classes is just a way of differentiating scouts from other small ships so that I can slightly increase their default radar. The other 2 are only a little more involved. I have included some flavor text for the other 2 new classifications below. I don't currently have new identifying markers for them, but that's something I'd love to do, if, y'know, I was an artist. Since I'm not an artist, I'll probably leave them as they are (default ship_s icon).
 
 ##### Note:
 One thing that must be kept in mind is that possibility that increasing ship radar too much can negatively affect performance. It's because of this that I'm being moderate in the increases to radar, and also increase the ship's speed, so that it can put that radar to better use.
@@ -56,7 +57,7 @@ The ships have been balanced against VRO ships, I do not currently have a Vanill
 
 Some ships that are classed as fighters and even a heavy-fighter or 2 have been classes as scouts, interceptors, vedettes, or advanced scouts.
 
-I have also included several other QoL changes. These include non-combat drone speed increases, spacesuit speed and manueverability increases, slightly increased speed of escape pods, increased tracking by 5% and cooling by 10% on Lasertower Mk.2. Increased the damage on the weapon used by Lasertower Mk.2 by 10%, but also increased the heat generated so the damage increase should only be felt on the Lasertower Mk.2.
+I have also included several other QoL changes. These include non-combat drone speed increases, spacesuit speed and maneuverability increases, slightly increased speed of escape pods, increased tracking by 5% and cooling by 10% on Lasertower Mk.2. Increased the damage on the weapon used by Lasertower Mk.2 by 10%, but also increased the heat generated so the damage increase should only be felt on the Lasertower Mk.2.
 
 
 #### Flavor text for 2 of the new classes:  
@@ -95,7 +96,7 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 - Interceptors  
     - Speed increased between 2-10% (usually around 4%)
-    - Manueverability increased by a flat 5% across the board.
+    - maneuverability increased by a flat 5% across the board.
 
 - Vedettes
     - Class created so that their radar could be edited without affecting all small ships
@@ -121,14 +122,14 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
     - Repair Drones
     - Mining Drones (solid and liquid)
 
-- All Spacesuit Engines have had their speed and manueverability increased greatly  
+- All Spacesuit Engines have had their speed and maneuverability increased greatly  
 
 - The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious  
     - 3x Repair Rate
     - 150m Range (needs testing)
 
-- Boarding Pods are now faster, more manueverable, and more durable
-    - Boarding Pods speed and manueverability by between 50% and 150%
+- Boarding Pods are now faster, more maneuverable, and more durable
+    - Boarding Pods speed and maneuverability by between 50% and 150%
     - Boarding Pod Hull has been increased from 200 to 500 
 
 #### Ship Groups:  
@@ -159,7 +160,7 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 ##### Vedettes
     - Kojin (Ship Variation Extension)
-    - Jaguar (Ship Variation Extension)
+    - Jaguar (Terran DLC: Cradle of Humanity)
     - Rapier
 
 ##### Advanced Scouts/Scanners  
