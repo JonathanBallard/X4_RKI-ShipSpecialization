@@ -8,5 +8,5 @@
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_vedette</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >0.82</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >4.55</replace>
-	<replace sel="//macros/macro/properties/hull/@max" minOccurs="0" >1800</replace>
+	<replace sel="//macros/macro/properties/hull/@max" minOccurs="0" >2000</replace>
 </diff> 
