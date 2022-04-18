@@ -2,19 +2,18 @@
 
 # <div style="width: 100%; color: white; text-align: center; background-color: #69024E; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="6">Ravenknight Industries Presents  </font></div>
 
+---
 <div style="width: 80%; color: white; background-color: #123405; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Ship Specialization and QoL changes for VRO    </font></div>
 
+RKI-SS organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes too. All enhancements are balanced for VRO.
+---
 <div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="4"><u>Mod Information </u><br/>
 Name: RKI-ShipSpecialization  </br>
 ID: RKI-ShipSpec  </br>
 Author: Tax/Jonathan Ballard  <br/>
-Last Updated: 4/14/22  <br/>
-Current Mod Version: 0.02  <br/>
+Last Updated: 4/17/22  <br/>
+Current Mod Version: 0.03  <br/>
 Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
-
-</br></br>
-
----
 
 </br></br>
 
@@ -74,7 +73,9 @@ The Vedette is a ship class designed to effect deep space patrols on their own o
 
 
 <div style="width: 40%; color: white; background-color: #024569; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="3">Advanced Scouts/Scanners:  </font></div>
-Advanced Scouts/Scanners are designed to outperform Vedettes in combat roles. Current doctrine states that a Vedette must disengage and flee upon contact with the enemy. With the increase in stealth technology, and the speed with which the Vedette must depart in order to deliver a warning with time to spare before the enemy arrives, often the Vedette fails to identify the precise nature of the threat, its numbers, its direction of attack, and its formation. When we have the ships to spare, doctrine allows us to pair Vedettes where the first ship arrives with the initial warning and the second returns later with more specifics. This, of course, is a waste of ships that could be used elsewhere. This is where the Advanced Scout comes in. Vedettes have to make do without even the most basic amenities, much less weapons, in order to create space for their massive satellite arrays. Advanced Scouts/Scanners are able to rely more heavily on complex target analysis and flight path prediction VI's (virtual intelligences, a lower performing but less risky varient of an AI). This allows the Advanced Scout/Scanner to sport weaponry and shielding comparable to other fighters in performance, if not in price. VI's are expensive, and heavily taxed, so Advanced Scouts/Scanners are not cheap. Our Advanced Scouts can stay until the last minute, gathering information and departing before the attackers can bring real threats to bear on it, and can simply broadcast the information from further using the state of the art subspace communications feature of their VI. Currently only the Terran factions have been able to introduce VI's small enough to fit into small ship frames. Other races still rely on more traditional scouting methods or Vedettes, though there have been rumours of a blueprint for one of the early VI prototypes that went missing from a Terran research station and found its way onto the black market. Early implementations of VI technology were viewed with extreme suspicion by the Terran populace. It's believed that the Terrans chose the term 'Scanner' to replace "VI" in part to appease any fears of another rogue AI event. Upon the re-opening of the gates, the first Argon to encounter the ships called them 'Advanced Scouts' when they struggled to understand how a fighter could spot, target, and engage Argon scouts before the scout even knew it had company.
+Excerpt taken from a smuggled copy of <em>'Terran Manual of Warships: Advanced Scouts'</em>: "Advanced Scouts/Scanners are designed to outperform Vedettes in combat roles. Current doctrine states that a Vedette must disengage and flee upon contact with the enemy. With the increase in stealth technology, and the speed with which the Vedette must depart in order to deliver a warning with time to spare before the enemy arrives, often the Vedette fails to identify the precise nature of the threat, its numbers, its direction of attack, and its formation. When we have the ships to spare, doctrine allows us to pair Vedettes where the first ship arrives with the initial warning and the second returns later with more specifics. Well, why use 2 ships when 1 would do? This is where the Advanced Scout comes in. Vedettes have to sacrifice offensive and defensive power, and sometimes even the most basic amenities, in order to create space for their massive satellite arrays. Advanced Scouts/Scanners on the otrher hand are able to rely more heavily on complex target analysis and flight path prediction VI's (virtual intelligences, a lower performing but less risky varient of an AI). This allows the Advanced Scout/Scanner to sport weaponry and shielding comparable to fighters in performance, if not in price. VI's are expensive, and heavily taxed, so Advanced Scouts/Scanners are not cheap. This extra cost buys us Advanced Scouts that can stay until the last minute, gathering information and departing before the attackers can bring real threats to bear on it. Then it can simply broadcast the information from far further using the state of the art subspace communications feature of their VI." 
+
+Currently only the Terran factions have been able to introduce VI's small enough to fit into small ship frames. Other races still rely on more traditional scouting methods or Vedettes, though there have been rumours of a blueprint for one of the early VI prototypes that went missing from a Terran research station and found its way onto the black market. Early implementations of VI technology were viewed with extreme suspicion by the Terran populace. It's believed that the Terrans chose the term 'Scanner' to replace 'VI' in part to appease any fears of another rogue AI event. Upon the re-opening of the gates, the first Argon to encounter the ships called them 'Advanced Scouts' when they struggled to understand how a fighter could spot, target, and engage Argon scouts before the scout even knew it had company.
 
 > Ship Design: Advanced Scouts AKA Scanners are another new class of small ship. There are only a handful of them at the moment, but they receive an even greater increase to radar range than Vedettes. Performance is comparable to a fighter or heavy fighter, these ships can hold their own in a dogfight.
 
@@ -204,15 +205,15 @@ Advanced Scouts/Scanners are designed to outperform Vedettes in combat roles. Cu
 <div style="width: 30%; color: white; background-color: #1295c4; font-weight: bold; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3">Vedettes:  </font></div>
 <ul>
 	<li> Kojin (Ship Variation Extension)
-	<li> Jaguar (Terran DLC: Cradle of Humanity)  
-	<li> Rapier
+	<li> Jaguar (Split DLC: Split Vendetta)  
+	<li> Rapier (Terran DLC: Cradle of Humanity)  
 </ul>
 
 <div style="width: 30%; color: white; background-color: #1295c4; font-weight: bold; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3">Advanced Scouts/Scanners:  </font></div>
 <ul>
-	<li> Nimcha
-	<li> Moreya
-	<li> Takoba
+	<li> Nimcha (Terran DLC: Cradle of Humanity)
+	<li> Moreya (Terran DLC: Cradle of Humanity)
+	<li> Takoba (Terran DLC: Cradle of Humanity)
 	<li> Paramerion (Ship Variation Extension)
 	<li> Akuma (Ship Variation Extension)  
 </ul>
@@ -233,6 +234,7 @@ If anyone wishes to modify any portion of this mod, they may do so, so long as t
 
 Tax/Jonathan Ballard - Ravenknight Industries (RKI) Mods  
 _Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._   
+Note: For clarity's sake, I am Midnightclear/Einherjarin on Nexus, and Tax/Asgardschosen elsewhere
 
 <div style="width: 80%; color: white; background-color: #4c4d4c; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Special Thanks To:  </font></div>
 

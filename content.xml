@@ -4,17 +4,20 @@
 
 # Ravenknight Industries Presents: 
 
+---
 ## Ship Specialization and QoL changes for VRO ( RKI-ShipSpecialization )
+
+RKI-SS organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes too. All enhancements are balanced for VRO.
+---
 
 ### Mod Information
 ### Name: RKI-ShipSpecialization
 ### ID: RKI-ShipSpec
 ### Author: Tax/Jonathan Ballard
-### Last Updated: 4/8/22
-### Current Mod Version: 0.01
+### Last Updated: 4/17/22
+### Current Mod Version: 0.03
 ### Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's
 
----
 
 #### Short Description:
 A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS does REQUIRE all 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).
@@ -71,7 +74,9 @@ Ship Design: Vedettes are essentially scout ships that have been stripped of eve
 
 
 ##### Advanced Scouts/Scanners:  
-Advanced Scouts/Scanners are designed to outperform Vedettes in combat roles. Current doctrine states that a Vedette must disengage and flee upon contact with the enemy. With the increase in stealth technology, and the speed with which the Vedette must depart in order to deliver a warning with time to spare before the enemy arrives, often the Vedette fails to identify the precise nature of the threat, its numbers, its direction of attack, and its formation. When we have the ships to spare, doctrine allows us to pair Vedettes where the first ship arrives with the initial warning and the second returns later with more specifics. This, of course, is a waste of ships that could be used elsewhere. This is where the Advanced Scout comes in. Vedettes have to make do without even the most basic amenities, much less weapons, in order to create space for their massive satellite arrays. Advanced Scouts/Scanners are able to rely more heavily on complex target analysis and flight path prediction VI's (virtual intelligences, a lower performing but less risky varient of an AI). This allows the Advanced Scout/Scanner to sport weaponry and shielding comparable to other fighters in performance, if not in price. VI's are expensive, and heavily taxed, so Advanced Scouts/Scanners are not cheap. Our Advanced Scouts can stay until the last minute, gathering information and departing before the attackers can bring real threats to bear on it, and can simply broadcast the information from further using the state of the art subspace communications feature of their VI. Currently only the Terran factions have been able to introduce VI's small enough to fit into small ship frames. Other races still rely on more traditional scouting methods or Vedettes, though there have been rumours of a blueprint for one of the early VI prototypes that went missing from a Terran research station and found its way onto the black market. Early implementations of VI technology were viewed with extreme suspicion by the Terran populace. It's believed that the Terrans chose the term 'Scanner' to replace 'VI' in part to appease any fears of another rogue AI event. Upon the re-opening of the gates, the first Argon to encounter the ships called them 'Advanced Scouts' when they struggled to understand how a fighter could spot, target, and engage Argon scouts before the scout even knew it had company.
+Excerpt taken from a smuggled copy of 'Terran Manual of Warships: Advanced Scouts': 'Advanced Scouts/Scanners are designed to outperform Vedettes in combat roles. Current doctrine states that a Vedette must disengage and flee upon contact with the enemy. With the increase in stealth technology, and the speed with which the Vedette must depart in order to deliver a warning with time to spare before the enemy arrives, often the Vedette fails to identify the precise nature of the threat, its numbers, its direction of attack, and its formation. When we have the ships to spare, doctrine allows us to pair Vedettes where the first ship arrives with the initial warning and the second returns later with more specifics. Well, why use 2 ships when 1 would do? This is where the Advanced Scout comes in. Vedettes have to sacrifice offensive and defensive power, and sometimes even the most basic amenities, in order to create space for their massive satellite arrays. Advanced Scouts/Scanners on the otrher hand are able to rely more heavily on complex target analysis and flight path prediction VI's (virtual intelligences, a lower performing but less risky varient of an AI). This allows the Advanced Scout/Scanner to sport weaponry and shielding comparable to fighters in performance, if not in price. VI's are expensive, and heavily taxed, so Advanced Scouts/Scanners are not cheap. This extra cost buys us Advanced Scouts that can stay until the last minute, gathering information and departing before the attackers can bring real threats to bear on it. Then it can simply broadcast the information from far further using the state of the art subspace communications feature of their VI.' 
+
+Currently only the Terran factions have been able to introduce VI's small enough to fit into small ship frames. Other races still rely on more traditional scouting methods or Vedettes, though there have been rumours of a blueprint for one of the early VI prototypes that went missing from a Terran research station and found its way onto the black market. Early implementations of VI technology were viewed with extreme suspicion by the Terran populace. It's believed that the Terrans chose the term 'Scanner' to replace 'VI' in part to appease any fears of another rogue AI event. Upon the re-opening of the gates, the first Argon to encounter the ships called them 'Advanced Scouts' when they struggled to understand how a fighter could spot, target, and engage Argon scouts before the scout even knew it had company.
 
 Ship Design: Advanced Scouts AKA Scanners are another new class of small ship. There are only a handful of them at the moment, but they receive an even greater increase to radar range than Vedettes. Performance is comparable to a fighter or heavy fighter, these ships can hold their own in a dogfight.
 
@@ -160,13 +165,13 @@ I'm considering working ship mass into the max speed equation, perhaps comparing
 
 ##### Vedettes
     - Kojin (Ship Variation Extension)
-    - Jaguar (Terran DLC: Cradle of Humanity)
-    - Rapier
+    - Jaguar (Split DLC: Split Vendetta)
+    - Rapier (Terran DLC: Cradle of Humanity)
 
 ##### Advanced Scouts/Scanners  
-    - Nimcha
-    - Moreya
-    - Takoba
+    - Nimcha (Terran DLC: Cradle of Humanity)
+    - Moreya (Terran DLC: Cradle of Humanity)
+    - Takoba (Terran DLC: Cradle of Humanity)
     - Paramerion (Ship Variation Extension)
     - Akuma (Ship Variation Extension)
 
@@ -183,28 +188,26 @@ https://forum.egosoft.com/memberlist.php?mode=viewprofile&u=462345
     
 ##### Legal:  
     
-If anyone wishes to modify any portion of this mod, they may do so, so long as they credit my work, and the work of others, where appropriate. I will include the people to credit directly below this heading.  
-    
+If anyone wishes to modify any portion of this mod, they may do so, so long as they credit my work, and the work of others where appropriate.  I will include the people to credit directly below this heading. No-one is to use any of my work for any commercial purposes without my express permission.  
+
 ##### Credits:  
     
 - Tax/Jonathan Ballard - Ravenknight Industries (RKI) Mods  
-- _Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._   
-
+_Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._   
+- Note: For clarity's sake, I am Midnightclear/Einherjarin on Nexus, and Tax/Asgardschosen elsewhere
     
+
 ##### Special Thanks To:  
     
 - _Max Bain_ - Egosoft Forum Member and Creator of X4 Editor  
 _Thanks for your help with how to use X4 Editor. It was by figuring out how it worked, and seeing the results, that I was able to learn to do DIFF patches._  
     
-
 - _DeadAirRT_ - Egosoft Forum Member and Creator of DeadAir Mods series  
 _Thanks for your advice and help on the Egosoft Forums_  
     
-
 - _theqmann_ - Egosoft Forum Member and Author of the XML Patch Guide tutorial  
 _Without your guide on XML DIFF's, this would have been a much much harder task. Thank you._  
     
-
 - _Shuul_ - Egosoft Forum Member and Author of VRO  
 _Thanks for creating and continuing to maintain VRO, even in the face of adversity._  
 
