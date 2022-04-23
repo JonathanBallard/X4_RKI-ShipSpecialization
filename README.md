@@ -11,7 +11,7 @@ RKI-SS organizes some hand-picked small ships into specialized classes, includin
 Name: RKI-ShipSpecialization  </br>
 ID: RKI-ShipSpec  </br>
 Author: Tax/Jonathan Ballard  <br/>
-Last Updated: 4/22/22  <br/>
+Last Updated: 4/23/22  <br/>
 Current Mod Version: 0.03  <br/>
 Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
 
@@ -258,5 +258,3 @@ _Without your guide on XML DIFF's, this would have been a much harder task. Than
 
 _Shuul_ - Egosoft Forum Member & Author of VRO  
 _Thanks for creating and continuing to maintain VRO, even in the face of adversity._
-
-
