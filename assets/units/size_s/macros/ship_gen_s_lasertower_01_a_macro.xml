@@ -3,6 +3,7 @@
 <!-- ^ MOD = Tax's Ship Specialization. This diff changes manueverability values for Lasertower Mk.2, increasing them by 5% -->
 
 <!-- ^ file="..\assets\units\size_s\macros\ship_gen_s_lasertower_01_a_macro.xml" -->
+
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/physics/inertia/@pitch">0.95</replace>
 	<replace sel="//macros/macro/properties/physics/inertia/@yaw">0.95</replace>

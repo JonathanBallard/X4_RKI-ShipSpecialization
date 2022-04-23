@@ -3,6 +3,7 @@
 <!-- ^ MOD = Tax's Ship Specialization. This diff increases the speed of the liquid (gas) mining drone -->
 
 <!-- ^ file="..\assets\units\size_s\macros\ship_gen_s_miningdrone_liquid_01_a_macro.xml" -->
+
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/physics/drag/@forward">4.80</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse">15.00</replace>
