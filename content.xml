@@ -16,8 +16,8 @@ RKI-SS organizes some hand-picked small ships into specialized classes, includin
 ### Name: RKI-ShipSpecialization
 ### ID: RKI-ShipSpec
 ### Author: Tax/Jonathan Ballard
-### Last Updated: 4/23/22
-### Current Mod Version: 0.03
+### Last Updated: 4/26/22
+### Current Mod Version: 0.04
 ### Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's
 
 
@@ -48,6 +48,7 @@ _ShipSpecialization will automatically load itself after the mods in the recomme
 The mod should not cause any problems for any other mod. All changes are made through DIFF Patches. The only changes made were modifying existing values, except in the case of ship class. Ship class was defined in libraries/defaults.xml, some examples of Vanilla ship classes are ship_s, ship_m, ship_l, pretty straightforward right? The default radar range was based on these ship classes, formerly only based on ship size. To make it easier to manage radar ranges in future (so I wouldn't have to edit each ship's macro.xml file separately), and to ensure that I would only increase the radar range of the ships I wanted to (and avoid the performance hit that comes with too many ships with high radar range), I created 3 new classes (ship_scout, ship_vedette, and ship_adv_scout). These are clones of the ship_s class, except for the radar range attributes ( of which there are 2 radar range attributes for each class - one for default, and one for max).
 
 #### Version History:
+    - v0.04 (04/26/22) - Testing
     - v0.03 (04/22/22) - Publish to NexusMods
 	- v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
 	- v0.01 (04/08/22) - Initial Commit
@@ -225,7 +226,7 @@ _Thanks for creating and continuing to maintain VRO, even in the face of adversi
 
 
 
-" author="Tax" version="002" date="2022-04-14" save="0" enabled="1" sync="false">
+" author="Tax" version="0.04" date="2022-04-26" save="0" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
