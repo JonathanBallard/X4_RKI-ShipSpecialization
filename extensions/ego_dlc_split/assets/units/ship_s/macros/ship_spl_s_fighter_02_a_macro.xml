@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- ^ MOD = Tax's Ship Specialization. The Asp is an interceptor. -->
+
+<!-- ^ file="..\extentions\vro\extensions\ego_dlc_split\assets\units\size_s\macros\ship_spl_s_fighter_02_a_macro.xml" -->
+
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
+	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >2.20</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >5.60</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@horizontal" minOccurs="0" >4.03</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@vertical" minOccurs="0" >4.03</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@pitch" minOccurs="0" >3.72</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@yaw" minOccurs="0" >3.72</replace>
+	<replace sel="//macros/macro/properties/physics/drag/@roll" minOccurs="0" >3.72</replace>
+</diff> 
