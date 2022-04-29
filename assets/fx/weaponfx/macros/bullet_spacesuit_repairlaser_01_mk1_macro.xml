@@ -8,7 +8,7 @@
 
     <!-- ^ TSS_Edit: Increased repair (hull) amount from 2 to 6, increased range from 25 to 150 -->
     
-    <replace sel="//macros/macro/properties/damage/@hull">6</replace>
+    <replace sel="//macros/macro/properties/damage/@hull">30</replace>
     <replace sel="//macros/macro/properties/bullet/@range">150</replace>
     
 </diff>
