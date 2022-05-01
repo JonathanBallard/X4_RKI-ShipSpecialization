@@ -17,9 +17,9 @@ Recommended Mods:&#13;&#10;
 
 " author="Tax" version="005" date="2022-04-29" save="0" enabled="1" sync="false">
 <!-- Dependencies -->
-    <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
-    <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
-    <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
+    <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
+    <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
+    <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
 
     <dependency id="ws_1696862840" optional="true" name="Variety and Rebalance Overhaul" />
 

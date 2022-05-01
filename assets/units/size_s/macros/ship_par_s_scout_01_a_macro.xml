@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!-- ^ MOD = Tax's Ship Specialization. The Pegasus Vanguard is an interceptor. -->
+<!-- ^ MOD = Tax's Ship Specialization. The Pegasus Vanguard is a scout. -->
 
-<!-- ^ file="..\assets\units\size_s\macros\ship_par_s_scout_01_a_macro.xml" -->
+<!-- ^ file="..\assets\units\size_s\macros\ship_par_s_scout_01_b_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_scout</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >2.35</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >6.40</replace>
-
     <add sel="//macros/macro/properties" minOccurs="0"><radar range="44000" /></add>
 </diff> 
