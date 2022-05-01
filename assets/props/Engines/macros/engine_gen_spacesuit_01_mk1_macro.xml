@@ -6,10 +6,10 @@
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/boost/@thrust">6.00</replace>
-	<replace sel="//macros/macro/properties/thrust/@forward">1.50</replace>
-	<replace sel="//macros/macro/properties/thrust/@reverse">1.50</replace>
-	<replace sel="//macros/macro/properties/thrust/@pitch">0.60</replace>
-	<replace sel="//macros/macro/properties/thrust/@Strafe">1.70</replace>
+	<replace sel="//macros/macro/properties/thrust/@forward">1.10</replace>
+	<replace sel="//macros/macro/properties/thrust/@reverse">1.00</replace>
+	<replace sel="//macros/macro/properties/thrust/@pitch">0.55</replace>
+	<replace sel="//macros/macro/properties/thrust/@Strafe">1.40</replace>
 	<replace sel="//macros/macro/properties/thrust/@yaw">0.50</replace>
 	<replace sel="//macros/macro/properties/thrust/@roll">0.50</replace>
 </diff> 

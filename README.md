@@ -2,11 +2,10 @@
 # <div style="width: 100%; color: white; text-align: center; background-color: #69024E; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="6">Ravenknight Industries Presents  </font></div>
 
 ---
-<div style="width: 80%; color: white; background-color: #123405; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Ship Specialization and QoL changes for VRO  </font></div>
 
-RKI-SS organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes too. All enhancements are balanced for VRO.  
+<div style="width: 80%; color: white; background-color: #123405; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Ship Specialization and QoL changes  </font></div>
+
 ---
-
 <div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="4"><u>Mod Information</u>  <br/>
 Name: RKI-ShipSpecialization  </br>
 ID: RKI-ShipSpec  </br>
@@ -41,11 +40,11 @@ The mod should not cause any problems for any other mod. All changes are made th
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
-> - v0.05 (04/30/22) - Testing - Manually added Radar values to ships
-> - v0.04 (04/26/22) - Testing - Increased repair laser value, shortened content.xml
-> - v0.03 (04/22/22) - Initial upload to NexusMods
-> - v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
-> - v0.01 (04/08/22) - Initial Commit
+> - v0.05 (04/30/22) - Testing - Manually added Radar values to ships  
+> - v0.04 (04/26/22) - Testing - Increased repair laser value, shortened content.xml  
+> - v0.03 (04/22/22) - Initial upload to NexusMods  
+> - v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)  
+> - v0.01 (04/08/22) - Initial Commit  
 
 
 <div style="width: 80%; color: white; background-color: #010735; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Long Desciption:  </font></div>
@@ -92,13 +91,12 @@ Early implementations of VI technology were viewed with extreme suspicion by the
 2. Specialize Medium-sized ships as well (???)  
 3. Specialize L-sized ships as well (???)  
 4. Specialize XL-sized ships as well (???)  
-    - Create 'Command Carrier' ship class for XL to increase visibility slightly (???)
-5. Duplicate ships for the new classifications instead of upgrading originals
-    - Create 'Scanner' and 'Vedette' variants of ships
-    - Increase price of Advanced Scouts/Scanners
-6. Remove Advanced Scouts/Scanners from AI creation?
-7. Review Vedette frequencies of production by AI, and the effect that has on performance
-8. 
+    - Create 'Command Carrier' ship class for XL to increase visibility slightly (???)  
+5. Duplicate ships for the new classifications instead of upgrading originals  
+    - Create 'Scanner' and 'Vedette' variants of ships  
+    - Increase price of Advanced Scouts/Scanners  
+6. Remove Advanced Scouts/Scanners from AI creation?  
+7. Review Vedette frequencies of production by AI, and the effect that has on performance  
 
 
 <div style="width: 80%; color: white; background-color: #26102B; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Fairly exhaustive list of changes made:  </font></div>  
@@ -122,45 +120,45 @@ Early implementations of VI technology were viewed with extreme suspicion by the
 <span style="font-weight: bold"><font size="2"><em><mark> Definition:  'A mounted sentinel posted in advance of the outposts of an army'  </mark></em></font></span>  
 
 <ul>
-    <li> Class created so that their radar could be edited without affecting all small ships
+    <li> Class created so that their radar could be edited without affecting all small ships  
     <li> Speeds increased by 5%-10%  
-    <li> Radar increased substantially
+    <li> Radar increased substantially  
 </ul>
 
 <div style="width: 40%; color: white; background-color: #268700; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3"> Advanced Scout (New Class)  </font></div>
 <span style="font-weight: bold"><font size="2"><em><mark> Think of advanced scouts - AKA scanners - as fighters that were outfitted with additional sensor packages  </mark></em></font></span>  
 
 <ul>
-  <li> Class created so that their radar could be edited without affecting all small ships
-  <li> Radar increased by 25% or more
-  <li> Speeds increased by 5%-15%
-  <li> Nimcha
+  <li> Class created so that their radar could be edited without affecting all small ships  
+  <li> Radar increased by 25% or more  
+  <li> Speeds increased by 5%-15%  
+  <li> Nimcha  
     <ul>
-        <li> Hull increased by 10%
+        <li> Hull increased by 10%  
     </ul>
 </ul>
 
 <div style="width: 40%; color: white; background-color: #268700; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3"> XL Ship Changes  </font></div>
-<span style="font-weight: bold"><font size="2"><em><mark> XL Ships have gotten a small boost to radar range. </mark></em></font></span> 
+<span style="font-weight: bold"><font size="2"><em><mark> XL Ships have gotten a small boost to radar range.  </mark></em></font></span>
     <ul>
-        <li> Radar increased by 10%
+        <li> Radar increased by 10%  
     </ul>
 
 <div style="width: 40%; color: white; background-color: #268700; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3"> Misc. Changes  </font></div>
-<span style="font-weight: bold"><font size="2"><em><mark> Smaller changes and QoL improvements. </mark></em></font></span> 
+<span style="font-weight: bold"><font size="2"><em><mark> Smaller changes and QoL improvements. </mark></em></font></span>  
 <ul>
     <li> Laser Tower Mk.2  
     <ul>
-        <li> Tracking increased slightly
-        <li> Damage increased by 5%
+        <li> Tracking increased slightly  
+        <li> Damage increased by 5%  
     </ul>
 </ul>
 <ul>
     <li> Many Drones have had their speed increased slightly  
     <ul>
-        <li> Building Drones
-        <li> Repair Drones
-        <li> Mining Drones (solid and liquid)
+        <li> Building Drones  
+        <li> Repair Drones  
+        <li> Mining Drones (solid and liquid)  
     </ul>
 </ul>
 
@@ -170,14 +168,14 @@ Early implementations of VI technology were viewed with extreme suspicion by the
 <ul>
     <li> The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious  
     <ul>
-        <li> 3x Repair Rate
+        <li> 3x Repair Rate  
         <li> 150m Range (needs testing)  
     </ul>
 </ul>
 <ul>
-    <li> Boarding Pods are now faster, more manueverable, and more durable
+    <li> Boarding Pods are now faster, more manueverable, and more durable  
     <ul>
-        <li>- Boarding Pods speed and manueverability by between 50% and 150%
+        <li>- Boarding Pods speed and manueverability by between 50% and 150%  
         <li>Boarding Pod Hull has been increased from 200 to 500  
     </ul>
 </ul>
@@ -222,10 +220,10 @@ Early implementations of VI technology were viewed with extreme suspicion by the
 
 <div style="width: 30%; color: white; background-color: #1295c4; font-weight: bold; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3">Advanced Scouts/Scanners:  </font></div>
 <ul>
-    <li> Nimcha (Terran DLC: Cradle of Humanity)
-    <li> Moreya (Terran DLC: Cradle of Humanity)
-    <li> Takoba (Terran DLC: Cradle of Humanity)
-    <li> Paramerion (Ship Variation Extension)
+    <li> Nimcha (Terran DLC: Cradle of Humanity)  
+    <li> Moreya (Terran DLC: Cradle of Humanity)  
+    <li> Takoba (Terran DLC: Cradle of Humanity)  
+    <li> Paramerion (Ship Variation Extension)  
     <li> Akuma (Ship Variation Extension)  
 </ul>
 
@@ -237,6 +235,9 @@ Early implementations of VI technology were viewed with extreme suspicion by the
     <li> Tax on Egosoft Forums: <a href="https://forum.egosoft.com/memberlist.php?mode=viewprofile&u=462345">asgardschosen</a>
 </ul>
 
+<div style="width: 80%; color: white; background-color: #123405; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="3">Nexus Mods Description:  </font></div>
+RKI-SS organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes too. All enhancements are balanced for VRO.  
+
 <div style="width: 80%; color: white; background-color: #795A7F; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Legal:  </font></div>
 
 If anyone wishes to modify any portion of this mod, they may do so, so long as they credit my work, and the work of others, where appropriate. I will include the people to credit directly below this heading.  
@@ -244,8 +245,8 @@ If anyone wishes to modify any portion of this mod, they may do so, so long as t
 <div style="width: 80%; color: white; background-color: #25010d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Credits:  </font></div>
 
 Tax/Jonathan Ballard - Ravenknight Industries (RKI) Mods  
-_Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._   
-Note: For clarity's sake, I am Midnightclear/Einherjarin on Nexus, and Tax/Asgardschosen elsewhere
+_Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._  
+Note: For clarity's sake, I am Midnightclear/Einherjarin on Nexus, and Tax/Asgardschosen elsewhere  
 
 <div style="width: 80%; color: white; background-color: #25010d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Special Thanks To:  </font></div>
 
@@ -253,10 +254,10 @@ _Max Bain_ - Egosoft Forum Member & Creator of X4 Editor
 _Thanks for your help with how to use X4 Editor. It was by figuring out how it worked, and seeing the results, that I was able to learn to do DIFF patches._  
 
 _DeadAirRT_ - Egosoft Forum Member & Creator of DeadAir Mods series  
-_Thanks for your advice and help on the Egosoft Forums_
+_Thanks for your advice and help on the Egosoft Forums_  
 
 _theqmann_ - Egosoft Forum Member & Author of the XML Patch Guide tutorial  
-_Without your guide on XML DIFF's, this would have been a much harder task. Thank you._
+_Without your guide on XML DIFF's, this would have been a much harder task. Thank you._  
 
 _Shuul_ - Egosoft Forum Member & Author of VRO  
-_Thanks for creating and continuing to maintain VRO, even in the face of adversity._
+_Thanks for creating and continuing to maintain VRO, even in the face of adversity._  

@@ -6,8 +6,8 @@
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/boost/@thrust">6.00</replace>
-	<replace sel="//macros/macro/properties/thrust/@forward">2.40</replace>
-	<replace sel="//macros/macro/properties/thrust/@reverse">1.90</replace>
+	<replace sel="//macros/macro/properties/thrust/@forward">1.80</replace>
+	<replace sel="//macros/macro/properties/thrust/@reverse">1.50</replace>
 	<replace sel="//macros/macro/properties/thrust/@pitch">0.65</replace>
 	<replace sel="//macros/macro/properties/thrust/@Strafe">3.00</replace>
 	<replace sel="//macros/macro/properties/thrust/@yaw">0.60</replace>
