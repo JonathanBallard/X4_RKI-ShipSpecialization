@@ -8,9 +8,9 @@
 
     <!-- ^ TSS_Edit: Increased Lasertower Mk.2 cooling to account for the increased heat added below -->
     
-    <replace sel="//diff/replace/macros/macro/properties/bullet/@range">4800</replace>
-    <replace sel="//diff/replace/macros/macro/properties/damage/@value">360</replace>
-    <replace sel="//diff/replace/macros/macro/properties/heat/@value">200</replace>
+    <replace sel="//macros/macro/properties/bullet/@range">4800</replace>
+    <replace sel="//macros/macro/properties/damage/@value">360</replace>
+    <replace sel="//macros/macro/properties/heat/@value">200</replace>
     
 
 </diff>

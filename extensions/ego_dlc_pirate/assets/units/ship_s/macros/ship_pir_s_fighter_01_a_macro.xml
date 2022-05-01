@@ -12,4 +12,6 @@
 	<replace sel="//macros/macro/properties/physics/drag/@pitch" minOccurs="0" >3.43</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@yaw" minOccurs="0" >3.43</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@roll" minOccurs="0" >3.43</replace>
+
+    <replace sel="//macros/macro/properties/ship/@type" minOccurs="0" >interceptor</replace>
 </diff> 

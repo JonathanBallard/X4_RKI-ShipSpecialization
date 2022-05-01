@@ -2,23 +2,20 @@
 <!-- This context.xml file has been created by the X4 Editor -->
 <content id="RKI-ShipSpec" name="RKI-ShipSpecialization" description="
 
-RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible [url=https://www.nexusmods.com/x4foundations/mods/305]Variety and Rebalance Overhaul (VRO)[/url], which was created by [b]Shuul[/b]. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS DOES REQUIRE 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).
+RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible Variety and Rebalance Overhaul (VRO) mod, which was created by Shuul. ShipSpecialization changes will also be applied to appropriate ships from some/all/few of the optional but recommended mods, based on whether you install that mod. No additional mods are required. &#13;&#10;
 
-&#13;&#10;&#13;&#10;&#13;&#10;
+RKI-SS REQUIRES the 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).&#13;&#10;
+
+&#13;&#10;
 
 Recommended Mods:&#13;&#10;
-- Variety and Rebalance Overhaul (AKA VRO): https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840 - HIGHLY recommended (all changes are balanced against VRO)&#13;&#10;
+- Variety and Rebalance Overhaul (AKA VRO): https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840 - HIGHLY recommended (all changes are balanced against VRO, mod is unsupported without this, but should work fine)&#13;&#10;
 - Bayamon Miner - VRO Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2647877221 &#13;&#10;
 - ATFUSC Shippack - VRO Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2627959637 &#13;&#10;
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2229061492 - Use with the VRO version below&#13;&#10;
-- Ship Variation Expansion: https://steamcommunity.com/sharedfiles/filedetails/?id=2551053441 Ship Variation Expansion - VRO Version - Requires the Vanilla version of SVE which is linked above &#13;&#10;
-    - 4 SVE ships have been reclassified into different classes, including into the new specialized classes &#13;&#10;
-        - Akuma → Advanced Scout/Scanner &#13;&#10;
-        - Paramerion → Advanced Scout/Scanner &#13;&#10;
-        - Kojin → Vedette &#13;&#10;
-        - Skua → Interceptor &#13;&#10;
+- Ship Variation Expansion: https://steamcommunity.com/sharedfiles/filedetails/?id=2551053441 Ship Variation Expansion (VRO Version) - Requires the Vanilla version of SVE which is linked above &#13;&#10;
 
-" author="Tax" version="005" date="2022-04-28" save="0" enabled="1" sync="false">
+" author="Tax" version="005" date="2022-04-29" save="0" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>

@@ -2,10 +2,12 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. The Discoverer Sentinel is a scout.. -->
 
-<!-- ^ file="..\extensions\vro\assets\units\size_s\macros\ship_arg_s_scout_01_b_macro.xml" -->
+<!-- ^ file="..\assets\units\size_s\macros\ship_arg_s_scout_01_b_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_scout</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >1.90</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >8.00</replace>
+
+    <add sel="//macros/macro/properties/sound_occlusion" pos="before" minOccurs="0"><radar range="44000" /></add>
 </diff> 

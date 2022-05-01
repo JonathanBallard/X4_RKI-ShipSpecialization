@@ -2,7 +2,7 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. The Kyd is an interceptor. -->
 
-<!-- ^ file="..\extensions\ego_dlc_pirate\assets\units\size_s\macros\ship_pir_s_fighter_01_a_macro.xml" -->
+<!-- ^ file="..\extensions\vro\extensions\ego_dlc_pirate\assets\units\size_s\macros\ship_pir_s_fighter_01_a_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >3.60</replace>
@@ -12,4 +12,6 @@
 	<replace sel="//macros/macro/properties/physics/drag/@pitch" minOccurs="0" >3.43</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@yaw" minOccurs="0" >3.43</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@roll" minOccurs="0" >3.43</replace>
+
+    <replace sel="//macros/macro/properties/ship/@type" minOccurs="0" >interceptor</replace>
 </diff> 

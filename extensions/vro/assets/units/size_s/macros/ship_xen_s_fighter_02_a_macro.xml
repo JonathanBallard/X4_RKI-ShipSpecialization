@@ -2,7 +2,7 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. The M is an interceptor. -->
 
-<!-- ^ file="..\extensions\vro\assets\units\size_s\macros\ship_xen_s_fighter_02_a_macro.xml" -->
+<!-- ^ file="..\assets\units\size_s\macros\ship_xen_s_fighter_02_a_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >6.80</replace>

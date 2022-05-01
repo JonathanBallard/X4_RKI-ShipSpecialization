@@ -11,8 +11,8 @@ RKI-SS organizes some hand-picked small ships into specialized classes, includin
 Name: RKI-ShipSpecialization  </br>
 ID: RKI-ShipSpec  </br>
 Author: Tax/Jonathan Ballard  <br/>
-Last Updated: 4/26/22  <br/>
-Current Mod Version: 0.04  <br/>
+Last Updated: 4/30/22  <br/>
+Current Mod Version: 0.05  <br/>
 Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
 
 </br></br>
@@ -41,8 +41,9 @@ The mod should not cause any problems for any other mod. All changes are made th
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
-> - v0.03 (04/26/22) - Testing
-> - v0.03 (04/22/22) - Publish to NexusMods
+> - v0.05 (04/30/22) - Testing - Manually added Radar values to ships
+> - v0.04 (04/26/22) - Testing - Increased repair laser value, shortened content.xml
+> - v0.03 (04/22/22) - Initial upload to NexusMods
 > - v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)
 > - v0.01 (04/08/22) - Initial Commit
 

@@ -2,10 +2,14 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. The Takoba is an advanced scout. -->
 
-<!-- ^ file="..\extensions\ego_dlc_terran\assets\units\size_s\macros\ship_ter_s_fighter_03_a_macro.xml" -->
+<!-- ^ file="..\extensions\vro\extensions\ego_dlc_terran\assets\units\size_s\macros\ship_ter_s_fighter_03_a_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_adv_scout</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >3.45</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >9.00</replace>
+
+    <replace sel="//macros/macro/properties/ship/@type" minOccurs="0" >scanner</replace>
+
+    <add sel="//macros/macro/properties/" minOccurs="0"><radar range="64000" /></add>
 </diff> 

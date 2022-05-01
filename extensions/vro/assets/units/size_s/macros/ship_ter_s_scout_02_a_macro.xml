@@ -9,6 +9,7 @@
 	<replace sel="//macros/macro/properties/hull/@max" minOccurs="0" >6850</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >1.92</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >5.90</replace>
-
-    <add pos="after" sel="//macros/macro/properties/sound_occlusion" minOccurs="0">      <radar range="61000" /></add>
+	<replace sel="//macros/macro/properties/ship/@type" minOccurs="0" >scanner</replace>
+	<replace sel="//radar" minOccurs="0" ><radar range="62500" /></replace>
+    <add sel="//macros/macro/properties/" minOccurs="0"><radar range="62000" /></add>
 </diff> 

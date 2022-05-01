@@ -9,5 +9,5 @@
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >1.80</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >6.70</replace>
 
-    <add pos="after" sel="//macros/macro/properties/sound_occlusion" minOccurs="0">      <radar range="48000" /></add>
+    <add pos="after" sel="//macros/macro/properties/ship" minOccurs="0"><radar range="44000" /></add>
 </diff> 

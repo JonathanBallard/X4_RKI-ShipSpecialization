@@ -8,4 +8,6 @@
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_scout</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >2.52</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >7.40</replace>
+
+    <add sel="//macros/macro/properties" minOccurs="0"><radar range="44000" /></add>
 </diff> 

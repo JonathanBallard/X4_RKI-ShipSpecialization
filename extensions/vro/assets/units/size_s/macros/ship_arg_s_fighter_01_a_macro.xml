@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<!-- ^ MOD = Tax's Ship Specialization. The Nova Vanguard is an interceptor. -->
+<!-- ^ MOD = Tax's Ship Specialization. The Nova Vanguard is an fighter/interceptor. -->
 
-<!-- ^ file="..\extensions\vro\assets\units\size_s\macros\ship_arg_s_fighter_01_a_macro.xml" -->
+<!-- ^ file="..\assets\units\size_s\macros\ship_arg_s_fighter_01_a_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >2.60</replace>
