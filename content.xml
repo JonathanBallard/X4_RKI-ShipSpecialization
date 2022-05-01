@@ -15,7 +15,7 @@ Recommended Mods:&#13;&#10;
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2229061492 - Use with the VRO version below&#13;&#10;
 - Ship Variation Expansion: https://steamcommunity.com/sharedfiles/filedetails/?id=2551053441 Ship Variation Expansion (VRO Version) - Requires the Vanilla version of SVE which is linked above &#13;&#10;
 
-" author="Tax" version="005" date="2022-04-29" save="0" enabled="1" sync="false">
+" author="Tax" version="005" date="2022-05-01" save="0" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
@@ -30,4 +30,6 @@ Recommended Mods:&#13;&#10;
     
     <dependency id="ws_2229061492" optional="true" name="Ship Variation Expansion" />
     <dependency id="ws_2551053441" optional="true" name="Ship Variation Expansion VRO" />
+
+    <dependency id="ws_1809490923" optional="true" name="Ship´s ammunition storage"/>
 </content>
