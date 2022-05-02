@@ -2,11 +2,12 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. The Kestrel Vanguard is a scout. -->
 
-<!-- ^ file="..\extensions\vro\assets\units\size_s\macros\ship_tel_s_scout_01_b_macro.xml" -->
+<!-- ^ file="..\assets\units\size_s\macros\ship_tel_s_scout_01_b_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_scout</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@forward" minOccurs="0" >1.82</replace>
 	<replace sel="//macros/macro/properties/physics/drag/@reverse" minOccurs="0" >7.65</replace>
+    <replace sel="//macros/macro/properties/storage/@missile">80</replace>
     <add sel="//macros/macro/properties" minOccurs="0"><radar range="44000" /></add>
 </diff> 

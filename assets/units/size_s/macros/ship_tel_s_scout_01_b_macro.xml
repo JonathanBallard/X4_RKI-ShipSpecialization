@@ -2,7 +2,7 @@
 
 <!-- ^ MOD = Tax's Ship Specialization. The Kestrel Sentinel is a scout. -->
 
-<!-- ^ file="..\extensions\vro\assets\units\size_s\macros\ship_tel_s_scout_01_b_macro.xml" -->
+<!-- ^ file="..\assets\units\size_s\macros\ship_tel_s_scout_01_b_macro.xml" -->
 
 <diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" minOccurs="0"> 
     <replace sel="//macros/macro/@class" minOccurs="0" >ship_scout</replace>
