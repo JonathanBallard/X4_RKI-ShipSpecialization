@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/wares">
+        <!-- Terran DLC ships: Rapier, Nimcha, Takoba -->
+		<ware id="witness_ware" name="{3786100,2}" description="{3786100,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+			<price min="219226" average="255991" max="287658" />
+			<production time="10" amount="1" method="default" name="{20206,101}">
+				<primary>
+                    <ware ware="computronicsubstrate" amount="8" />
+                    <ware ware="energycells" amount="42" />
+                    <ware ware="metallicmicrolattice" amount="16" />
+				</primary>
+			</production>
+			<component ref="witness_macro" amount="1" />
+			<restriction licence="generaluseship" />
+            <owner faction="pioneers" />
+			<owner faction="terran" />
+		</ware>
+
+        <ware id="omen_ware" name="{3786101,2}" description="{3786101,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+        <price min="388043" average="452750" max="524163" />
+        <production time="15" amount="1" method="default" name="{20206,101}">
+            <primary>
+            <ware ware="computronicsubstrate" amount="14" />
+            <ware ware="energycells" amount="68" />
+            <ware ware="metallicmicrolattice" amount="22" />
+            </primary>
+        </production>
+        <component ref="omen_macro" amount="1" />
+        <restriction licence="generaluseship" />
+        <owner faction="terran" />
+        </ware>
+
+        
+        <ware id="voidgazer_ware" name="{3786102,2}" description="{3786102,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+            <price min="411686" average="523160" max="574634" />
+            <production time="18" amount="1" method="default" name="{20206,101}">
+              <primary>
+                <ware ware="computronicsubstrate" amount="18" />
+                <ware ware="energycells" amount="91" />
+                <ware ware="metallicmicrolattice" amount="35" />
+              </primary>
+        </production>
+        <component ref="voidgazer_macro" amount="1" />
+        <restriction licence="militaryship" />
+        <owner faction="terran" />
+        <owner faction="pioneers" />
+        </ware>
+
+        <!-- Terran DLC Yaki ship: Moreya -->
+        <ware id="kami_ware" name="{3786103,2}" description="{3786103,3}" group="ships_terran" transport="ship" volume="1" tags="ship">
+			<price min="318803" average="349180" max="399557" />
+      <production time="19" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="83" />
+          <ware ware="hullparts" amount="142" />
+        </primary>
+			</production>
+			<component ref="kami_macro" amount="1" />
+			<restriction licence="generaluseship" />
+            <owner faction="yaki" />
+		</ware>
+
+        <!-- Split DLC ships: Jaguar -->
+        <ware id="serval_ware" name="{3786104,2}" description="{3786104,3}" group="ships_split" transport="ship" volume="1" tags="ship">
+            <price min="151115" average="178454" max="202360" />
+            <production time="10" amount="1" method="default" name="{20206,101}">
+              <primary>
+                <ware ware="energycells" amount="65" />
+                <ware ware="hullparts" amount="137" />
+              </primary>
+            </production>
+            <component ref="serval_macro" amount="1" />
+            <restriction licence="generaluseship" />
+            <owner faction="court" />
+            <owner faction="freesplit" />
+            <owner faction="split" />
+          </ware>
+	</add>
+</diff>
+
+
+
+<!--
+
+    <ware id="SHIPNAME_ware" name="{######,2}" description="{######,3}" group="SHIP-BUILDER-RACE" transport="ship" volume="1" tags="ship">
+            <price min="251686" average="403160" max="474634" />
+            <production time="18" amount="1" method="default" name="{######,4}">
+              <primary>
+                <ware ware="computronicsubstrate" amount="12" />
+                <ware ware="energycells" amount="72" />
+                <ware ware="metallicmicrolattice" amount="16" />
+              </primary>
+        </production>
+        <component ref="SHIPNAME_macro" amount="1" />
+        <restriction licence="generaluseship" />
+        <owner faction="SHIP-BUILDER-RACE" />
+        <owner faction="SHIP-BUILDER-RACE" />
+    </ware>
+
+-->

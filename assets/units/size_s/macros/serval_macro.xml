@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.124) at 13.01.2020_12-30-26-->
+<macros>
+  <macro name="serval_macro" class="ship_vedette">
+    <component ref="serval" />
+    <properties>
+      <!-- <identification name="{3786104,2}" basename="{3786104,1}" makerrace="split" description="{3786104,3}" icon="ship_s_fight_01" /> -->
+      <identification name="{3786104,2}" basename="{3786104,1}" makerrace="split" description="{3786104,3}" icon="ship_s_scout" />
+      <software>
+        <software ware="software_dockmk2" default="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" default="1" />
+        <software ware="software_scannerobjectmk1" compatible="1" />
+        <software ware="software_scannerobjectmk2" default="1" />
+        <software ware="software_targetmk1" compatible="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <storage missile="22" />
+      <hull max="1760" />
+      <secrecy level="1" />
+      <purpose primary="fight" />
+      <people capacity="1" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_02" />
+      </sounds>
+      <physics mass="5.147">
+        <inertia pitch="1.103" yaw="1.103" roll="0.883" />
+        <drag forward="0.76" reverse="5.90" horizontal="3.95" vertical="3.95" pitch="3.015" yaw="3.015" roll="3.015" />
+      </physics>
+      <thruster tags="small" />
+      <ship type="scout" />
+      <radar range="50000" />
+      <sound_occlusion inside="0.5" />
+    </properties>
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+      </connection>
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_serval_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

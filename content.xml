@@ -2,20 +2,22 @@
 <!-- This context.xml file has been created by the X4 Editor -->
 <content id="RKI-ShipSpec" name="RKI-ShipSpecialization" description="
 
-RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible Variety and Rebalance Overhaul (VRO) mod, which was created by Shuul. ShipSpecialization changes will also be applied to appropriate ships from some/all/few of the optional but recommended mods, based on whether you install that mod. No additional mods are required. &#13;&#10;
+RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, creates 5 new ships in 2 newly created light reconnaissance classes: Vedettes and Scanners. Several QoL changes have been included as well. All features are balanced for VRO. RKI-SS is intended to be used together with the incredible Variety and Rebalance Overhaul (VRO), which was created by Shuul. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. RKI-SS REQUIRES the VRO Icons Expanded Mod, since I use some of the new icons in the new ships &#13;&#10;
 
-RKI-SS REQUIRES the 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).&#13;&#10;
+Required Mods (might work without):&#13;&#10;
+- Variety and Rebalance Overhaul Icon Pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2007185841 &#13;&#10;
+- The 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).&#13;&#10;  &#13;&#10;
 
 &#13;&#10;
 
 Recommended Mods:&#13;&#10;
-- Variety and Rebalance Overhaul (AKA VRO): https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840 - HIGHLY recommended (all changes are balanced against VRO, mod is unsupported without this, but should work fine)&#13;&#10;
+- Variety and Rebalance Overhaul (AKA VRO): https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840 - HIGHLY recommended (all changes are balanced against VRO, mod is unsupported without this, but SHOULD work fine)&#13;&#10;
 - Bayamon Miner - VRO Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2647877221 &#13;&#10;
 - ATFUSC Shippack - VRO Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2627959637 &#13;&#10;
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2229061492 - Use with the VRO version below&#13;&#10;
-- Ship Variation Expansion: https://steamcommunity.com/sharedfiles/filedetails/?id=2551053441 Ship Variation Expansion (VRO Version) - Requires the Vanilla version of SVE which is linked above &#13;&#10;
+- Ship Variation Expansion - Vanilla: https://steamcommunity.com/sharedfiles/filedetails/?id=2229061492 - Use with the VRO version below&#13;&#10;
+- Ship Variation Expansion - VRO: https://steamcommunity.com/sharedfiles/filedetails/?id=2551053441 - Requires the Vanilla version of SVE which is linked above &#13;&#10;
 
-" author="Tax" version="006" date="2022-05-03" save="0" enabled="1" sync="false">
+" author="Tax" version="006" date="2022-05-04" save="0" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
@@ -26,11 +28,13 @@ Recommended Mods:&#13;&#10;
     <dependency id="ws_2647877221" optional="true" name="Bayamon Mining-Carrier" />
     <dependency id="ws_2717276439" optional="true" name="Bayamon Bergbau-Träger VRO" />
     
-    <dependency id="ws_2229061492" optional="false" name="Ship Variation Expansion" />
+    <dependency id="ws_2229061492" optional="true" name="Ship Variation Expansion" />
     <dependency id="ws_2551053441" optional="true" name="Ship Variation Expansion VRO" />
     
     <dependency id="ws_1696862840" optional="true" name="Variety and Rebalance Overhaul" />
-    <dependency id="ws_2007185841" optional="true" name="Variety and Rebalance Overhaul Icon Pack"/>
+
+    <!-- Added 5 ships that use the ship_s_scout icon -->
+    <dependency id="ws_2007185841" optional="false" name="Variety and Rebalance Overhaul Icon Pack"/>
 
     <dependency id="ws_1809490923" optional="true" name="Ship´s ammunition storage"/>
     <dependency id="ws_1809490923" optional="true" name="x4_storage"/>

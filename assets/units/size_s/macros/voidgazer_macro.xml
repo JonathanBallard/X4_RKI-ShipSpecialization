@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <macros>
+      <macro name="voidgazer_macro" class="ship_adv_scout">
+        <component ref="voidgazer" />
+        <properties>
+          <!-- <identification name="{3786102,2}" basename="{3786102,1}" makerrace="terran" description="{3786102,3}" icon="ship_s_fight_01" /> -->
+          <identification name="{3786102,2}" basename="{3786102,1}" makerrace="terran" description="{3786102,3}" icon="ship_s_scout" />
+          <software>
+            <software ware="software_dockmk2" default="1" />
+            <software ware="software_flightassistmk1" default="1" />
+            <software ware="software_scannerlongrangemk1" compatible="1" />
+            <software ware="software_scannerlongrangemk2" default="1" />
+            <software ware="software_scannerobjectmk1" compatible="1" />
+            <software ware="software_scannerobjectmk2" default="1" />
+            <software ware="software_targetmk1" default="1" />
+            <software ware="software_trademk1" compatible="1" />
+          </software>
+          <storage missile="34" />
+          <hull max="7700" />
+          <secrecy level="2" />
+          <purpose primary="fight" />
+          <people capacity="2" />
+          <sounds>
+            <shipdetail ref="shipdetail_ship_01" />
+          </sounds>
+          <physics mass="7.335">
+            <inertia pitch="2.66" yaw="2.66" roll="2.88" />
+            <drag forward="3.55" reverse="8.3" horizontal="3.564" vertical="3.564" pitch="3.64" yaw="3.64" roll="3.64" />
+          </physics>
+          <thruster tags="small" />
+          <ship type="scout" />
+          <radar range="64000" />
+          <sound_occlusion inside="0.5" />
+        </properties>
+        <connections>
+          <connection ref="con_cockpit">
+            <macro ref="cockpit_gen_virtual_01_macro" connection="ship" />
+          </connection>
+          <connection ref="con_dock_xs">
+            <macro ref="dock_gen_xs_ship_01_macro" connection="Connection_component" />
+          </connection>
+          <connection ref="con_shipstorage_xs_01">
+            <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+          </connection>
+          <connection ref="con_storage01">
+            <macro ref="storage_voidgazer_macro" connection="ShipConnection" />
+          </connection>
+        </connections>
+      </macro>
+    </macros>

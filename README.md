@@ -10,7 +10,7 @@
 Name: RKI-ShipSpecialization  </br>
 ID: RKI-ShipSpec  </br>
 Author: Tax/Jonathan Ballard  <br/>
-Last Updated: 5/02/22  <br/>
+Last Updated: 5/04/22  <br/>
 Current Mod Version: 0.06  <br/>
 Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of Avarice DLC's  </font></div>
 
@@ -19,6 +19,10 @@ Tested with Game Version: 5.10, Split Vendetta, Cradle of Humanity, and Tides of
 <div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Short Description:  </font></div>
 
 A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, including 2 newly created classes of light reconnaissance ship: Vedettes and Scanners. These ships then receive enhancements ranging from moderate to superb, based on the designated roles of their new classification. Several QoL changes have been included as well. RKI-SS is intended to be used together with the incredible [__Variety and Rebalance Overhaul (VRO)__](https://www.nexusmods.com/x4foundations/mods/305) mod, which was created by _Shuul_. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. No additional mods are required. However, RKI-SS does REQUIRE all 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).  
+
+<div style="width: 80%; color: white; background-color: #0058fb; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Required Mods  </font><font size="4">(RKI-SS might work without them, but is untested):</font></div>
+
+- [Variety and Rebalance Overhaul Icon Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=2007185841)
 
 <div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Recommended Mods:  </font></div>
 
@@ -33,20 +37,18 @@ A mod for the game __X4: Foundations__ by __Egosoft__. RKI-ShipSpecialization (R
 This mod should not have any compatability problems. It is intended to be used with VRO based on the balancing. If will edit ships from ATFUSC Ship Pack, Ship Variation Extender (SVE), and Bayamon Miner, if you have them installed.
 _ShipSpecialization will automatically load itself after the mods in the recommended list (if you have them installed) to ensure that the edits are properly applied: VRO, ATFUSC Shippack, Ship Variation Extender (SVE), Bayamon Miner_  
 
-
 <div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Compatability (MOD CREATORS):  </font></div>
 
 The mod should not cause any problems for any other mod. All changes are made through DIFF Patches. The only changes made were modifying existing values, except in the case of ship class. Ship class was defined in libraries/defaults.xml, some examples of Vanilla ship classes are ship_s, ship_m, ship_l, pretty straightforward right? Well the default radar range was based on these ship classes, formerly only based on ship size. To make it easier to manage radar ranges in future (so I wouldn't have to edit each ship's macro.xml file separately), and to ensure that I would only increase the radar range of the ships I wanted to (and avoid the performance hit that comes with too many ships with high radar range), I created 3 new classes (ship_scout, ship_vedette, and ship_adv_scout). These are clones of the ship_s class, except for the radar range attributes (there are 2 radar range attributes for each class - one for default, and one for max).  
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
-> - v0.06 (05/02/22) - Created new ships to fill Vedette and Advanced Scout positions  
+> - v0.06 (05/04/22) - First upload to NexusMods | Created new ships to fill Vedette and Advanced Scout positions  
 > - v0.05 (04/30/22) - Testing - Manually added Radar values to ships, tested all ships and shiptypes, current issue with Terran scout radars  
 > - v0.04 (04/26/22) - Testing - Increased repair laser value, shortened content.xml  
 > - v0.03 (04/22/22) - Initial upload to NexusMods  
 > - v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)  
 > - v0.01 (04/08/22) - Initial Commit  
-
 
 <div style="width: 80%; color: white; background-color: #010735; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Long Desciption:  </font></div>
 
@@ -61,9 +63,7 @@ Some ships that are classed as fighters and even a heavy-fighter or 2 have been 
 
 I have also included several other QoL changes. These include non-combat drone speed increases, spacesuit speed and manueverability increases, slightly increased speed of escape pods, increased tracking by 5% and cooling by 10% on Lasertower Mk.2. Increased the damage on the weapon used by Lasertower Mk.2 by 10%, but also increased the heat generated so the damage increase should only be felt on the Lasertower Mk.2.  
 
-
 <div style="width: 80%; color: white; background-color: #010735; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Flavor text for 2 of the new classes:  </font></div>
-
 
 
 <div style="width: 40%; color: white; background-color: #024569; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="3">Vedette:  </font></div>
@@ -71,7 +71,6 @@ I have also included several other QoL changes. These include non-combat drone s
 The Vedette is a ship class designed to effect deep space patrols on their own or in 2-ship groups. They patrol the edges of systems that contain military assets to ensure that adversaries don't try to sneak into the systems and sectors without using the Gates. They are particularly important in identifying Xenon staging areas. Upon locating an enemy, they speed back to communications range and inform system/sector command.  
 
 > Ship Design: Vedettes are essentially scout ships that have been stripped of everything that could be removed while remaining space-worthy, and instead installed extra radar arrays and communications equipment. Their radar ranges receive a solid increase, but they suffer in other areas, such as cargo capacity and crew chairs.  
-
 
 
 <div style="width: 40%; color: white; background-color: #024569; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="3">Advanced Scouts/Scanners:  </font></div>
@@ -214,18 +213,15 @@ Early implementations of VI technology were viewed with extreme suspicion by the
 
 <div style="width: 30%; color: white; background-color: #1295c4; font-weight: bold; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3">Vedettes:  </font></div>
 <ul>
-    <li> Kojin (Ship Variation Extension)
-    <li> Jaguar (Split DLC: Split Vendetta)  
-    <li> Rapier (Terran DLC: Cradle of Humanity)  
+    <li> Serval - Based on the Jaguar hull
+    <li> Witness - Based on the Rapier hull
 </ul>
 
 <div style="width: 30%; color: white; background-color: #1295c4; font-weight: bold; padding: 12px 12px; margin: 20px,0px,0px,0px;"><font size="3">Advanced Scouts/Scanners:  </font></div>
 <ul>
-    <li> Nimcha (Terran DLC: Cradle of Humanity)  
-    <li> Moreya (Terran DLC: Cradle of Humanity)  
-    <li> Takoba (Terran DLC: Cradle of Humanity)  
-    <li> Paramerion (Ship Variation Extension)  
-    <li> Akuma (Ship Variation Extension)  
+    <li> Omen - Based on the Nimcha hull
+    <li> Kami - Based on the Moreya hull
+    <li> Voidgazer - Based on the Takoba hull
 </ul>
 
 <div style="width: 80%; color: white; background-color: #795A7F; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Links:  </font></div>

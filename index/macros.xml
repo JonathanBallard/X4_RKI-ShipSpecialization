@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
+<index>
+		<entry name="witness_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\witness_macro" />
+		<entry name="omen_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\omen_macro" />
+		<entry name="voidgazer_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\voidgazer_macro" />
+		<entry name="kami_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\kami_macro" />
+		<entry name="serval_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\serval_macro" />
+</index>
+
+<!-- 
+
+    
+    <entry name="SHIPNAME_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\SHIPNAME_macro" />
+
+
+-->

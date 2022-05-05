@@ -65,7 +65,7 @@
               <identification type="shiptypes_s" />
               <!-- deployabletimeout for mk2 laser towers -->
               <deployable timeout="14400" />
-              <explosioneffect strength="1000" />00
+              <explosioneffect strength="1000" />
 
               <!-- ^ TSS_Edit: Scout ship base radar range increased from 40k to 44k -->
               <radar range="44000"/>
@@ -95,7 +95,7 @@
               </relation>
               <wreck deceleration="5" />
               <people capacity="2"/>
-              <storage countermeasure="14" deployable="22"/>
+              <storage countermeasure="12" deployable="28"/>
               <statistics>
                 <max>
                   <hull value="8040.000488" />
@@ -112,7 +112,7 @@
                     <horizontal speed="807.542297" acceleration="807.542297"/>
                     <vertical speed="1054.313599" acceleration="807.542297"/>
                   </thruster>
-                  <capacity crew="8" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="4" missile="36" countermeasure="24" deployable="44" />
+                  <capacity crew="8" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="4" missile="36" countermeasure="24" deployable="52" />
 
                   <!-- ^ TSS_Edit: Scout ship maximum radar range increased from 48k to 54k -->
                   <radar range="54000.000000" />
@@ -241,7 +241,7 @@
               </relation>
               <wreck deceleration="5" />
               <people capacity="3"/>
-              <storage countermeasure="16" deployable="60"/>
+              <storage countermeasure="24" deployable="60"/>
               <statistics>
                 <max>
                   <hull value="8040.000488" />

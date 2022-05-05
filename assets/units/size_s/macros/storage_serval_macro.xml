@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.123) at 20.01.2020_11-36-58-->
+<macros>
+  <macro name="storage_serval_macro" class="storage">
+    <component ref="generic_storage" />
+    <properties>
+      <identification makerrace="split" />
+      <cargo max="330" tags="container" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

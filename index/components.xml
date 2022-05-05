@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ?xml-stylesheet href="index.xsl" type="text/xsl" ? -->
+<diff>
+	<add sel = '/index' >
+		<entry name="omen" value="extensions\RKI-ShipSpecialization\assets\units\size_s\omen" />
+		<entry name="witness" value="extensions\RKI-ShipSpecialization\assets\units\size_s\witness" />
+		<entry name="voidgazer" value="extensions\RKI-ShipSpecialization\assets\units\size_s\voidgazer" />
+		<entry name="kami" value="extensions\RKI-ShipSpecialization\assets\units\size_s\kami" />
+		<entry name="serval" value="extensions\RKI-ShipSpecialization\assets\units\size_s\serval" />
+	</add>
+</diff>
+
+<!-- 
+
+    <entry name="SHIPNAME" value="extensions\RKI-ShipSpecialization\assets\units\size_s\SHIPNAME" />
+    
+-->
