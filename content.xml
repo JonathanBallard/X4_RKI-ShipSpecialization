@@ -11,13 +11,15 @@ Required Mods (RKI-SS might work without these, but I haven't tested it nor will
 &#13;&#10;
 
 Recommended Mods:&#13;&#10;
-- Variety and Rebalance Overhaul (AKA VRO): https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840 - HIGHLY recommended (all changes are balanced against VRO, mod is unsupported without this, but SHOULD work fine)&#13;&#10;
+- Variety and Rebalance Overhaul (AKA VRO): https://steamcommunity.com/sharedfiles/filedetails/?id=1696862840 - HIGHLY recommended (all changes are balanced against VRO, mod is unsupported without this, but should work fine)&#13;&#10;
 - Bayamon Miner - VRO Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2647877221 &#13;&#10;
 - ATFUSC Shippack - VRO Version: https://steamcommunity.com/sharedfiles/filedetails/?id=2627959637 &#13;&#10;
 - Ship Variation Expansion - Vanilla: https://steamcommunity.com/sharedfiles/filedetails/?id=2229061492 - Use with the VRO version below&#13;&#10;
 - Ship Variation Expansion - VRO: https://steamcommunity.com/sharedfiles/filedetails/?id=2551053441 - Requires the Vanilla version of SVE which is linked above &#13;&#10;
 
-" author="Tax" version="006" date="2022-05-04" save="1" enabled="1" sync="false">
+Remember to always backup your savegames. Removing this mod mid-save may cause issues because I have added new ships. If you might want to remove this mod, backup your save, then to remove, destroy all of the ships I add in this mod (the AI won't build them, but if the AI have any, you'll need to destroy those as well I believe), backup AGAIN (never too many backups), then disable the mod.
+
+" author="Tax" version="006b" date="2022-05-04" save="1" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
@@ -30,12 +32,15 @@ Recommended Mods:&#13;&#10;
     
     <dependency id="ws_2229061492" optional="true" name="Ship Variation Expansion" />
     <dependency id="ws_2551053441" optional="true" name="Ship Variation Expansion VRO" />
-    
+
+    <!-- Most important! -->
     <dependency id="ws_1696862840" optional="true" name="Variety and Rebalance Overhaul" />
 
     <!-- Added 5 ships that use the ship_s_scout icon -->
     <dependency id="ws_2007185841" optional="false" name="Variety and Rebalance Overhaul Icon Pack"/>
 
+    <!-- Both of these are the same mod, different names. These are set as optional dependencies because I ended up fixing a couple minor errors in them in order to make them work with RKI-SS -->
     <dependency id="ws_1809490923" optional="true" name="Ship´s ammunition storage"/>
-    <dependency id="ws_1809490923" optional="true" name="x4_storage"/>
+    <dependency id="ws_1809490923" optional="true" name="x4_storage"/> 
+
 </content>
