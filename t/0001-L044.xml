@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Currently Using: 3786100-3786109 -->
+
 <diff>
 	<add sel="/language">
 		<page id="3786100" title="Witness" descr="Witness" voice="yes">
@@ -31,7 +34,36 @@
 			<t id="3">Named after an old Earth mammal that used its excellent senses to hunt prey in tall grass. A well-placed Serval can give plenty of warning to whatever fleet this vedette is attached to. Best used to scout the flanks while moving or to patrol long-distances where enemies are expected. The Serval is more than capable of spotting, identifying, and outrunning almost anything sent its way. </t>
 			<t id="4">Serval</t>
 		</page>
-		
+		<page id="3786105" title="Witness Internal Shield Generator" descr="WitnessISG" voice="yes">
+            <t id="1">Witness</t>
+            <t id="2">(Witness) {3786105,4}</t>
+			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+			<t id="4">Witness</t>
+		</page>
+        <page id="3786106" title="Omen Internal Shield Generator" descr="OmenISG" voice="yes">
+            <t id="1">Omen</t>
+            <t id="2">(Omen) {3786106,4}</t>
+			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+			<t id="4">Omen</t>
+		</page>
+        <page id="3786107" title="Voidgazer Internal Shield Generator" descr="VoidgazerISG" voice="yes">
+            <t id="1">Voidgazer</t>
+            <t id="2">(Voidgazer) {3786107,4}</t>
+			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+			<t id="4">Voidgazer</t>
+		</page>
+        <page id="3786108" title="Kami Internal Shield Generator" descr="KamiISG" voice="yes">
+            <t id="1">Kami</t>
+            <t id="2">(Kami) {3786108,4}</t>
+			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+			<t id="4">Kami</t>
+		</page>
+        <page id="3786109" title="Serval Internal Shield Generator" descr="ServalISG" voice="yes">
+            <t id="1">Serval</t>
+            <t id="2">(Serval) {3786109,4}</t>
+			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+			<t id="4">Serval</t>
+		</page>
 	</add>
 </diff>
 
