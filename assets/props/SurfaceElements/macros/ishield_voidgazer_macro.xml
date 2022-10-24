@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+    Voidgazer based off of (Takoba) default VRO ishield stats:
+    <recharge max="2400" rate="84" delay="0" />
+-->
+
+<macros>
+  <macro name="ishield_voidgazer_macro" class="shieldgenerator">
+    <component ref="ishield_voidgazer" />
+    <properties>
+      <identification name="{6699,13114}" />
+      <recharge max="2400" rate="84" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

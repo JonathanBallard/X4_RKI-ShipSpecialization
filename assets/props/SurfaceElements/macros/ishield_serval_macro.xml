@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+    Serval based off of (Jaguar) default VRO ishield stats:
+    <recharge max="21" rate="11" delay="0" /> 
+-->
+
+<macros>
+  <macro name="ishield_serval_macro" class="shieldgenerator">
+    <component ref="ishield_serval" />
+    <properties>
+        <identification name="{6699,13090}" />
+        <recharge max="21" rate="11" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+    Omen based off of (Nimcha) default VRO ishield stats:
+    <recharge max="1400" rate="48" delay="0" />
+-->
+
+<macros>
+  <macro name="ishield_omen_macro" class="shieldgenerator">
+    <component ref="ishield_omen" />
+    <properties>
+        <identification name="{6699,13118}" />
+        <recharge max="1400" rate="48" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

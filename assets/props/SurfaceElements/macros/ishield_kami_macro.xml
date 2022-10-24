@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+    Kami based off of (Moreya) default VRO ishield stats:
+    <recharge max="500" rate="42" delay="0" /> 
+-->
+
+<macros>
+  <macro name="ishield_kami_macro" class="shieldgenerator">
+    <component ref="ishield_kami" />
+    <properties>
+      <identification name="{6699,13120}" />
+      <recharge max="500" rate="42" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

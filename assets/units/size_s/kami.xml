@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+
+<!-- Added ishield component to lines 256-261 -->
+
 <components>
 	<component name="kami" class="ship_s">
         <source geometry="extensions\RKI-ShipSpecialization\assets\units\size_s\kami_data"/>
@@ -250,6 +253,12 @@
 			<connection name="space" tags="ship ship_s">
 				<offset/>
 			</connection>
+            <connection name="con_ishield_01" tags="ishield shield ishield_kami">
+                <offset>
+                 <position x="0" y="0" z="0"/>
+                   <quaternion qx="0" qy="0" qz="0" qw="0"/>
+                </offset>
+            </connection>
 			<connection name="Connection01" tags="part animation  ">
 				<offset/>
 				<animations>
