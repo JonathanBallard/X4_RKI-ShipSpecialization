@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+
+<!-- Added ishield component to lines 92-97 -->
+
 <components>
 	<component name="witness" class="ship_s">
 		<source geometry="extensions\RKI-ShipSpecialization\assets\units\size_s\witness_data"/>
@@ -89,6 +92,12 @@
 			<connection name="space" tags="ship ship_s">
 				<offset/>
 			</connection>
+            <connection name="con_ishield_01" tags="ishield shield ishield_witness">
+                <offset>
+                 <position x="0" y="0" z="0"/>
+                   <quaternion qx="0" qy="0" qz="0" qw="0"/>
+                </offset>
+            </connection>
 			<connection name="Connection01" group="pilotcontrol" tags="part  ">
 				<offset>
 					<position x="-3.194993E-03" y="-10.25832" z="4.450966"/>
