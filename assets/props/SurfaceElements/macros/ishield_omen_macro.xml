@@ -9,7 +9,7 @@
   <macro name="ishield_omen_macro" class="shieldgenerator">
     <component ref="ishield_omen" />
     <properties>
-        <identification name="{6699,13118}" />
+        <identification name="{3786106,2}" />
         <recharge max="1400" rate="48" delay="0" />
       <hull integrated="1" />
     </properties>
