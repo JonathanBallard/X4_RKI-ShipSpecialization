@@ -4,7 +4,7 @@
 
 RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, creates 5 new ships in 2 newly created light reconnaissance classes: Vedettes and Scanners. Several QoL changes have been included as well. All features are balanced for VRO. RKI-SS is intended to be used together with the incredible Variety and Rebalance Overhaul (VRO), which was created by Shuul. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. RKI-SS REQUIRES the VRO Icons Expanded Mod, since I use some of the new icons in the new ships. &#13;&#10;
 
-Required Mods (RKI-SS might work without these, but I haven't tested it nor will I support it):  &#13;&#10;
+Required Mods (RKI-SS might work without these, but I haven't tested it, nor will I support it):  &#13;&#10;
 - Variety and Rebalance Overhaul Icon Pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2007185841 &#13;&#10;
 - The 3 Egosoft DLC's (Split Vendetta, Cradle of Humanity, and Tides of Avarice).  &#13;&#10;&#13;&#10;
 
@@ -19,7 +19,7 @@ Recommended Mods:&#13;&#10;
 
 Remember to always backup your savegames. Removing this mod mid-save may cause issues because I have added new ships. If you might want to remove this mod, backup your save, then to remove, destroy all of the ships I add in this mod (the AI won't build them, but if the AI have any, you'll need to destroy those as well I believe), backup AGAIN (never too many backups), then disable the mod.
 
-" author="Tax" version="007" date="2022-10-24" save="1" enabled="1" sync="false">
+" author="Tax" version="008" date="2023-03-06" save="1" enabled="1" sync="false">
 <!-- Dependencies -->
     <dependency id="ego_dlc_pirate" optional="true" name="Tides of Avarice"/>
     <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>

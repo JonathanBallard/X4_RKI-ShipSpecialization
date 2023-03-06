@@ -6,6 +6,7 @@
 <div style="width: 80%; color: white; background-color: #123405; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Ship Specialization and QoL changes  </font></div>
 
 ---
+
 <div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="4"><u>Mod Information</u>  <br/>
 Name: RKI-ShipSpecialization  </br>
 ID: RKI-ShipSpec  </br>
@@ -43,6 +44,7 @@ The mod should not cause any problems for any other mod. All changes are made th
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
+> - v0.08 (03/06/23) - Fixed internal shield generator bug _[thanks hashashin14]_  
 > - v0.07 (10/24/22) - Attached Internal Shield Generators to new ships  
 > - v0.06 (05/04/22) - First upload to NexusMods | Created new ships to fill Vedette and Advanced Scout positions  
 > - v0.05 (04/30/22) - Testing - Manually added Radar values to ships, tested all ships and shiptypes, current issue with Terran scout radars  
@@ -245,6 +247,9 @@ If anyone wishes to modify any portion of this mod, they may do so, so long as t
 Tax/Jonathan Ballard - Ravenknight Industries (RKI) Mods  
 _Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it..._  
 Note: For clarity's sake, I am Midnightclear/Einherjarin on Nexus, and Tax/Asgardschosen elsewhere  
+
+Hashashin14 - <a href="https://github.com/hashashin14">Orange Neko on GitHub</a>  
+_Thank you for your help with ensuring the internal shields work properly with the new ships!_
 
 <div style="width: 80%; color: white; background-color: #25010d; font-weight: bold; padding: 12px 12px; margin: 30px,0px,15px,0px;"><font size="4">Special Thanks To:  </font></div>
 
