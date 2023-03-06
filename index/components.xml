@@ -7,6 +7,11 @@
 		<entry name="voidgazer" value="extensions\RKI-ShipSpecialization\assets\units\size_s\voidgazer" />
 		<entry name="kami" value="extensions\RKI-ShipSpecialization\assets\units\size_s\kami" />
 		<entry name="serval" value="extensions\RKI-ShipSpecialization\assets\units\size_s\serval" />
+		<entry name="ishield_kami" value="extensions\RKI-ShipSpecialization\assets\props\surfaceelements\ishield_kami" />
+		<entry name="ishield_omen" value="extensions\RKI-ShipSpecialization\assets\props\surfaceelements\ishield_omen" />
+		<entry name="ishield_serval" value="extensions\RKI-ShipSpecialization\assets\props\surfaceelements\ishield_serval" />
+		<entry name="ishield_voidgazer" value="extensions\RKI-ShipSpecialization\assets\props\surfaceelements\ishield_voidgazer" />
+		<entry name="ishield_witness" value="extensions\RKI-ShipSpecialization\assets\props\surfaceelements\ishield_witness" />
 	</add>
 </diff>
 
