@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <components>
-    <component name="ishield_omen" class="shieldgenerator">
+    <component name="ishield_kami" class="shieldgenerator">
         <connections>
-            <connection name="ParentConnection" tags="ishield_omen component ishield shield " optional="0" />
+            <connection name="ParentConnection" tags="ishield_kami component ishield shield" optional="0" />
         </connections>
         <properties>
-            <recharge />
+            <recharge/>
         </properties>
     </component>
 </components>
