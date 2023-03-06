@@ -6,6 +6,11 @@
 		<entry name="voidgazer_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\voidgazer_macro" />
 		<entry name="kami_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\kami_macro" />
 		<entry name="serval_macro" value="extensions\RKI-ShipSpecialization\assets\units\size_s\macros\serval_macro" />
+		<entry name="ishield_kami_macro" value="extensions\RKI-ShipSpecialization\assets\props\SurfaceElements\macros\ishield_kami_macro"/>
+		<entry name="ishield_omen_macro" value="extensions\RKI-ShipSpecialization\assets\props\SurfaceElements\macros\ishield_omen_macro"/>
+		<entry name="ishield_serval_macro" value="extensions\RKI-ShipSpecialization\assets\props\SurfaceElements\macros\ishield_serval_macro"/>
+		<entry name="ishield_voidgazer_macro" value="extensions\RKI-ShipSpecialization\assets\props\SurfaceElements\macros\ishield_voidgazer_macro"/>
+		<entry name="ishield_witness_macro" value="extensions\RKI-ShipSpecialization\assets\props\SurfaceElements\macros\ishield_witness_macro"/>
 </index>
 
 <!-- 
