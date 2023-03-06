@@ -76,6 +76,61 @@
             <owner faction="freesplit" />
             <owner faction="split" />
           </ware>
+    <ware id="ishield_kami" name="Kami Internal Generator" description="Kami Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_kami_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
+    <ware id="ishield_omen" name="Omen Internal Generator" description="Omen Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_omen_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
+    <ware id="ishield_serval" name="Serval Internal Generator" description="Serval Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_serval_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
+    <ware id="ishield_voidgazer" name="Voidgazer Internal Generator" description="Voidgazer Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_voidgazer_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
+    <ware id="ishield_witness" name="Witness Internal Generator" description="Witness Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="12" average="16" max="21" />
+      <production time="1" amount="1" method="default" name="{20206,101}">
+        <primary>
+          <ware ware="energycells" amount="1" />
+        </primary>
+      </production>
+      <component ref="ishield_witness_macro" amount="1" />
+      <use threshold="0" />
+      <restriction licence="generaluseequipment" />
+    </ware>
 	</add>
 </diff>
 
