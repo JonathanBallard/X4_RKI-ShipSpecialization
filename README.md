@@ -8,10 +8,10 @@
 
 <div style="width: 80%; color: white; background-color: #1a4a07; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="4"><u>Mod Information</u>  <br/>
 Name: RKI-ShipSpecialization  </br>
-ID: RKI-ShipSpec  </br>d
+ID: RKI-ShipSpec  </br>
 Author: Tax/Jonathan Ballard  <br/>
-Last Updated: 04/12/23  <br/>
-Current Mod Version: 0.09  <br/>
+Last Updated: 05/15/23  <br/>
+Current Mod Version: 0.10  <br/>
 Tested with Game Version: 6.00, & (Split Vendetta, Cradle of Humanity, Tides of Avarice, and Kingdom End) </font></div>
 
 <div style="width: 80%; color: white; background-color: #4a0707; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Short Description:  </font></div>
@@ -42,6 +42,7 @@ The mod should not cause any problems for any other mod. All changes are made th
 
 <div style="width: 80%; color: white; background-color: #701020; font-weight: bold; padding: 12px 12px; margin: 30px,0px,5px,0px;"><font size="5">Version History:  </font></div>
 
+> - v0.10 (05/15/23) - Fixed major issue around ships not appearing. Disabled certain smaller changes in the process.
 > - v0.09 (04/12/23) - Updated mod for 6.0 & Kingdom End compatibility
 > - v0.08 (03/06/23) - Fixed internal shield generator bug *[thanks hashashin14]*
 > - v0.07 (10/24/22) - Attached Internal Shield Generators to new ships

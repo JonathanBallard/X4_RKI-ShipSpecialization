@@ -2,70 +2,121 @@
 
 <!-- Currently Using: 3786100-3786109 -->
 
-<diff>
-	<add sel="/language">
-		<page id="3786100" title="Witness" descr="Witness" voice="yes">
-			<t id="1">Witness</t>
-            <t id="2">(Witness) {3786100,4}</t>
-			<t id="3">The Witness is a Vedette class ship that was built on a modified Rapier hull. It has an expanded radar array that allows significant increases in radar range over other small ships. However, because these arrays take up a great deal of space, the Frontiersman has had to sacrifice some of its armor and cargo space.</t>
-			<t id="4">Witness</t>
-        </page>
-        <page id="3786101" title="Omen" descr="Omen" voice="yes">
-            <t id="1">Omen</t>
-            <t id="2">(Omen) {3786101,4}</t>
-			<t id="3">The Omen was the first ship built to rely more on localized predictive virtual intelligence (VI) and less on traditional radar systems. It is the result of an project meant to create a highly sophisticated but safe AI that was capable of predicting the extreme near future with precision based on minimal data. The first VI was built in an attempt to develop better CIWS and Flak accuracy against missiles by using these predictive algorithms. Eventually this project was scrapped, until someone came along and restarted the program as a pathing predictor for enemy ships, rather than munitions. The research was funded in private and withheld from the Terran people out of fears of the unrest it would cause. This is the first in a line of ships known as Scanners, or Advanced Scouts. These designations are intended to obfuscate the true nature of the technology aboard - for fear that the public would revolt at the idea of the government developing another AI. Advanced Scout ships are capable of performing scouting duties far better than any comparable ship classes, even including the Terran staple Vedette class ships. These ships differ from other scouting ships in that they are perfectly capable of engaging in combat as well as any fighter, and needn't fear damage to expensive satellite arrays like the Vedette. These ships are truly the best that scouting has to offer.</t>
-			<t id="4">Omen</t>
-		</page>
-		<page id="3786102" title="Voidgazer" descr="Voidgazer" voice="yes">
-            <t id="1">Voidgazer</t>
-            <t id="2">(Voidgazer) {3786102,4}</t>
-			<t id="3">The Voidgazer is an advanced scout developed for the Segaris program. Whilst the Terran government wished to create a buffer of loyal Terrans on the outskirts of Sol, they also wanted to ensure the program wasn't able to be used as a staging ground to launch on attack on the rest of Sol. As such the Voidgazer was designed to keep a close eye on anyone approaching from deep space. Where the first Advanced Scout, the Omen, was built on the upgraded Rapier hull used by the Nimcha, the Voidgazer is built on the more modern Takoba hull. In part due to the extra cabling that was needed to feed the Takoba's engines, the Voidgazer was able to be remarkably innovative in its layout of the VI components. The components aren't kept together in a single machine which takes up half the bridge anymore, instead the VI is strung throughout the ship using the pre-existing high-bandwidth cabling and fuel lines. This improves the VI's ability to gain a tactical grasp of its immediate area due to a closer connection to outer sensors (apparently micro-seconds count in future prediction), as well as granting it the extra space to add more armor plating.</t>
-			<t id="4">Voidgazer</t>
-		</page>
-		<page id="3786103" title="Kami" descr="Kami" voice="yes">
-            <t id="1">Kami</t>
-            <t id="2">(Kami) {3786103,4}</t>
-			<t id="3">The Kami is built by the Yaki to make use of the VI technology they were able to acquire from the Terrans. The Kami is built on a Moreya hull, making it capable of great speed, but less suited to combat when compared with other advanced scout class ships. When the Terran government first began to experiment with VI use in capital ship combat, they were thought of as nothing more than an educated guess machine. That is, something that wasn't capable of taking full control of turrets on its own, but could perhaps increase the accuracy and number of the calculated incoming missile flight path projections. This in turn would increase the threat interception-rate of the CIWS operators. This is in stark contrast to their purpose today in predicting enemy ship movements and formations based on the smallest amount of data. They just weren't especially accurate in the beginning. So, back then they weren't kept in high-security lockups when not in use, they were just stored alongside other pet projects. In any case, it seems like one of them went missing at some point, or the Yaki succeeded in bribing or 'motivating' someone to steal them a copy. The Yaki would probably like us to believe they then developed their stolen prototype on a parallel path to the Terran government. In probability, they simply continued to steal prototypes until they were able to adapt one to a ship. The Kami is their first, and so far only, successful design that makes use of the VI. </t>
-			<t id="4">Kami</t>
-		</page>
-		<page id="3786104" title="Serval" descr="Serval" voice="yes">
-            <t id="1">Serval</t>
-            <t id="2">(Serval) {3786104,4}</t>
-			<t id="3">Named after an old Earth mammal that used its excellent senses to hunt prey in tall grass. A well-placed Serval can give plenty of warning to whatever fleet this vedette is attached to. Best used to scout the flanks while moving or to patrol long-distances where enemies are expected. The Serval is more than capable of spotting, identifying, and outrunning almost anything sent its way. </t>
-			<t id="4">Serval</t>
-		</page>
-		<page id="3786105" title="Witness Internal Shield Generator" descr="WitnessISG" voice="yes">
-            <t id="1">Witness</t>
-            <t id="2">(Witness) {3786105,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Witness</t>
-		</page>
-        <page id="3786106" title="Omen Internal Shield Generator" descr="OmenISG" voice="yes">
-            <t id="1">Omen</t>
-            <t id="2">(Omen) {3786106,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Omen</t>
-		</page>
-        <page id="3786107" title="Voidgazer Internal Shield Generator" descr="VoidgazerISG" voice="yes">
-            <t id="1">Voidgazer</t>
-            <t id="2">(Voidgazer) {3786107,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Voidgazer</t>
-		</page>
-        <page id="3786108" title="Kami Internal Shield Generator" descr="KamiISG" voice="yes">
-            <t id="1">Kami</t>
-            <t id="2">(Kami) {3786108,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Kami</t>
-		</page>
-        <page id="3786109" title="Serval Internal Shield Generator" descr="ServalISG" voice="yes">
-            <t id="1">Serval</t>
-            <t id="2">(Serval) {3786109,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Serval</t>
-		</page>
-	</add>
-</diff>
+<language>
+    <page id="3786100" title="Witness" descr="Witness" voice="yes">
+        <t id="1">Witness</t>
+        <t id="2">(Witness) {3786100,4}</t>
+        <t id="3">The Witness is a Vedette class ship that was built on a modified Rapier hull. It
+            has an expanded radar array that allows significant increases in radar range over other
+            small ships. However, because these arrays take up a great deal of space, the
+            Frontiersman has had to sacrifice some of its armor and cargo space.</t>
+        <t id="4">Witness</t>
+    </page>
+    <page id="3786101" title="Omen" descr="Omen" voice="yes">
+        <t id="1">Omen</t>
+        <t id="2">(Omen) {3786101,4}</t>
+        <t id="3">The Omen was the first ship built to rely more on localized predictive virtual
+            intelligence (VI) and less on traditional radar systems. It is the result of an project
+            meant to create a highly sophisticated but safe AI that was capable of predicting the
+            extreme near future with precision based on minimal data. The first VI was built in an
+            attempt to develop better CIWS and Flak accuracy against missiles by using these
+            predictive algorithms. Eventually this project was scrapped, until someone came along
+            and restarted the program as a pathing predictor for enemy ships, rather than munitions.
+            The research was funded in private and withheld from the Terran people out of fears of
+            the unrest it would cause. This is the first in a line of ships known as Scanners, or
+            Advanced Scouts. These designations are intended to obfuscate the true nature of the
+            technology aboard - for fear that the public would revolt at the idea of the government
+            developing another AI. Advanced Scout ships are capable of performing scouting duties
+            far better than any comparable ship classes, even including the Terran staple Vedette
+            class ships. These ships differ from other scouting ships in that they are perfectly
+            capable of engaging in combat as well as any fighter, and needn't fear damage to
+            expensive satellite arrays like the Vedette. These ships are truly the best that
+            scouting has to offer.</t>
+        <t id="4">Omen</t>
+    </page>
+    <page id="3786102" title="Voidgazer" descr="Voidgazer" voice="yes">
+        <t id="1">Voidgazer</t>
+        <t id="2">(Voidgazer) {3786102,4}</t>
+        <t id="3">The Voidgazer is an advanced scout developed for the Segaris program. Whilst the
+            Terran government wished to create a buffer of loyal Terrans on the outskirts of Sol,
+            they also wanted to ensure the program wasn't able to be used as a staging ground to
+            launch on attack on the rest of Sol. As such the Voidgazer was designed to keep a close
+            eye on anyone approaching from deep space. Where the first Advanced Scout, the Omen, was
+            built on the upgraded Rapier hull used by the Nimcha, the Voidgazer is built on the more
+            modern Takoba hull. In part due to the extra cabling that was needed to feed the
+            Takoba's engines, the Voidgazer was able to be remarkably innovative in its layout of
+            the VI components. The components aren't kept together in a single machine which takes
+            up half the bridge anymore, instead the VI is strung throughout the ship using the
+            pre-existing high-bandwidth cabling and fuel lines. This improves the VI's ability to
+            gain a tactical grasp of its immediate area due to a closer connection to outer sensors
+            (apparently micro-seconds count in future prediction), as well as granting it the extra
+            space to add more armor plating.</t>
+        <t id="4">Voidgazer</t>
+    </page>
+    <page id="3786103" title="Kami" descr="Kami" voice="yes">
+        <t id="1">Kami</t>
+        <t id="2">(Kami) {3786103,4}</t>
+        <t id="3">The Kami is built by the Yaki to make use of the VI technology they were able to
+            acquire from the Terrans. The Kami is built on a Moreya hull, making it capable of great
+            speed, but less suited to combat when compared with other advanced scout class ships.
+            When the Terran government first began to experiment with VI use in capital ship combat,
+            they were thought of as nothing more than an educated guess machine. That is, something
+            that wasn't capable of taking full control of turrets on its own, but could perhaps
+            increase the accuracy and number of the calculated incoming missile flight path
+            projections. This in turn would increase the threat interception-rate of the CIWS
+            operators. This is in stark contrast to their purpose today in predicting enemy ship
+            movements and formations based on the smallest amount of data. They just weren't
+            especially accurate in the beginning. So, back then they weren't kept in high-security
+            lockups when not in use, they were just stored alongside other pet projects. In any
+            case, it seems like one of them went missing at some point, or the Yaki succeeded in
+            bribing or 'motivating' someone to steal them a copy. The Yaki would probably like us to
+            believe they then developed their stolen prototype on a parallel path to the Terran
+            government. In probability, they simply continued to steal prototypes until they were
+            able to adapt one to a ship. The Kami is their first, and so far only, successful design
+            that makes use of the VI. </t>
+        <t id="4">Kami</t>
+    </page>
+    <page id="3786104" title="Serval" descr="Serval" voice="yes">
+        <t id="1">Serval</t>
+        <t id="2">(Serval) {3786104,4}</t>
+        <t id="3">Named after an old Earth mammal that used its excellent senses to hunt prey in
+            tall grass. A well-placed Serval can give plenty of warning to whatever fleet this
+            vedette is attached to. Best used to scout the flanks while moving or to patrol
+            long-distances where enemies are expected. The Serval is more than capable of spotting,
+            identifying, and outrunning almost anything sent its way. </t>
+        <t id="4">Serval</t>
+    </page>
+    <page id="3786105" title="Witness Internal Shield Generator" descr="WitnessISG" voice="yes">
+        <t id="1">Witness</t>
+        <t id="2">(Witness) {3786105,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Witness</t>
+    </page>
+    <page id="3786106" title="Omen Internal Shield Generator" descr="OmenISG" voice="yes">
+        <t id="1">Omen</t>
+        <t id="2">(Omen) {3786106,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Omen</t>
+    </page>
+    <page id="3786107" title="Voidgazer Internal Shield Generator" descr="VoidgazerISG" voice="yes">
+        <t id="1">Voidgazer</t>
+        <t id="2">(Voidgazer) {3786107,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Voidgazer</t>
+    </page>
+    <page id="3786108" title="Kami Internal Shield Generator" descr="KamiISG" voice="yes">
+        <t id="1">Kami</t>
+        <t id="2">(Kami) {3786108,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Kami</t>
+    </page>
+    <page id="3786109" title="Serval Internal Shield Generator" descr="ServalISG" voice="yes">
+        <t id="1">Serval</t>
+        <t id="2">(Serval) {3786109,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Serval</t>
+    </page>
+</language>
 
 
 <!-- 

@@ -2,70 +2,74 @@
 
 <!-- Currently Using: 3786100-3786109 -->
 
-<diff>
-	<add sel="/language">
-		<page id="3786100" title="Witness" descr="Witness" voice="yes">
-			<t id="1">见证</t>
-            <t id="2">(Witness) {3786100,4}</t>
-			<t id="3">见证级是一艘哨卫机，基于细剑级船体改造而来。它有一个扩展的雷达阵列，这使其雷达的探测范围显著高于同级别的舰船。然而，由于这些雷达阵列占用了大量的空间，见证级不得不牺牲了一些原有的装甲和货物空间。</t>
-			<t id="4">见证</t>
-        </page>
-        <page id="3786101" title="Omen" descr="Omen" voice="yes">
-            <t id="1">占卜</t>
-            <t id="2">(Omen) {3786101,4}</t>
-			<t id="3">占卜级是第一艘使用预测型离线虚拟智能技术（VI技术）来大幅加强传统雷达系统的舰船。 这种虚拟智能技术来自于一个特别的研究项目，该项目的目的是创造一种能够基于尽可能少的数据来尽可能准确地推测未来情形的高度复杂且安全的人工智能。第一款VI被研发用于提高近防系统和高射炮对导弹等高速高机动目标的拦截精度。然而，由于其技术的复杂性以及效能的不稳定，这一研究项目最终被取消。数年之后，这一项目再一次被秘密地启动，然不过这一次不再是用于对弹道的预测，而是用于对敌舰轨迹的预判。由于担心引发新一轮的动乱，再次启动的研究是高度保密的。\n占卜级是被称为先进侦察机或者预警机的舰船系列中的第一款，而这一命名实际上是为了混淆这种先进的VI技术的真实性质————政府担心公众会对开发新型的人工智能产生反感和进行抗议。实际上，这种舰船执行侦查任务的能力要远远强于任何相同级别的舰船，甚至比Terran保护国开发的哨卫机更强。这种舰船与其他侦察机的不同之处在于，其完全可以像任何其他普通战斗机一样参与战斗而不必担心会损毁如同哨卫机一般昂贵的雷达阵列。这些舰船确实可以称得上是侦查任务中的王牌。</t>
-			<t id="4">占卜</t>
-		</page>
-		<page id="3786102" title="Voidgazer" descr="Voidgazer" voice="yes">
-            <t id="1">虚空视</t>
-            <t id="2">(Voidgazer) {3786102,4}</t>
-			<t id="3">虚空视级是赛格瑞斯先驱者计划所研发的一款先进侦察机。赛格瑞斯先驱者计划发起的本意是由于Terran保护国政府希望能够在太阳系外围建立一个由忠诚的Terran人掌握的缓冲区。Terran保护国政府非常希望能确保这些由赛格瑞斯先驱者计划所掌控的区域不会被用作对于太阳系各个区域进行攻击的跳板。因此，虚空视级在研发之初就被设计为能够密切关注任何从深空中接近的舰船。\n已知的第一型高级侦察机是在由细剑级船体升级而来的的单手剑级船体的基础上建造的，而虚空视级则是在更加现代的双刃剑级船体的基础上建造的。由于双刃剑级的引擎本身就需要很多额外的管线来支持其运作，虚空视级得以在其VI组件的布局上进行大量的创新。这些部件不在需要挤在一个占据了整个驾驶舱一半空间的大型机架中，而是使用双刃剑级自带的大量高带宽通讯线缆和供能管道将部件分布在整个舰船中。由于与外部传感器的连接更加紧密，通讯的延迟降低了微秒数量级，而正是这微不足道的改进提升了虚空视级的VI预测能力。同时，这种分布式的灵活布局也让虚空视级可以安装更多的装甲。</t>
-			<t id="4">虚空视</t>
-		</page>
-		<page id="3786103" title="Kami" descr="Kami" voice="yes">
-            <t id="1">天意</t>
-            <t id="2">(Kami) {3786103,4}</t>
-			<t id="3">天意级先进侦察机是Yaki利用他们从Terran保护国那里搞到的技术并基于自己的泄矢神级的船体建造的，这使得其对比其他先进侦察机具有相当高的速度却不太适合战斗。\n当Terran保护国政府最初尝试在主力舰的作战中使用VI时，他们只认为VI不过是一个很有经验的猜测机器。也就是说，Terran保护国军方认为其并不能完全控制炮塔，但其能力可能会帮助更好、更快地同时计算多个来袭导弹的飞行路径，而这将会帮助提升近防系统操作人员的拦截率。这种最初的用途与目前用于预测敌舰航迹和编队的目的形成了鲜明的对比。然而，在测试应用的时候，这些VI的预测并不是非常准确，因此该项目被暂时地搁置了一段时间。这一搁置的项目并没有被以高安全等级进行保护和存放，仅仅是普通地进行了封存。在某一时间，可能是其中一台原型机“神秘失踪”了，或者Yaki成功地贿赂或者“激励”某个有权限的人窃取了其副本，总之Yaki获取了这一技术并制造了自己的先进侦察机。Yaki或许想要让其他人都相信他们基于窃取的原型机所研发的技术与Terran保护国完全无关，但很有可能他们仅仅是继续窃取原型机直到他们能够将足够的VI组件转移到自己生产的船体上。天意级是Yaki的第一型也是唯一一型成功运用VI技术的设计。</t>
-			<t id="4">天意</t>
-		</page>
-		<page id="3786104" title="Serval" descr="Serval" voice="yes">
-            <t id="1">薮猫</t>
-            <t id="2">(Serval) {3786104,4}</t>
-			<t id="3">薮猫级哨卫机使用了一种古老的地球哺乳动物的名字进行命名，这种哺乳动物依靠其出类拔萃的感官在高大的草丛中进行捕猎。合理布局的该型舰船可以给予其所属舰队以足够的预警侦查能力，非常适合用于在舰队移动时进行侧翼侦查或者在敌占区进行长距离侦查。薮猫级能够完全胜任定位、识别或远离任何向其飞来的东西。</t>
-			<t id="4">薮猫</t>
-		</page>
-		<page id="3786105" title="Witness Internal Shield Generator" descr="WitnessISG" voice="yes">
-            <t id="1">Witness</t>
-            <t id="2">(Witness) {3786105,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Witness</t>
-		</page>
-        <page id="3786106" title="Omen Internal Shield Generator" descr="OmenISG" voice="yes">
-            <t id="1">Omen</t>
-            <t id="2">(Omen) {3786106,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Omen</t>
-		</page>
-        <page id="3786107" title="Voidgazer Internal Shield Generator" descr="VoidgazerISG" voice="yes">
-            <t id="1">Voidgazer</t>
-            <t id="2">(Voidgazer) {3786107,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Voidgazer</t>
-		</page>
-        <page id="3786108" title="Kami Internal Shield Generator" descr="KamiISG" voice="yes">
-            <t id="1">Kami</t>
-            <t id="2">(Kami) {3786108,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Kami</t>
-		</page>
-        <page id="3786109" title="Serval Internal Shield Generator" descr="ServalISG" voice="yes">
-            <t id="1">Serval</t>
-            <t id="2">(Serval) {3786109,4}</t>
-			<t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
-			<t id="4">Serval</t>
-		</page>
-	</add>
-</diff>
+<language>
+    <page id="3786100" title="Witness" descr="Witness" voice="yes">
+        <t id="1">见证</t>
+        <t id="2">(Witness) {3786100,4}</t>
+        <t id="3">
+            见证级是一艘哨卫机，基于细剑级船体改造而来。它有一个扩展的雷达阵列，这使其雷达的探测范围显著高于同级别的舰船。然而，由于这些雷达阵列占用了大量的空间，见证级不得不牺牲了一些原有的装甲和货物空间。</t>
+        <t id="4">见证</t>
+    </page>
+    <page id="3786101" title="Omen" descr="Omen" voice="yes">
+        <t id="1">占卜</t>
+        <t id="2">(Omen) {3786101,4}</t>
+        <t id="3">
+            占卜级是第一艘使用预测型离线虚拟智能技术（VI技术）来大幅加强传统雷达系统的舰船。
+            这种虚拟智能技术来自于一个特别的研究项目，该项目的目的是创造一种能够基于尽可能少的数据来尽可能准确地推测未来情形的高度复杂且安全的人工智能。第一款VI被研发用于提高近防系统和高射炮对导弹等高速高机动目标的拦截精度。然而，由于其技术的复杂性以及效能的不稳定，这一研究项目最终被取消。数年之后，这一项目再一次被秘密地启动，然不过这一次不再是用于对弹道的预测，而是用于对敌舰轨迹的预判。由于担心引发新一轮的动乱，再次启动的研究是高度保密的。\n占卜级是被称为先进侦察机或者预警机的舰船系列中的第一款，而这一命名实际上是为了混淆这种先进的VI技术的真实性质————政府担心公众会对开发新型的人工智能产生反感和进行抗议。实际上，这种舰船执行侦查任务的能力要远远强于任何相同级别的舰船，甚至比Terran保护国开发的哨卫机更强。这种舰船与其他侦察机的不同之处在于，其完全可以像任何其他普通战斗机一样参与战斗而不必担心会损毁如同哨卫机一般昂贵的雷达阵列。这些舰船确实可以称得上是侦查任务中的王牌。</t>
+        <t id="4">占卜</t>
+    </page>
+    <page id="3786102" title="Voidgazer" descr="Voidgazer" voice="yes">
+        <t id="1">虚空视</t>
+        <t id="2">(Voidgazer) {3786102,4}</t>
+        <t id="3">
+            虚空视级是赛格瑞斯先驱者计划所研发的一款先进侦察机。赛格瑞斯先驱者计划发起的本意是由于Terran保护国政府希望能够在太阳系外围建立一个由忠诚的Terran人掌握的缓冲区。Terran保护国政府非常希望能确保这些由赛格瑞斯先驱者计划所掌控的区域不会被用作对于太阳系各个区域进行攻击的跳板。因此，虚空视级在研发之初就被设计为能够密切关注任何从深空中接近的舰船。\n已知的第一型高级侦察机是在由细剑级船体升级而来的的单手剑级船体的基础上建造的，而虚空视级则是在更加现代的双刃剑级船体的基础上建造的。由于双刃剑级的引擎本身就需要很多额外的管线来支持其运作，虚空视级得以在其VI组件的布局上进行大量的创新。这些部件不在需要挤在一个占据了整个驾驶舱一半空间的大型机架中，而是使用双刃剑级自带的大量高带宽通讯线缆和供能管道将部件分布在整个舰船中。由于与外部传感器的连接更加紧密，通讯的延迟降低了微秒数量级，而正是这微不足道的改进提升了虚空视级的VI预测能力。同时，这种分布式的灵活布局也让虚空视级可以安装更多的装甲。</t>
+        <t id="4">虚空视</t>
+    </page>
+    <page id="3786103" title="Kami" descr="Kami" voice="yes">
+        <t id="1">天意</t>
+        <t id="2">(Kami) {3786103,4}</t>
+        <t id="3">
+            天意级先进侦察机是Yaki利用他们从Terran保护国那里搞到的技术并基于自己的泄矢神级的船体建造的，这使得其对比其他先进侦察机具有相当高的速度却不太适合战斗。\n当Terran保护国政府最初尝试在主力舰的作战中使用VI时，他们只认为VI不过是一个很有经验的猜测机器。也就是说，Terran保护国军方认为其并不能完全控制炮塔，但其能力可能会帮助更好、更快地同时计算多个来袭导弹的飞行路径，而这将会帮助提升近防系统操作人员的拦截率。这种最初的用途与目前用于预测敌舰航迹和编队的目的形成了鲜明的对比。然而，在测试应用的时候，这些VI的预测并不是非常准确，因此该项目被暂时地搁置了一段时间。这一搁置的项目并没有被以高安全等级进行保护和存放，仅仅是普通地进行了封存。在某一时间，可能是其中一台原型机“神秘失踪”了，或者Yaki成功地贿赂或者“激励”某个有权限的人窃取了其副本，总之Yaki获取了这一技术并制造了自己的先进侦察机。Yaki或许想要让其他人都相信他们基于窃取的原型机所研发的技术与Terran保护国完全无关，但很有可能他们仅仅是继续窃取原型机直到他们能够将足够的VI组件转移到自己生产的船体上。天意级是Yaki的第一型也是唯一一型成功运用VI技术的设计。</t>
+        <t id="4">天意</t>
+    </page>
+    <page id="3786104" title="Serval" descr="Serval" voice="yes">
+        <t id="1">薮猫</t>
+        <t id="2">(Serval) {3786104,4}</t>
+        <t id="3">
+            薮猫级哨卫机使用了一种古老的地球哺乳动物的名字进行命名，这种哺乳动物依靠其出类拔萃的感官在高大的草丛中进行捕猎。合理布局的该型舰船可以给予其所属舰队以足够的预警侦查能力，非常适合用于在舰队移动时进行侧翼侦查或者在敌占区进行长距离侦查。薮猫级能够完全胜任定位、识别或远离任何向其飞来的东西。</t>
+        <t id="4">薮猫</t>
+    </page>
+    <page id="3786105" title="Witness Internal Shield Generator" descr="WitnessISG" voice="yes">
+        <t id="1">Witness</t>
+        <t id="2">(Witness) {3786105,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Witness</t>
+    </page>
+    <page id="3786106" title="Omen Internal Shield Generator" descr="OmenISG" voice="yes">
+        <t id="1">Omen</t>
+        <t id="2">(Omen) {3786106,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Omen</t>
+    </page>
+    <page id="3786107" title="Voidgazer Internal Shield Generator" descr="VoidgazerISG" voice="yes">
+        <t id="1">Voidgazer</t>
+        <t id="2">(Voidgazer) {3786107,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Voidgazer</t>
+    </page>
+    <page id="3786108" title="Kami Internal Shield Generator" descr="KamiISG" voice="yes">
+        <t id="1">Kami</t>
+        <t id="2">(Kami) {3786108,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Kami</t>
+    </page>
+    <page id="3786109" title="Serval Internal Shield Generator" descr="ServalISG" voice="yes">
+        <t id="1">Serval</t>
+        <t id="2">(Serval) {3786109,4}</t>
+        <t id="3">Internal Shield Generator for RKI-SS ships, as required by VRO</t>
+        <t id="4">Serval</t>
+    </page>
+</language>
 
 
 <!-- 

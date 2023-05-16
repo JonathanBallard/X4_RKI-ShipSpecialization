@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-
-<!-- Added ishield component to lines 92-97 -->
-
 <components>
 	<component name="witness" class="ship_s">
 		<source geometry="extensions\RKI-ShipSpecialization\assets\units\size_s\witness_data"/>
@@ -103,7 +100,7 @@
 					<position x="-3.194993E-03" y="-10.25832" z="4.450966"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_01" name="part_chair_01"/>
+					<part ref="interiors_gen_chair_01.part_chair_01" name="part_chair_01"/>
 				</parts>
 				<waypoints/>
 			</connection>
@@ -117,7 +114,7 @@
 					<position x="2.760349E-03" y="0.2860203" z="-0.2292099"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_02" name="part_chair_02"/>
+					<part ref="interiors_gen_chair_01.part_chair_02" name="part_chair_02"/>
 				</parts>
 			</connection>
 			<connection name="Connection03" tags="part iklink  " group="pilotcontrol" parent="part_chair_02">
@@ -125,7 +122,7 @@
 					<position x="-2.760656E-03" y="2.135658E-02" z="-0.2675583"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_03" name="part_chair_03"/>
+					<part ref="interiors_gen_chair_01.part_chair_03" name="part_chair_03"/>
 				</parts>
 			</connection>
 			<connection name="Connection04" tags="part iklink  " group="pilotcontrol" parent="part_chair_03">
@@ -133,7 +130,7 @@
 					<position x="2.423767E-07" y="-7.305145E-03" z="0.3341105"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_04" name="part_chair_04"/>
+					<part ref="interiors_gen_chair_01.part_chair_04" name="part_chair_04"/>
 				</parts>
 			</connection>
 			<connection name="Connection05" tags="part iklink  " group="pilotcontrol" parent="part_chair_04">
@@ -141,7 +138,7 @@
 					<position x="-1.464505E-07" y="0.1074181" z="-0.2239389"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_05" name="part_chair_05"/>
+					<part ref="interiors_gen_chair_01.part_chair_05" name="part_chair_05"/>
 				</parts>
 			</connection>
 			<connection name="Connection06" tags="part iklink  " group="pilotcontrol" parent="part_chair_05">
@@ -149,7 +146,7 @@
 					<position x="-7.427298E-08" y="0.2139988" z="-6.664014E-02"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_06" name="part_chair_06"/>
+					<part ref="interiors_gen_chair_01.part_chair_06" name="part_chair_06"/>
 				</parts>
 			</connection>
 			<connection name="Connection07" tags="part iklink  " group="pilotcontrol" parent="part_chair_04">
@@ -157,7 +154,7 @@
 					<position x="-6.326009E-07" y="9.568214E-02" z="-6.022739E-02"/>
 				</offset>
 				<parts>
-					<part ref="interiors_chair_02_body.part_chair_07" name="part_chair_07"/>
+					<part ref="interiors_gen_chair_01.part_chair_07" name="part_chair_07"/>
 				</parts>
 			</connection>
 			<connection name="Connection08" tags="part iklink  " group="pilotcontrol" parent="part_chair_07">
@@ -429,7 +426,7 @@
 					</part>
 				</parts>
 			</connection>
-			<connection name="Connection24" tags="part animation iklink platformcollision forceoutline detail_xl " parent="anim_landinggear_front">
+			<connection name="Connection24" tags="part animation iklink nocollision forceoutline detail_xl " parent="anim_landinggear_front">
 				<offset>
 					<position x="-2.384186E-07" y="-6.573677E-02" z="0.1156278"/>
 				</offset>
@@ -954,13 +951,13 @@
 					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_01" tags="small shield unhittable ">
+			<connection name="con_shield_01" tags="small shield unhittable  standard ">
 				<offset>
 					<position x="6.502784E-17" y="-6.63622" z="-7.486282"/>
 					<quaternion qx="-0.9527907" qy="-8.424717E-08" qz="2.355796E-08" qw="0.3036281"/>
 				</offset>
 			</connection>
-			<connection name="con_engine_01" tags="engine small platformcollision ">
+			<connection name="con_engine_01" tags="engine small platformcollision  standard ">
 				<offset>
 					<position x="8.081919E-08" y="0.3566103" z="-2.06244"/>
 					<quaternion qx="-0" qy="-0" qz="0.7071067" qw="-0.7071068"/>
@@ -1015,9 +1012,16 @@
 					<position x="0" y="13.58075" z="-5.618648"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_01" tags="weapon small platformcollision standard combat missile highpower ">
+			<connection name="con_weapon_01" tags="weapon small platformcollision standard missile highpower  combat ">
 				<offset>
 					<position x="0" y="0.9767857" z="4.479788"/>
+				</offset>
+			</connection>
+            <!-- internal shield -->
+			<connection name="con_ishield_01" tags="ishield shield  ishield_witness">
+				<offset>
+					<position x="0" y="0" z="0" />
+					<quaternion qx="0" qy="0" qz="0" qw="0" />
 				</offset>
 			</connection>
 		</connections>

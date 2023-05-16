@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Exported by: nick (192.168.3.65) at 19.11.2020_14-09-57-->
 <macros>
-  <macro name="omen_macro" class="ship_adv_scout">
+  <macro name="omen_macro" class="ship_s">
     <component ref="omen" />
     <properties>
       <!-- <identification name="{3786101,2}" basename="{3786101,1}" makerrace="terran" description="{3786101,3}" icon="ship_s_fight_01" /> -->
-      <identification name="{3786101,2}" basename="{3786101,1}" makerrace="terran" description="{3786101,3}" icon="ship_s_scout" />
+      <identification name="{3786101,2}" basename="{3786101,1}" makerrace="terran" description="{3786101,3}" icon="ship_s_fight_01" />
       <software>
         <software ware="software_dockmk2" default="1" />
         <software ware="software_flightassistmk1" default="1" />

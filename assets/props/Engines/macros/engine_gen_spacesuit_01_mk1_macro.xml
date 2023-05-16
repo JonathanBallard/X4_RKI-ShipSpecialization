@@ -9,7 +9,7 @@
 	<replace sel="//macros/macro/properties/thrust/@forward">1.10</replace>
 	<replace sel="//macros/macro/properties/thrust/@reverse">1.00</replace>
 	<replace sel="//macros/macro/properties/thrust/@pitch">0.55</replace>
-	<replace sel="//macros/macro/properties/thrust/@Strafe">1.40</replace>
+	<replace sel="//macros/macro/properties/thrust/@strafe">0.80</replace>
 	<replace sel="//macros/macro/properties/thrust/@yaw">0.50</replace>
 	<replace sel="//macros/macro/properties/thrust/@roll">0.50</replace>
 </diff> 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--Exported by: nick (192.168.3.124) at 13.01.2020_12-30-26-->
 <macros>
-  <macro name="serval_macro" class="ship_vedette">
+  <macro name="serval_macro" class="ship_s">
     <component ref="serval" />
     <properties>
       <!-- <identification name="{3786104,2}" basename="{3786104,1}" makerrace="split" description="{3786104,3}" icon="ship_s_fight_01" /> -->
-      <identification name="{3786104,2}" basename="{3786104,1}" makerrace="split" description="{3786104,3}" icon="ship_s_scout" />
+      <identification name="{3786104,2}" basename="{3786104,1}" makerrace="split" description="{3786104,3}" icon="ship_s_fight_01" />
       <software>
         <software ware="software_dockmk2" default="1" />
         <software ware="software_flightassistmk1" default="1" />

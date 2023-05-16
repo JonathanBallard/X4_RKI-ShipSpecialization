@@ -1,0 +1,242 @@
+
+
+
+::  Ravenknight Industries Presents  ::
+
+-------------------------------------------------------------------------------------
+Ship Specialization and QoL changes for VRO ( RKI-ShipSpecialization )
+
+♦ RKI-SS organizes some hand-picked small ships into specialized classes, creates 5 new ships in 2 newly created light reconnaissance classes: Vedettes & Scanners. Several QoL changes are also included. All features are balanced for VRO.
+-------------------------------------------------------------------------------------
+
+::  Mod Information  ::
+◘ Name: RKI-ShipSpecialization
+◘ ID: RKI-ShipSpec
+◘ Author: Tax/Jonathan Ballard
+◘ Last Updated: 05/15/23
+◘ Current Mod Version: 0.10
+◘ Compatible with Game Version: 6.00, Split Vendetta, Cradle of Humanity, Tides of Avarice, and Kingdom End DLC's
+
+
+
+::  Short Description  ::
+♦ A mod for the game X4: Foundations by Egosoft. RKI-ShipSpecialization (RKI-SS) organizes some hand-picked small ships into specialized classes, creates 5 new ships in 2 newly created light reconnaissance classes: Vedettes & Scanners. Several QoL changes have been included as well. All features are balanced for VRO. RKI-SS is intended to be used together with the incredible Variety and Rebalance Overhaul (VRO)﻿, which was created by Shuul. ShipSpecialization changes will also be applied to appropriate ships from some/all/none of the recommended mods, based on whether you install that mod. RKI-SS REQUIRES the VRO Icons Expanded Mod, since I use some of the new icons in the new ships.
+
+:: Required Mods ::
+• All 4 Egosoft DLC's (Split Vendetta, Cradle of Humanity, Tides of Avarice, and Kingdom End)
+• Variety and Rebalance Overhaul Icon Pack
+
+::  Recommended Mods  ::  
+• Variety and Rebalance Overhaul (AKA VRO)﻿ ← HIGHLY recommended (all changes are balanced against VRO)
+• Bayamon Miner - VRO Version﻿
+• ATFUSC Shippack - VRO Version﻿
+• Ship Variation Expansion﻿ ← For use with VRO, also get the compatibility patch (below)
+• Ship Variation Expansion - VRO Version﻿ ← Also requires the standard "Ship Variation Expansion" mod (above)
+
+
+::  Compatibility (USERS) ::  
+♦ This mod should not have any compatibility problems. It is intended to be used with VRO based on the balancing. If will edit ships from ATFUSC Ship Pack, Ship Variation Extender (SVE), and Bayamon Miner, but only if you have them installed.
+ShipSpecialization will automatically load itself after the mods in the recommended list (if you have them installed) to ensure that the edits are properly applied: VRO, ATFUSC Shippack, Ship Variation Extender (SVE), Bayamon Miner
+
+::  Compatibility (MOD CREATORS)  ::  
+♦ The mod should not cause any problems for any other mod. All changes are made through DIFF Patches. The only changes made were modifying existing values, except in the case of the new ship classes and 5 new ships. Ship class was defined in libraries/defaults.xml, some examples of Vanilla ship classes are ship_s, ship_m, ship_l, pretty straightforward right? The default radar range was based on these ship classes in Vanilla, but VRO changed the radar elsewhere. So I have edited any ship that belongs to one of the 3 new classes (scouts, vedettes, and advanced scouts) to change their radar ranges in their ship_macro.xml. To ensure that I would only increase the radar range of the ships I wanted to (and avoid the performance hit that comes with too many ships with high radar range), I created 5 ships that are duplicates of DLC and Vanilla ships, and 3 new classes (ship_scout, ship_vedette, and ship_adv_scout). These are clones of the ship_s class, except for the radar range attributes ( of which there are 2 radar range attributes for each class - one for default, and one for max).
+
+The T-Files pages I used are:
+3786100 - 3786109
+
+
+::  Version History  ::
+§  v0.10 (05/15/23) - Fixed major issue around ships not appearing. Disabled certain smaller changes in the process.
+§  v0.09 (04/12/23) - Updated mod for 6.0 & Kingdom End compatibility
+§  v0.08 (03/06/23) - Fixed internal shield generator bug [thanks hashashin14]  
+§  v0.07 (10/24/22) - Attached Internal Shield Generators to new ships
+§  v0.06b (05/13/22) - Updated content.xml and readme's to inform users about potential savegame issues if removed mid-playthrough
+§  v0.06 (05/02/22) - Created new ships to fill Vedette and Advanced Scout positions  
+§  v0.05 (04/30/22) - Testing - Manually added Radar values to ships, tested all ships and shiptypes, current issue with Terran scout radars  
+§  v0.04 (04/26/22) - Testing - Increased repair laser value, shortened content.xml  
+§  v0.03 (04/22/22) -  
+§  v0.02 (04/14/22) - Re-organized file structure. (VRO changes applied to both VRO xml's and Vanilla xml's)  
+§  v0.01 (04/08/22) - Initial Commit  
+
+
+::  Long Description  ::
+♦ ShipSpecialization is designed to make interceptors and scouts feel more useful by making them perform their roles more effectively. It starts by increasing the speed of both scouts and interceptors by a solid 5-10%. Scouts then get a minor radar distance boost, and interceptors get a boost in maneuverability. I have created 5 new ships in 3 new ship classes. One of the new classes is just a way of differentiating scouts from other small ships so that I can slightly increase their default radar. The other 2 are only a little more involved. I have included some flavor text for the other 2 new classifications below. I don't currently have new identifying markers for them, but that's something I'd love to do, if, y'know, I was an artist. Since I'm not an artist, I'll probably leave them as they are (default ship_s icon). 
+
+(Edit v0.06: I've changed the ships to use the ship_s_scout icon added in the VRO Ship Icons Mod)
+
+::  Notes  ::
+♦ A quick note about the state of RKI-SS post patch 6.0: I've had to disable a lot of the little changes that are included in this mod. I'm going to reimplement them sometime if I ever have more time to work on this. For a mostly exhaustive list, check the Bug Report forum for this mod on Nexus Mods.
+
+♦ One thing that must be kept in mind is that possibility that increasing ship radar too much can negatively affect performance. It's because of this that I'm being moderate in the increases to radar, and also increase the ship's speed, so that it can put that radar to better use.
+
+♦ The ships have been balanced against VRO ships, I do not currently have a Vanilla X4 version of this mod. All changes are made with the ship's minimum and maximum possible values in mind (in fact I spent more time building a spreadsheet to check balancing than I did writing the XML Diff-patches). I have also worked to include ship price into the balance equation. I found that scouts that cost 80k with 3 engines were about the same speed as ships that cost 213k with 1 engine - this didn't make sense to me. I generally went with the idea that 'more money faster ship, more engines faster ship' for base scouts and interceptors. That said, if I discover some sort of lore behind the ships that would indicate its suitability or lack thereof for its task, I would happily make use of that.
+
+♦ Some ships that are classed as fighters and even a heavy-fighter or 2 have been classes as scouts, interceptors, vedettes, or advanced scouts.
+
+♦ I have also included several other QoL changes. These include non-combat drone speed increases, spacesuit speed and maneuverability increases, slightly increased speed of escape pods, increased tracking by 5% and cooling by 10% on Lasertower Mk.2. Increased the damage on the weapon used by Lasertower Mk.2 by 10%, but also increased the heat generated so the damage increase should only be felt on the Lasertower Mk.2.
+
+
+::  Flavor text for 2 of the new classes  ::
+
+::  Vedette  ::  
+♦ The Vedette is a ship class designed to effect deep space patrols on their own or in 2-ship groups. They patrol the edges of systems that contain military assets to ensure that adversaries don't try to sneak into the systems and sectors without using the Gates. They are particularly important in identifying Xenon staging areas. Upon locating an enemy, they speed back to communications range and inform system/sector command.
+
+♦ Ship Design: Vedettes are essentially scout ships that have been stripped of everything that could be removed while remaining space-worthy, and instead installed extra radar arrays and communications equipment. Their radar ranges receive a solid increase, but they suffer in other areas, such as cargo capacity and crew chairs.
+
+
+::  Advanced Scouts/Scanners  ::  
+♦ Excerpt taken from a smuggled copy of 'Terran Manual of Warships: Advanced Scouts': Advanced Scouts, AKA Scanners, are multi-role ships designed to both outperform Vedettes in combat roles and outperform fighters in their long-range detection. Due to their fragile nature, current doctrine dictates that a Vedette must disengage and flee upon contact with the enemy. With the increase in stealth technology, and the speed with which the Vedette must depart in order to deliver a warning with time to spare before the enemy arrives, often the Vedette fails to identify the precise nature of the incoming threat, its numbers, its direction of attack, or its formation. When we have the ships to spare, doctrine allows us to pair Vedettes where the first ship arrives with the initial warning and the second returns later with more specifics. Why use 2 ships when 1 would do? This is where the Advanced Scout comes in.
+
+♦ Advanced Scouts are the newest evolution of scouting technology. The Vedette design, though still an improvement on simply creating a small ship with a lot of engines and calling it a 'scout', leaves much to be desired. Vedettes have to sacrifice offensive and defensive power, and sometimes even the most basic amenities, in order to create space for their massive satellite arrays. Advanced Scouts/Scanners on the other hand are able to rely more heavily on complex target analysis and flight path prediction VI's (virtual intelligences - A lower performing but less risky variant of an AI). This allows the Advanced Scout/Scanner to sport weaponry and shielding comparable to fighters in performance, if not in price. VI's are expensive, and they're heavily taxed, so Advanced Scouts/Scanners are not cheap. They more than make up for their pricing. This extra cost buys us a ship that can stay until the last minute, gathering information and departing before the attackers can bring real substantial threats to bear on it. Fighting off the initial vanguard, which reliably consists first of drones, then of a combination of enemy scouts and light fighters. When it has gathered the necessary data, or its tactical situation has become untenable, it can simply broadcast the information from far further using the state of the art subspace communications feature built-in to every VI.  
+
+♦ Currently only the Terran factions have been able to introduce VI's small enough to fit into small ship frames. Other races still rely on more traditional scouting methods or Vedettes, though there have been rumours of a blueprint for an early VI prototype that went missing from a Terran research station. Somehow this blueprint found its way onto the black market where it was sold at auction. Where it went from there, no-one has been able to say. It's probably just another myth...  
+
+♦ Early implementations of VI technology were meant to be used to counter incoming projectiles with better accuracy and a higher success rate. That project was scrapped partially due to poor performance and because VI's were viewed with extreme suspicion by the Terran populace. It's believed that the Terrans chose the term 'Scanner' to replace 'VI' in part to appease any fears of another rogue AI event. Once the project was picked back up, its focus was now on predicting ship flight paths, something much easier to do. Upon the re-opening of the gates, the first Argon to encounter the ships called them 'Advanced Scouts' when they struggled to understand how a fighter could spot, target, and engage Argon scouts before the scout even knew it had company.  
+
+♦ Ship Design: Advanced Scouts AKA Scanners are another new class of small ship. There are only a handful of them at the moment, but they receive an even greater increase to radar range than Vedettes. Performance is comparable to a fighter or heavy fighter, these ships can hold their own in a dogfight.
+
+
+::  Future Plans/Ideas  ::
+1. May change out ATFUSC Ship Pack's Mobile Mining Ship engines from Large to Extra-Large  
+2. Specialize Medium-sized ships as well (???)  
+3. Specialize L-sized ships as well (???)  
+4. Specialize XL-sized ships as well (???)  
+	- Create 'Command Carrier' ship class for XL to increase visibility slightly (???)
+
+
+::  Long Rant  ::
+♦ I'm considering working ship mass into the max speed equation, perhaps comparing it with the number of engines. This would be helpful in creating a more meaningful difference between vanguard and sentinel variants, as sentinels are much heavier. That was something I was struggling to find a reason to do. My thoughts here are that mass increases the faster you go, so you will require more fuel to continue to accelerate to a higher speed. There wouldn't be any hard math in my implementation, I might just include a 1%-10% decrease/increase depending on how many engines you have for how much mass. Since engines are more fuel efficient at lower speeds (IDK if that's true in space too, but I would think it is), the more engines you have working on smaller mass amounts, the more fuel efficient and therefore the faster your max speed can be.
+
+:: New Ships ::
+♦ Witness - Vedette built on a Rapier hull
+	○ The Witness is a Vedette class ship that was built on a modified Rapier hull. It has an expanded radar array that allows significant increases in radar range over other small ships. However, because these arrays take up a great deal of space, the Frontiersman has had to sacrifice some of its armor and cargo space.
+	
+♦ Serval - Vedette built on a Jaguar hull
+	○ Named after an old Earth mammal that used its excellent senses to hunt prey in tall grass. A well-placed Serval can give plenty of warning to whatever fleet this vedette is attached to. Best used to scout the flanks while moving or to patrol long-distances where enemies are expected. The Serval is more than capable of spotting, identifying, and outrunning almost anything sent its way.
+	
+♦ Omen - Advanced Scout buit on a Nimcha hull
+	○ The Omen was the first ship built to rely more on localized predictive virtual intelligence (VI) and less on traditional radar systems. It is the result of an project meant to create a highly sophisticated but safe AI that was capable of predicting the extreme near future with precision based on minimal data. The first VI was built in an attempt to develop better CIWS and Flak accuracy against missiles by using these predictive algorithms. Eventually this project was scrapped, until someone came along and restarted the program as a pathing predictor for enemy ships, rather than munitions. The research was funded in private and withheld from the Terran people out of fears of the unrest it would cause. This is the first in a line of ships known as Scanners, or Advanced Scouts. These designations are intended to obfuscate the true nature of the technology aboard - for fear that the public would revolt at the idea of the government developing another AI. Advanced Scout ships are capable of performing scouting duties far better than any comparable ship classes, even including the Terran staple Vedette class ships. These ships differ from other scouting ships in that they are perfectly capable of engaging in combat as well as any fighter, and needn't fear damage to expensive satellite arrays like the Vedette. These ships are truly the best that scouting has to offer.
+	
+♦ Voidgazer - Advanced Scout built on a Takoba hull
+	○ The Voidgazer is an advanced scout developed for the Segaris program. Whilst the Terran government wished to create a buffer of loyal Terrans on the outskirts of Sol, they also wanted to ensure the program wasn't able to be used as a staging ground to launch on attack on the rest of Sol. As such the Voidgazer was designed to keep a close eye on anyone approaching from deep space. Where the first Advanced Scout, the Omen, was built on the upgraded Rapier hull used by the Nimcha, the Voidgazer is built on the more modern Takoba hull. In part due to the extra cabling that was needed to feed the Takoba's engines, the Voidgazer was able to be remarkably innovative in its layout of the VI components. The components aren't kept together in a single machine which takes up half the bridge anymore, instead the VI is strung throughout the ship using the pre-existing high-bandwidth cabling and fuel lines. This improves the VI's ability to gain a tactical grasp of its immediate area due to a closer connection to outer sensors (apparently micro-seconds count in future prediction), as well as granting it the extra space to add more armor plating.
+	
+♦ Kami - Advanced Scout built on a Moreya hull
+	○ The Kami is built by the Yaki to make use of the VI technology they were able to acquire from the Terrans. The Kami is built on a Moreya hull, making it capable of great speed, but less suited to combat when compared with other advanced scout class ships. When the Terran government first began to experiment with VI use in capital ship combat, they were thought of as nothing more than an educated guess machine. That is, something that wasn't capable of taking full control of turrets on its own, but could perhaps increase the accuracy and number of the calculated incoming missile flight path projections. This in turn would increase the threat interception-rate of the CIWS operators. This is in stark contrast to their purpose today in predicting enemy ship movements and formations based on the smallest amount of data. They just weren't especially accurate in the beginning. So, back then they weren't kept in high-security lockups when not in use, they were just stored alongside other pet projects. In any case, it seems like one of them went missing at some point, or the Yaki succeeded in bribing or 'motivating' someone to steal them a copy. The Yaki would probably like us to believe they then developed their stolen prototype on a parallel path to the Terran government. In probability, they simply continued to steal prototypes until they were able to adapt one to a ship. The Kami is their first, and so far only, successful design that makes use of the VI.
+
+::  Fairly exhaustive list of changes made  ::  
+• Scouts  
+	○ Speeds increased by 5%-10%
+	○ Radar increased by 5%
+
+• Interceptors  
+	○ Speed increased between 2-10% (usually around 4%)
+	○ Maneuverability increased by a flat 5% across the board.
+
+• Vedettes
+	○ Class created so that their radar could be edited without affecting all small ships
+	○ Speed increased by 5%-10%
+	○ Radar increased substantially
+
+• Advanced Scouts AKA Scanners (think of them as solid ships that were outfitted with additional sensor packages):  
+	○ Class created so that their radar could be edited without affecting all small ships
+	○ Radar increased by 25% or more
+	○ Speeds increased by between 5%-15%
+	○ Nimcha
+		◘ Hull increased by 10%
+
+• XL Ship Changes:  
+	○ Radar Increased by 10%
+
+• Laser Tower Mk.2  
+	○ Tracking increased slightly
+	○ Damage increased by 5%
+
+• Many Drones have had their speed increased slightly  
+	○ Building Drones
+	○ Repair Drones
+	○ Mining Drones (solid and liquid)
+
+• All Spacesuit Engines have had their speed and maneuverability increased greatly  
+
+• The Spacesuit Repair Laser has had its repair rate and range increased to make it slightly less tedious  
+	○ Repair Rate drastically increased. (This may be lowered later)
+	○ 150m Range (needs testing)
+
+• Boarding Pods are now faster, more maneuverable, and more durable
+	○ Boarding Pods speed and maneuverability by between 50% and 150%
+	○ Boarding Pod Hull has been increased from 200 to 500
+
+
+::  Ship Groups  ::  
+• Scouts  
+	○ Pegasus Vanguard
+	○ Pegasus Sentinel
+	○ Discoverer Vanguard
+	○ Discoverer Sentinel
+	○ Kestrel Vanguard
+	○ Kestrel Sentinel
+
+• Interceptors  
+	○ Perseus Vanguard
+	○ Perseus Sentinel
+	○ Nova Vanguard
+	○ Nova Sentinel
+	○ Guillemot Vanguard
+	○ Guilletmot Sentinel
+	○ Elite Vanguard
+	○ Elite Sentinel
+	○ Asp
+	○ Asp Raider
+	○ Nodan Vanguard
+	○ Pulsar Vanguard
+	○ Lux
+	○ Kyd
+	○ Skua (Ship Variation Extension)
+
+• Vedettes
+	○ *NEW* Witness - Terran
+	○ *NEW* Serval - Split
+
+• Advanced Scouts/Scanners  
+	○ *NEW* Omen - Terran
+	○ *NEW* Voidgazer - Terran
+	○ *NEW* Kami - Yaki
+
+
+::  Links  ::  
+	◘ RKI-ShipSpecialization on Steam Workshop:  	Not currently available on Steam Workshop
+	◘ RKI-ShipSpecialization on Nexus Mods:  		midnightclear( https://www.nexusmods.com/x4foundations/mods/883/ )
+	◘ RKI-ShipSpecialization on GitHub:		 		Jonathan Ballard( https://github.com/JonathanBallard/X4_RKI-ShipSpecialization )
+	◘ Tax on Egosoft Forums: 						asgardschosen﻿ ( https://forum.egosoft.com/memberlist.php?mode=viewprofile&u=462345 )  
+
+
+::  Legal  ::     
+♦ License included in download files (MIT License).
+   
+::  Credits  ::  
+§ Tax/Jonathan Ballard - Ravenknight Industries (RKI) Mods  
+	○ ﻿Thank you for being me. It's a dead-end job, and there's not a lot of perks - but somebody has to do it...  
+	○ Note: For clarity's sake, I am Midnightclear/Einherjarin on Nexus, and Tax/Asgardschosen elsewhere
+	
+§ Hashashin14/Orange Neko on GitHub  
+	○ ﻿Thank you for your help with ensuring the internal shields work properly with the new ships!
+   
+::  Special Thanks To  ::  
+§ Max Bain - Egosoft Forum Member and Creator of X4 Editor  
+	○ Thanks for your help with how to use X4 Editor. It was by figuring out how it worked, and seeing the results, that I was able to learn to do DIFF patches.  
+
+§ DeadAirRT - Egosoft Forum Member and Creator of DeadAir Mods series  
+﻿	○ Thanks for your advice and help on the Egosoft Forums  
+   
+§ theqmann - Egosoft Forum Member and Author of the XML Patch Guide tutorial  
+﻿	○ Without your guide on XML DIFF's, this would have been a much much harder task. Thank you.  
+   
+§ Shuul - Egosoft Forum Member and Author of VRO  
+	﻿○ Thanks for creating and continuing to maintain VRO, even in the face of adversity.  
+
+§ Discord community members
+
+
+
+
+

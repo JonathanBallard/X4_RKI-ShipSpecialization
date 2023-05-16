@@ -11,22 +11,23 @@
     <replace sel="//defaults/dataset[@class='ship_xl']/properties/radar/@range" minOccurs="0" >46000</replace>
     <replace sel="//defaults/dataset[@class='ship_xl']/properties/statistics/max/radar/@range" minOccurs="0" >54000</replace>
 
+    <!-- ? TSS_Notice Crew Capacity has been moved out of defaults.xml as of 6.xx (believe it's for individual ships now) -->
+
     <!-- ^ TSS_Edit: Originally ship_xl, default=100 and max=361 -->
-    <replace sel="//defaults/dataset[@class='ship_xl']/properties/people/capacity/@people" minOccurs="0" >116</replace>
-    <replace sel="//defaults/dataset[@class='ship_xl']/properties/statistics/max/capacity/@people" minOccurs="0" >398</replace>    
+    <!-- <replace sel="//defaults/dataset[@class='ship_xl']/properties/people/capacity/@people" minOccurs="0" >116</replace> -->
+    <!-- <replace sel="//defaults/dataset[@class='ship_xl']/properties/statistics/max/capacity/@people" minOccurs="0" >398</replace>     -->
 
     <!-- ^ TSS_Edit: Originally ship_l, default=70 and max=226 -->
-    <replace sel="//defaults/dataset[@class='ship_l']/properties/people/capacity/@people" minOccurs="0" >76</replace>
-    <replace sel="//defaults/dataset[@class='ship_l']/properties/statistics/max/capacity/@people" minOccurs="0" >236</replace>
+    <!-- <replace sel="//defaults/dataset[@class='ship_l']/properties/people/capacity/@people" minOccurs="0" >76</replace> -->
+    <!-- <replace sel="//defaults/dataset[@class='ship_l']/properties/statistics/max/capacity/@people" minOccurs="0" >236</replace> -->
 
     <!-- ^ TSS_Edit: Originally ship_m, default=5 and max=26 -->
-    <replace sel="//defaults/dataset[@class='ship_m']/properties/people/capacity/@people" minOccurs="0" >6</replace>
-    <replace sel="//defaults/dataset[@class='ship_m']/properties/statistics/max/capacity/@people" minOccurs="0" >30</replace> 
+    <!-- <replace sel="//defaults/dataset[@class='ship_m']/properties/people/capacity/@people" minOccurs="0" >6</replace> -->
+    <!-- <replace sel="//defaults/dataset[@class='ship_m']/properties/statistics/max/capacity/@people" minOccurs="0" >30</replace>  -->
 
     <!-- ^ TSS_Edit: Originally ship_s, default=1 and max=8 -->
-    <replace sel="//defaults/dataset[@class='ship_s']/properties/people/capacity/@people" minOccurs="0" >2</replace>
-    <replace sel="//defaults/dataset[@class='ship_s']/properties/statistics/max/capacity/@people" minOccurs="0" >10</replace> 
-
+    <!-- <replace sel="//defaults/dataset[@class='ship_s']/properties/people/capacity/@people" minOccurs="0" >2</replace> -->
+    <!-- <replace sel="//defaults/dataset[@class='ship_s']/properties/statistics/max/capacity/@people" minOccurs="0" >10</replace>  -->
 
     <!-- ^ TSS_Edit: XS ships don't have any people capacity -->
     <!-- <replace sel="//defaults/dataset[@class='ship_xs']/properties/statistics/max/capacity/@people" minOccurs="0" ></replace> -->
@@ -43,239 +44,238 @@
     <!-- <replace sel="//defaults/dataset[@class='ship_adv_scout']/properties/people/capacity/@people" minOccurs="0" ></replace> -->
 
     <!-- ^ TSS_Edit: Increasing number of deployables over VRO, but still fewer than Vanilla. -->
-    <replace sel="//dataset[@class='ship_xl']/properties/storage">
+    <replace sel="//defaults/dataset[@class='ship_xl']/properties/storage">
         <storage countermeasure="40" deployable="240"/>
     </replace>
-    <replace sel="//dataset[@class='ship_l']/properties/storage">
+    <replace sel="//defaults/dataset[@class='ship_l']/properties/storage">
         <storage countermeasure="22" deployable="110"/>
     </replace>
-    <replace sel="//dataset[@class='ship_m']/properties/storage">
+    <replace sel="//defaults/dataset[@class='ship_m']/properties/storage">
         <storage countermeasure="16" deployable="50"/>
     </replace>
-    <replace sel="//dataset[@class='ship_s']/properties/storage">
+    <replace sel="//defaults/dataset[@class='ship_s']/properties/storage">
         <storage countermeasure="9" deployable="20"/>
     </replace>
 
+    <!-- These create new CLASSES, which is not what we want. We want new SHIPTYPES -->
     <!-- ^ TSS_Edit: Create new class "ship_scout" -->
     <add pos="before" sel="//defaults/dataset[@class='ship_xs']" minOccurs="0" >
         <dataset class="ship_scout">
             <properties>
 
-              <!-- ~ TSS_Comment >>> identification type="shiptypes_s" is a UI attribute -->
-              <identification type="shiptypes_s" />
-              <!-- deployabletimeout for mk2 laser towers -->
-              <deployable timeout="14400" />
-              <explosioneffect strength="1000" />
+                <!-- ~ TSS_Comment >>> identification type="shiptypes_s" is a UI attribute -->
+                <identification type="shiptypes_s" />
+                <!-- deployabletimeout for mk2 laser towers -->
+                <deployable timeout="14400" />
+                <explosioneffect strength="1000" />
 
-              <!-- ^ TSS_Edit: Scout ship base radar range increased from 40k to 44k -->
-              <radar range="44000"/>
-              <effects>
-                <explosion ref="ship_explosion_generator" />
-                <scuttle ref="scuttle_s" />
-                <damage>
-                  <effect chance="0.20" threshold="75" location="weapon" ref="sparkles_s" />
-                  <effect chance="0.50" threshold="50" location="engine" ref="smoketrail_s" />
-                  <effect chance="0.30" threshold="40" location="hull" ref="surfaceexplosions_s" />
-                  <effect chance="0.50" threshold="25" location="engine" ref="firetrail_s" />
-                  <effect chance="1.0" threshold="15" location="hull" ref="surfaceexplosions_s" />
-                </damage>
-                <!--<surface ref="impact_units_s" />-->
-              </effects>
-              <capture allow="true" />
-              <docksize tag="dock_s" />
-              <relation>
-                <attack>
-                  <tolerance threshold="-1.0" change="-1.00" decay="0.05" delay="10" />
-                  <boost absolute="-1.0" decay="0.02" delay="540" />
-                </attack>
-                <kill>
-                  <faction change="-0.002" bonus="0.001" />
-                </kill>
-                <police change="-0.001" bounty="30000" />
-              </relation>
-              <wreck deceleration="5" />
-              <people capacity="2"/>
-              <storage countermeasure="12" deployable="28"/>
-              <statistics>
-                <max>
-                  <hull value="8040.000488" />
-                  <shield value="10553.600586" delay="13.900000" rate="1258.399902" />
-                  <weapon burst="52489.386719" sustained="13873.845703" />
-                  <turret burst="0.000000" sustained="0.000000" />
-                  <groups>
-                    <shield value="0.000000" delay="0.000000" rate="0.000000" />
-                    <turret burst="0.000000" sustained="0.000000" />
-                  </groups>
-                  <dock ship_m="0" ship_s="0" />
-                  <engine forward="1827.107422" acceleration="1502.795898" boost="15725.725586" travel="29689.212891" yaw="3.864009" pitch="11.030299" roll="6.434341"/>
-                  <thruster>
-                    <horizontal speed="807.542297" acceleration="807.542297"/>
-                    <vertical speed="1054.313599" acceleration="807.542297"/>
-                  </thruster>
-                  <capacity crew="8" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="4" missile="36" countermeasure="24" deployable="52" />
+                <!-- ^ TSS_Edit: Scout ship base radar range increased from 40k to 44k -->
+                <radar range="44000"/>
+                <effects>
+                    <explosion ref="ship_explosion_generator" />
+                    <scuttle ref="scuttle_s" />
+                    <damage>
+                        <effect chance="0.20" threshold="75" location="weapon" ref="sparkles_s" />
+                        <effect chance="0.50" threshold="50" location="engine" ref="smoketrail_s" />
+                        <effect chance="0.30" threshold="40" location="hull" ref="surfaceexplosions_s" />
+                        <effect chance="0.50" threshold="25" location="engine" ref="firetrail_s" />
+                        <effect chance="1.0" threshold="15" location="hull" ref="surfaceexplosions_s" />
+                    </damage>
+                    <!--<surface ref="impact_units_s" />-->
+                </effects>
+                <capture allow="true" />
+                <docksize tag="dock_s" />
+                <relation>
+                    <attack>
+                        <tolerance threshold="-1.0" change="-1.00" decay="0.05" delay="10" />
+                        <boost absolute="-1.0" decay="0.02" delay="540" />
+                    </attack>
+                    <kill>
+                        <faction change="-0.002" bonus="0.001" />
+                    </kill>
+                    <police change="-0.001" bounty="30000" />
+                </relation>
+                <wreck deceleration="5" />
+                <people capacity="2"/>
+                <storage countermeasure="12" deployable="28"/>
+                <statistics>
+                    <max>
+                        <hull value="8040.000488" />
+                        <shield value="10553.600586" delay="13.900000" rate="1258.399902" />
+                        <weapon burst="52489.386719" sustained="13873.845703" />
+                        <turret burst="0.000000" sustained="0.000000" />
+                        <groups>
+                            <shield value="0.000000" delay="0.000000" rate="0.000000" />
+                            <turret burst="0.000000" sustained="0.000000" />
+                        </groups>
+                        <dock ship_m="0" ship_s="0" />
+                        <engine forward="1827.107422" acceleration="1502.795898" boost="15725.725586" travel="29689.212891" yaw="3.864009" pitch="11.030299" roll="6.434341"/>
+                        <thruster>
+                            <horizontal speed="807.542297" acceleration="807.542297"/>
+                            <vertical speed="1054.313599" acceleration="807.542297"/>
+                        </thruster>
+                        <capacity crew="8" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="4" missile="36" countermeasure="24" deployable="52" />
 
-                  <!-- ^ TSS_Edit: Scout ship maximum radar range increased from 48k to 54k -->
-                  <radar range="54000.000000" />
-                </max>
-              </statistics>
-              <theme ref="painttheme_race_ship" />
-              <internalsound engine="0.50" />
-              <modification>
-                <paint scale="1.0" />
-              </modification>
+                        <!-- ^ TSS_Edit: Scout ship maximum radar range increased from 48k to 54k -->
+                        <radar range="54000.000000" />
+                    </max>
+                </statistics>
+                <theme ref="painttheme_race_ship" />
+                <internalsound engine="0.50" />
+                <modification>
+                    <paint scale="1.0" />
+                </modification>
             </properties>
             <connections>
-              <connection name="con_playercontrol" tags="playercontrol" value="-1" match="all" />
-              <connection name="tradecomputer" tags="tradecomputer" value="-1" match="all" />
+                <connection name="con_playercontrol" tags="playercontrol" value="-1" match="all" />
+                <connection name="tradecomputer" tags="tradecomputer" value="-1" match="all" />
             </connections>
-          </dataset>
-        
-          <!-- ^ TSS_Edit: Create new class "Vedette" so I can make classwide changes -->
-          <dataset class="ship_vedette">
+        </dataset>
+
+        <!-- ^ TSS_Edit: Create new class "Vedette" so I can make classwide changes -->
+        <dataset class="ship_vedette">
             <properties>
 
-              <!-- ~ TSS_Comment >>> identification type="shiptypes_s" is a UI attribute -->
-              <identification type="shiptypes_s" />
-              <!-- deployabletimeout for mk2 laser towers -->
-              <deployable timeout="14400" />
-              <explosioneffect strength="1000" />
+                <!-- ~ TSS_Comment >>> identification type="shiptypes_s" is a UI attribute -->
+                <identification type="shiptypes_s" />
+                <!-- deployabletimeout for mk2 laser towers -->
+                <deployable timeout="14400" />
+                <explosioneffect strength="1000" />
 
-              <!-- ^ TSS_Edit: Vedette base radar range set to 50k -->
-              <radar range="50000"/>
-              <effects>
-                <explosion ref="ship_explosion_generator" />
-                <scuttle ref="scuttle_s" />
-                <damage>
-                  <effect chance="0.20" threshold="75" location="weapon" ref="sparkles_s" />
-                  <effect chance="0.50" threshold="50" location="engine" ref="smoketrail_s" />
-                  <effect chance="0.30" threshold="40" location="hull" ref="surfaceexplosions_s" />
-                  <effect chance="0.50" threshold="25" location="engine" ref="firetrail_s" />
-                  <effect chance="1.0" threshold="15" location="hull" ref="surfaceexplosions_s" />
-                </damage>
-                <!--<surface ref="impact_units_s" />-->
-              </effects>
-              <capture allow="true" />
-              <docksize tag="dock_s" />
-              <relation>
-                <attack>
-                  <tolerance threshold="-1.0" change="-1.00" decay="0.05" delay="10" />
-                  <boost absolute="-1.0" decay="0.02" delay="540" />
-                </attack>
-                <kill>
-                  <faction change="-0.002" bonus="0.001" />
-                </kill>
-                <police change="-0.001" bounty="32000" />
-              </relation>
-              <wreck deceleration="5" />
-              <people capacity="1"/>
-              <storage countermeasure="8" deployable="18"/>
-              <statistics>
-                <max>
-                  <hull value="8040.000488" />
-                  <shield value="10553.600586" delay="13.900000" rate="1258.399902" />
-                  <weapon burst="52489.386719" sustained="13873.845703" />
-                  <turret burst="0.000000" sustained="0.000000" />
-                  <groups>
-                    <shield value="0.000000" delay="0.000000" rate="0.000000" />
-                    <turret burst="0.000000" sustained="0.000000" />
-                  </groups>
-                  <dock ship_m="0" ship_s="0" />
-                  <engine forward="1827.107422" acceleration="1502.795898" boost="15725.725586" travel="29689.212891" yaw="3.864009" pitch="11.030299" roll="6.434341"/>
-                  <thruster>
-                    <horizontal speed="807.542297" acceleration="807.542297"/>
-                    <vertical speed="1054.313599" acceleration="807.542297"/>
-                  </thruster>
-                  <capacity crew="10" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="4" missile="24" countermeasure="14" deployable="40" />
-
-                  <!-- ^ TSS_Edit: Vedette maximum radar range set to 60k -->
-                  <radar range="60000.000000" />
-                </max>
-              </statistics>
-              <theme ref="painttheme_race_ship" />
-              <internalsound engine="0.50" />
-              <modification>
-                <paint scale="1.0" />
-              </modification>
+                <!-- ^ TSS_Edit: Vedette base radar range set to 50k -->
+                <radar range="50000"/>
+                <effects>
+                    <explosion ref="ship_explosion_generator" />
+                    <scuttle ref="scuttle_s" />
+                    <damage>
+                        <effect chance="0.20" threshold="75" location="weapon" ref="sparkles_s" />
+                        <effect chance="0.50" threshold="50" location="engine" ref="smoketrail_s" />
+                        <effect chance="0.30" threshold="40" location="hull" ref="surfaceexplosions_s" />
+                        <effect chance="0.50" threshold="25" location="engine" ref="firetrail_s" />
+                        <effect chance="1.0" threshold="15" location="hull" ref="surfaceexplosions_s" />
+                    </damage>
+                    <!--<surface ref="impact_units_s" />-->
+                </effects>
+                <capture allow="true" />
+                <docksize tag="dock_s" />
+                <relation>
+                    <attack>
+                        <tolerance threshold="-1.0" change="-1.00" decay="0.05" delay="10" />
+                        <boost absolute="-1.0" decay="0.02" delay="540" />
+                    </attack>
+                    <kill>
+                        <faction change="-0.002" bonus="0.001" />
+                    </kill>
+                    <police change="-0.001" bounty="32000" />
+                </relation>
+                <wreck deceleration="5" />
+                <people capacity="1"/>
+                <storage countermeasure="8" deployable="18"/>
+                <statistics>
+                    <max>
+                        <hull value="8040.000488" />
+                        <shield value="10553.600586" delay="13.900000" rate="1258.399902" />
+                        <weapon burst="52489.386719" sustained="13873.845703" />
+                        <turret burst="0.000000" sustained="0.000000" />
+                        <groups>
+                            <shield value="0.000000" delay="0.000000" rate="0.000000" />
+                            <turret burst="0.000000" sustained="0.000000" />
+                        </groups>
+                        <dock ship_m="0" ship_s="0" />
+                        <engine forward="1827.107422" acceleration="1502.795898" boost="15725.725586" travel="29689.212891" yaw="3.864009" pitch="11.030299" roll="6.434341"/>
+                        <thruster>
+                            <horizontal speed="807.542297" acceleration="807.542297"/>
+                            <vertical speed="1054.313599" acceleration="807.542297"/>
+                        </thruster>
+                        <capacity crew="10" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="4" missile="24" countermeasure="14" deployable="40" />
+                        
+                        <!-- ^ TSS_Edit: Vedette maximum radar range set to 60k -->
+                        <radar range="60000.000000" />
+                    </max>
+                </statistics>
+                <theme ref="painttheme_race_ship" />
+                <internalsound engine="0.50" />
+                <modification>
+                    <paint scale="1.0" />
+                </modification>
             </properties>
             <connections>
-              <connection name="con_playercontrol" tags="playercontrol" value="-1" match="all" />
-              <connection name="tradecomputer" tags="tradecomputer" value="-1" match="all" />
+                <connection name="con_playercontrol" tags="playercontrol" value="-1" match="all" />
+                <connection name="tradecomputer" tags="tradecomputer" value="-1" match="all" />
             </connections>
-          </dataset>
+        </dataset>
 
-          <!-- ^ TSS_Edit: Create new class "Advanced Scout" so I can make classwide changes -->
-          <dataset class="ship_adv_scout">
+        <!-- ^ TSS_Edit: Create new class "Advanced Scout" so I can make classwide changes -->
+        <dataset class="ship_adv_scout">
             <properties>
-
-              <!-- ~ TSS_Comment >>> identification type="shiptypes_s" is a UI attribute -->
-              <identification type="shiptypes_s" />
-              <!-- deployabletimeout for mk2 laser towers -->
-              <deployable timeout="14400" />
-              <explosioneffect strength="1000" />
-
-              <!-- ^ TSS_Edit: Advanced Scouts/Scanners base radar range increased from 40k to 64k -->
-              <radar range="64000"/>
-              <effects>
-                <explosion ref="ship_explosion_generator" />
-                <scuttle ref="scuttle_s" />
-                <damage>
-                  <effect chance="0.20" threshold="75" location="weapon" ref="sparkles_s" />
-                  <effect chance="0.50" threshold="50" location="engine" ref="smoketrail_s" />
-                  <effect chance="0.30" threshold="40" location="hull" ref="surfaceexplosions_s" />
-                  <effect chance="0.50" threshold="25" location="engine" ref="firetrail_s" />
-                  <effect chance="1.0" threshold="15" location="hull" ref="surfaceexplosions_s" />
-                </damage>
-                <!--<surface ref="impact_units_s" />-->
-              </effects>
-              <capture allow="true" />
-              <docksize tag="dock_s" />
-              <relation>
-                <attack>
-                  <tolerance threshold="-1.0" change="-1.00" decay="0.05" delay="10" />
-                  <boost absolute="-1.0" decay="0.02" delay="540" />
-                </attack>
-                <kill>
-                  <faction change="-0.002" bonus="0.001" />
-                </kill>
-                <police change="-0.001" bounty="36000" />
-              </relation>
-              <wreck deceleration="5" />
-              <people capacity="3"/>
-              <storage countermeasure="24" deployable="60"/>
-              <statistics>
-                <max>
-                  <hull value="8040.000488" />
-                  <shield value="10553.600586" delay="13.900000" rate="1258.399902" />
-                  <weapon burst="52489.386719" sustained="13873.845703" />
-                  <turret burst="0.000000" sustained="0.000000" />
-                  <groups>
-                    <shield value="0.000000" delay="0.000000" rate="0.000000" />
-                    <turret burst="0.000000" sustained="0.000000" />
-                  </groups>
-                  <dock ship_m="0" ship_s="0" />
-                  <engine forward="1827.107422" acceleration="1502.795898" boost="15725.725586" travel="29689.212891" yaw="3.864009" pitch="11.030299" roll="6.434341"/>
-                  <thruster>
-                    <horizontal speed="807.542297" acceleration="807.542297"/>
-                    <vertical speed="1054.313599" acceleration="807.542297"/>
-                  </thruster>
-                  <capacity crew="10" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="6" missile="26" countermeasure="36" deployable="92" />
-
-                  <!-- ^ TSS_Edit: Advanced Scout/Scanners maximum radar range increased from 48k to 76k -->
-                  <radar range="76000.000000" />
-                </max>
-              </statistics>
-              <theme ref="painttheme_race_ship" />
-              <internalsound engine="0.50" />
-              <modification>
-                <paint scale="1.0" />
-              </modification>
+                
+                <!-- ~ TSS_Comment >>> identification type="shiptypes_s" is a UI attribute -->
+                <identification type="shiptypes_s" />
+                <!-- deployabletimeout for mk2 laser towers -->
+                <deployable timeout="14400" />
+                <explosioneffect strength="1000" />
+                
+                <!-- ^ TSS_Edit: Advanced Scouts/Scanners base radar range increased from 40k to 64k -->
+                <radar range="64000"/>
+                <effects>
+                    <explosion ref="ship_explosion_generator" />
+                    <scuttle ref="scuttle_s" />
+                    <damage>
+                        <effect chance="0.20" threshold="75" location="weapon" ref="sparkles_s" />
+                        <effect chance="0.50" threshold="50" location="engine" ref="smoketrail_s" />
+                        <effect chance="0.30" threshold="40" location="hull" ref="surfaceexplosions_s" />
+                        <effect chance="0.50" threshold="25" location="engine" ref="firetrail_s" />
+                        <effect chance="1.0" threshold="15" location="hull" ref="surfaceexplosions_s" />
+                    </damage>
+                    <!--<surface ref="impact_units_s" />-->
+                </effects>
+                <capture allow="true" />
+                <docksize tag="dock_s" />
+                <relation>
+                    <attack>
+                        <tolerance threshold="-1.0" change="-1.00" decay="0.05" delay="10" />
+                        <boost absolute="-1.0" decay="0.02" delay="540" />
+                    </attack>
+                    <kill>
+                        <faction change="-0.002" bonus="0.001" />
+                    </kill>
+                    <police change="-0.001" bounty="36000" />
+                </relation>
+                <wreck deceleration="5" />
+                <people capacity="3"/>
+                <storage countermeasure="24" deployable="60"/>
+                <statistics>
+                    <max>
+                        <hull value="8040.000488" />
+                        <shield value="10553.600586" delay="13.900000" rate="1258.399902" />
+                        <weapon burst="52489.386719" sustained="13873.845703" />
+                        <turret burst="0.000000" sustained="0.000000" />
+                        <groups>
+                            <shield value="0.000000" delay="0.000000" rate="0.000000" />
+                            <turret burst="0.000000" sustained="0.000000" />
+                        </groups>
+                        <dock ship_m="0" ship_s="0" />
+                        <engine forward="1827.107422" acceleration="1502.795898" boost="15725.725586" travel="29689.212891" yaw="3.864009" pitch="11.030299" roll="6.434341"/>
+                        <thruster>
+                            <horizontal speed="807.542297" acceleration="807.542297"/>
+                            <vertical speed="1054.313599" acceleration="807.542297"/>
+                        </thruster>
+                        <capacity crew="10" container="4120" solid="5480" liquid="510" condensate="250" ship_m="0" ship_s="0" unit="6" missile="26" countermeasure="36" deployable="92" />
+                        
+                        <!-- ^ TSS_Edit: Advanced Scout/Scanners maximum radar range increased from 48k to 76k -->
+                        <radar range="76000.000000" />
+                    </max>
+                </statistics>
+                <theme ref="painttheme_race_ship" />
+                <internalsound engine="0.50" />
+                <modification>
+                    <paint scale="1.0" />
+                </modification>
             </properties>
             <connections>
-              <connection name="con_playercontrol" tags="playercontrol" value="-1" match="all" />
-              <connection name="tradecomputer" tags="tradecomputer" value="-1" match="all" />
+                <connection name="con_playercontrol" tags="playercontrol" value="-1" match="all" />
+                <connection name="tradecomputer" tags="tradecomputer" value="-1" match="all" />
             </connections>
-          </dataset>
+        </dataset>
     </add>
-
-    
 </diff>

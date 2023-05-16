@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-
-<!-- Added ishield component to lines 256-261 -->
-
 <components>
 	<component name="kami" class="ship_s">
         <source geometry="extensions\RKI-ShipSpecialization\assets\units\size_s\kami_data"/>
@@ -52,14 +49,6 @@
 							<quaternion qx="0.7071067" qy="3.090862E-08" qz="3.090862E-08" qw="-0.7071068"/>
 						</offset>
 					</omni>
-					<box name="XU BoxLight01" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="2" specularintensity="1">
-						<size x="4.899996" y="2.699999" z="2.699999"/>
-						<lightanimations/>
-						<offset>
-							<position x="-31.27956" y="-3.016665" z="3.815189"/>
-							<quaternion qx="-5.163261E-14" qy="1.192093E-07" qz="-1" qw="4.331258E-07"/>
-						</offset>
-					</box>
 					<box name="XU BoxLight002" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="2" specularintensity="1">
 						<size x="2.199996" y="1.699999" z="1.699999"/>
 						<lightanimations/>
@@ -109,13 +98,6 @@
 						<lightanimations/>
 						<offset>
 							<position x="-2.26733" y="-2.527012" z="10.63708"/>
-							<quaternion qx="0.7071067" qy="3.090862E-08" qz="3.090862E-08" qw="-0.7071068"/>
-						</offset>
-					</omni>
-					<omni name="XU Omni08" shadow="0" r="255" g="107" b="96" range="3" shadowrange="3" lighteffect="1" trigger="1" intensity="2" specularintensity="1">
-						<lightanimations/>
-						<offset>
-							<position x="-15.79514" y="-6.307733" z="-4.544891"/>
 							<quaternion qx="0.7071067" qy="3.090862E-08" qz="3.090862E-08" qw="-0.7071068"/>
 						</offset>
 					</omni>
@@ -255,8 +237,8 @@
 			</connection>
             <connection name="con_ishield_01" tags="ishield shield ishield_kami">
                 <offset>
-                 <position x="0" y="0" z="0"/>
-                   <quaternion qx="0" qy="0" qz="0" qw="0"/>
+                    <position x="0" y="0" z="0"/>
+                    <quaternion qx="0" qy="0" qz="0" qw="0"/>
                 </offset>
             </connection>
 			<connection name="Connection01" tags="part animation  ">
@@ -549,12 +531,12 @@
 							</lod>
 						</lods>
 						<size>
-							<max x="1.138731" y="1.339425" z="2.721962"/>
-							<center x="-2.235174E-08" y="5.960464E-08" z="0.9185967"/>
+							<max x="1.138731" y="1.339425" z="2.731962"/>
+							<center x="-2.235174E-08" y="5.960464E-08" z="0.9085968"/>
 						</size>
 						<size_raw>
-							<max x="1.138731" y="1.339425" z="2.194735"/>
-							<center x="-2.235174E-08" y="2.980232E-08" z="0.3913696"/>
+							<max x="1.138731" y="1.339425" z="2.204735"/>
+							<center x="-2.235174E-08" y="2.980232E-08" z="0.3813696"/>
 						</size_raw>
 					</part>
 				</parts>
@@ -1186,13 +1168,13 @@
 					<quaternion qx="-0" qy="0.7071068" qz="-0" qw="-0.7071067"/>
 				</offset>
 			</connection>
-			<connection name="con_shield_01" tags="small shield unhittable ">
+			<connection name="con_shield_01" tags="small shield unhittable  standard ">
 				<offset>
 					<position x="0" y="-1.203412" z="-8.026274"/>
 					<quaternion qx="0.8433914" qy="1.342878E-08" qz="4.327304E-08" qw="-0.5372997"/>
 				</offset>
 			</connection>
-			<connection name="con_engine_01" tags="engine small platformcollision ">
+			<connection name="con_engine_01" tags="engine small platformcollision  standard ">
 				<offset>
 					<position x="-4.013842" y="-0.9377359" z="-7.957342"/>
 				</offset>
@@ -1224,7 +1206,7 @@
 					<position x="0.7921258" y="4.366265" z="0.9255996"/>
 				</offset>
 			</connection>
-			<connection name="con_engine_02" tags="engine small platformcollision ">
+			<connection name="con_engine_02" tags="engine small platformcollision  standard ">
 				<offset>
 					<position x="4.020594" y="-0.9377359" z="-7.96476"/>
 				</offset>
@@ -1272,24 +1254,31 @@
 					<quaternion qx="-0" qy="-0.7071069" qz="-0" qw="-0.7071066"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_02" tags="weapon small platformcollision standard combat missile symmetry symmetry_left symmetry_1 ">
+			<connection name="con_weapon_02" tags="weapon small platformcollision standard missile symmetry symmetry_left symmetry_1  combat ">
 				<offset>
 					<position x="-9.821655" y="-1.432474" z="-6.20505"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_04" tags="weapon small platformcollision standard combat missile symmetry symmetry_left symmetry_2 ">
+			<connection name="con_weapon_04" tags="weapon small platformcollision standard missile symmetry symmetry_left symmetry_2  combat ">
 				<offset>
 					<position x="-7.821657" y="-1.432474" z="-5.20505"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_01" tags="weapon small platformcollision standard combat missile symmetry symmetry_right symmetry_1 ">
+			<connection name="con_weapon_01" tags="weapon small platformcollision standard missile symmetry symmetry_right symmetry_1  combat ">
 				<offset>
 					<position x="9.821999" y="-1.432474" z="-6.20505"/>
 				</offset>
 			</connection>
-			<connection name="con_weapon_03" tags="weapon small platformcollision standard combat missile symmetry symmetry_right symmetry_2 ">
+			<connection name="con_weapon_03" tags="weapon small platformcollision standard missile symmetry symmetry_right symmetry_2  combat ">
 				<offset>
 					<position x="7.822001" y="-1.432474" z="-5.20505"/>
+				</offset>
+			</connection>
+            <!-- internal shield -->
+			<connection name="con_ishield_01" tags="ishield shield  ishield_kami">
+				<offset>
+					<position x="0" y="0" z="0" />
+					<quaternion qx="0" qy="0" qz="0" qw="0" />
 				</offset>
 			</connection>
 		</connections>
